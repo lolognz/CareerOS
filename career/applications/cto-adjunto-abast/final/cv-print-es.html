@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV - Manuel González Riojo</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 10.5mm 11mm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: #1f2933;
+      background: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 9.4pt;
+      line-height: 1.3;
+    }
+
+    .page {
+      max-width: 190mm;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+      padding-bottom: 7px;
+      border-bottom: 1.4px solid #26323d;
+      margin-bottom: 9px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .header-main {
+      min-width: 0;
+      flex: 1;
+    }
+
+    .photo {
+      width: 78px;
+      height: 94px;
+      border-radius: 6px;
+      border: 1px solid #d7dde3;
+      object-fit: cover;
+      object-position: center;
+      background: #f3f5f7;
+      flex: 0 0 auto;
+      display: block;
+    }
+
+    h1 {
+      margin: 0 0 2px;
+      color: #111827;
+      font-size: 20.5pt;
+      line-height: 1.02;
+      font-weight: 700;
+      letter-spacing: 0;
+    }
+
+    .contact {
+      color: #4b5563;
+      font-size: 9pt;
+    }
+
+    h2 {
+      margin: 10px 0 4px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #d7dde3;
+      color: #111827;
+      font-size: 10.2pt;
+      line-height: 1.16;
+      text-transform: uppercase;
+      letter-spacing: 0.15px;
+    }
+
+    h3 {
+      margin: 7px 0 2px;
+      color: #18232e;
+      font-size: 9.55pt;
+      line-height: 1.2;
+    }
+
+    p {
+      margin: 0 0 4.5px;
+    }
+
+    ul {
+      margin: 3px 0 6.5px 15px;
+      padding: 0;
+    }
+
+    li {
+      margin: 1.3px 0;
+    }
+
+    .section,
+    .experience,
+    .competency-group {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .role-meta {
+      margin: 0 0 3px;
+      color: #4b5563;
+      font-size: 8.8pt;
+      font-weight: 700;
+    }
+
+    .competency-group h3 {
+      color: #24313d;
+    }
+
+    .competency-lines p {
+      margin-bottom: 2.3px;
+    }
+
+    .tech-lines p {
+      margin-bottom: 2.3px;
+    }
+
+    .case-item {
+      margin: 0 0 5px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .case-item p {
+      margin-bottom: 1.8px;
+    }
+
+    strong {
+      color: #111827;
+    }
+
+    @media print {
+      body {
+        font-size: 9pt;
+        line-height: 1.28;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      h1 {
+        font-size: 19.2pt;
+      }
+
+      h2 {
+        margin-top: 8px;
+        margin-bottom: 4px;
+        font-size: 9.5pt;
+      }
+
+      h3 {
+        margin-top: 6px;
+        margin-bottom: 2px;
+        font-size: 9pt;
+      }
+
+      p {
+        margin-bottom: 3.5px;
+      }
+
+      ul {
+        margin-top: 2px;
+        margin-bottom: 5px;
+      }
+
+      li {
+        margin: 1px 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .photo {
+        width: 72px;
+        height: 88px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="header-main">
+        <h1>Manuel González Riojo</h1>
+        <div class="contact">lolognz@gmail.com | www.linkedin.com/in/mgonzalezriojo/</div>
+      </div>
+      <img class="photo" src="assets/manuel-gonzalez-riojo.jpg" alt="Foto profesional de Manuel González Riojo">
+    </header>
+
+    <section class="section">
+      <h2>Perfil profesional</h2>
+      <p>Senior Backend Software Engineer con experiencia en banca internacional, sistemas críticos de pagos y responsabilidad sobre producción. Combina ingeniería backend, criterio de arquitectura, pensamiento sistémico, documentación y automatización en entornos complejos con equipos técnicos y de negocio.</p>
+    </section>
+
+    <section class="section">
+      <h2>Propuesta de valor para el puesto</h2>
+      <p>Encaje sólido para un rol híbrido de CTO adjunto que combine ingeniería de software, sistemas internos, operación, soporte, documentación y digitalización. Aporta capacidad para ordenar problemas técnicos, construir soluciones mantenibles y asumir responsabilidad transversal donde desarrollo y operación se cruzan.</p>
+    </section>
+
+    <section class="section competency-lines">
+      <h2>Competencias clave</h2>
+      <p><strong>Backend y sistemas críticos:</strong> Java, Spring Boot, microservicios, APIs, pagos y banca.</p>
+      <p><strong>Producción y operación:</strong> despliegues, MQ, certificados, vulnerabilidades, incidencias y soporte a equipos.</p>
+      <p><strong>Automatización y documentación:</strong> procesos, conocimiento técnico, datos, IA aplicada y reducción de dependencia tácita.</p>
+      <p><strong>Comunicación y liderazgo técnico:</strong> negocio, requisitos ambiguos, revisión de código, apoyo a compañeros y coordinación.</p>
+    </section>
+
+    <section>
+      <h2>Experiencia profesional</h2>
+
+      <article class="experience">
+        <h3>Deutsche Bank — Senior Backend Software Engineer</h3>
+        <p class="role-meta">Septiembre 2024 - Actualidad</p>
+        <ul>
+          <li>Ingeniero backend en el equipo de pagos, trabajando directamente para Deutsche Bank.</li>
+          <li>Mantenimiento y evolución de microservicios Java/Spring en un dominio crítico para la operación bancaria.</li>
+          <li>Trabajo en sistemas de transferencias, pagos desde cuentas, pagos recurrentes, pagos inmediatos, SEPA y pagos cross-border.</li>
+          <li>Responsabilidad sobre sistemas con impacto crítico en negocio, incluyendo test, producción normal y disaster recovery.</li>
+          <li>Seguimiento de despliegues a producción, colas MQ, certificados, vulnerabilidades, incidencias y soporte a otros equipos.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>CGI / Deutsche Bank — Senior Backend Software Engineer / Consultant</h3>
+        <p class="role-meta">Enero 2023 - Septiembre 2024</p>
+        <ul>
+          <li>Consultor externo para Deutsche Bank a través de CGI, con continuidad funcional hacia el rol posterior como empleado directo del banco.</li>
+          <li>Participación en una migración de microservicios desde tecnología low-code hacia Java y Spring.</li>
+          <li>A los seis meses, propuesto y seleccionado para incorporarse al equipo de pagos, considerado crítico y reservado para perfiles de confianza ya contrastados en el proyecto.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Mercury TFS — Software Engineer</h3>
+        <p class="role-meta">Enero 2020 - 2023</p>
+        <ul>
+          <li>Desarrollo de software bancario para trade finance, en una aplicación compleja con herencia monolítica y microservicios.</li>
+          <li>Trabajo con Java, Spring, Spring Boot, Hibernate, SQL, Elasticsearch y frontend Sencha.</li>
+          <li>Uso de CI/CD, Docker, Kubernetes y automatización de despliegues en el entorno del proyecto.</li>
+          <li>Evolución hasta asumir autonomía funcional, contacto con cliente, estimaciones propias, revisión de código y apoyo a compañeros.</li>
+          <li>Creación junto a un compañero de IntegrationBase, refactorización que resolvió problemas heredados del monolito y eliminó scripts manuales de despliegue.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Universidad Complutense de Madrid / Research & Software Development</h3>
+        <p class="role-meta">2015 - 2019</p>
+        <ul>
+          <li>Desarrollo de proyectos de tecnología educativa, videojuegos serios, realidad virtual, investigación aplicada y experimentos con usuarios.</li>
+          <li>Diseño y desarrollo con Unity3D y C# de La Cortesía de España, videojuego educativo sobre teatro clásico.</li>
+          <li>Miembro del equipo creador de Bailando un Tesoro, videojuego 3D para el Ballet Nacional de España desarrollado desde idea inicial hasta publicación.</li>
+          <li>Contribución a la propuesta, diseño y desarrollo de ComunicArte, proyecto de realidad virtual financiado por Fundación BBVA con una ayuda de 100.000 euros.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Harvard University — Visiting Researcher Scholar</h3>
+        <p class="role-meta">2017 - 2018</p>
+        <ul>
+          <li>Estancia internacional de investigación vinculada a tecnología, educación, artes escénicas y alfabetización.</li>
+          <li>Desarrollo de una web/plataforma para ampliar el alcance de una metodología educativa basada en arte en un contexto interdisciplinar e internacional.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>IDEAS — Software Developer Intern / Junior Developer</h3>
+        <p class="role-meta">Septiembre 2014 - Septiembre 2015</p>
+        <ul>
+          <li>Desarrollo en producto GRC con .NET, incluyendo consultas complejas, chat interno y exportación estructurada de información para cliente.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Sorbe Shoes / Family Business — Founder / Operations Manager / Retail & Logistics</h3>
+        <p class="role-meta">2005 - 2015</p>
+        <ul>
+          <li>Experiencia temprana como autónomo/fundador en negocio familiar, gestionando tiendas, mercados, stock, compras, empleados y logística.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="section">
+      <h2>Formación</h2>
+      <ul>
+        <li>Grado en Ingeniería Informática — Universidad Complutense de Madrid</li>
+      </ul>
+    </section>
+
+    <section class="section tech-lines">
+      <h2>Tecnologías</h2>
+      <p><strong>Backend:</strong> Java, Spring Boot, Hibernate, Node.js, APIs, microservicios.</p>
+      <p><strong>Producción e integración:</strong> Git, CI/CD, Docker, Kubernetes, IBM MQ, Postman, Bruno.</p>
+      <p><strong>Datos:</strong> SQL, MySQL, Oracle, Elasticsearch.</p>
+      <p><strong>Complementario:</strong> Python, JavaScript, .NET, C#, Unity3D, VR, automatización, IA aplicada.</p>
+    </section>
+
+    <section class="section cases">
+      <h2>Proyectos y casos de impacto</h2>
+      <div class="case-item">
+        <p><strong>Sistemas de pagos — Deutsche Bank:</strong> Microservicios que soportan pagos bancarios críticos, combinando desarrollo, producción, despliegues, mensajería, certificados e incidencias.</p>
+        <p><strong>Valor:</strong> experiencia real en tecnología que sostiene operación de negocio crítica.</p>
+      </div>
+      <div class="case-item">
+        <p><strong>IntegrationBase — Mercury TFS:</strong> Refactorización de una base técnica heredada que eliminó scripts manuales de despliegue y redujo deuda técnica.</p>
+        <p><strong>Valor:</strong> criterio de arquitectura para simplificar sistemas complejos y hacerlos más mantenibles.</p>
+      </div>
+      <div class="case-item">
+        <p><strong>ComunicArte — Fundación BBVA:</strong> Proyecto de realidad virtual para practicar hablar en público, financiado con una ayuda de 100.000 euros.</p>
+        <p><strong>Valor:</strong> capacidad para llevar una idea desde propuesta y financiación hasta desarrollo interdisciplinar e investigación aplicada.</p>
+      </div>
+      <div class="case-item">
+        <p><strong>Bailando un Tesoro — Ballet Nacional de España:</strong> Videojuego 3D educativo/cultural creado desde la idea inicial hasta publicación, probado con más de 700 niños y con presencia en medios.</p>
+        <p><strong>Valor:</strong> desarrollo de producto, coordinación con perfiles técnicos/artísticos/institucionales y validación con usuarios reales.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
