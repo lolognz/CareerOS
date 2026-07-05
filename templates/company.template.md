@@ -1,23 +1,50 @@
+---
+id:
+type: company
+name:
+aliases: []
+status:
+website:
+industry:
+location:
+from:
+to:
+source_fragments: []
+related_roles: []
+related_projects: []
+related_stories: []
+related_skills: []
+related_technologies: []
+related_publications: []
+related_talks: []
+related_awards: []
+evidence: []
+---
+
 # Company
+
+<!-- Store only organization-level facts here. Link to roles, projects, and stories instead of copying their details. -->
 
 ## Summary
 
 ## Context
 
-## Timeline
+## Relationship To Career
 
-## Role
+## Timeline
 
 ## Domain
 
-## Responsibilities
+## Related Roles
 
-## Projects
+## Related Projects
 
-## Skills
+## Related Stories
 
-## Technologies
+## Related Skills
 
-## Stories
+## Related Technologies
 
 ## Evidence
+
+## Source Traceability

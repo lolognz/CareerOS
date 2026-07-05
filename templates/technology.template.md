@@ -1,40 +1,37 @@
 ---
 id:
-type: skill
+type: technology
 name:
 category:
-level:
+status:
 source_fragments: []
 related_roles: []
 related_projects: []
 related_stories: []
-related_technologies: []
+related_skills: []
 related_education: []
 related_publications: []
 related_talks: []
-related_awards: []
 evidence: []
 tags: []
 ---
 
-# Skill
+# Technology
 
-<!-- Skills must be demonstrated, not merely claimed. Link to evidence-bearing work wherever possible. -->
+<!-- Describe how this technology appears in the career record. Do not copy generic vendor documentation. -->
 
 ## Definition
 
-## Scope
-
-## How It Was Developed
+## Usage Context
 
 ## How It Was Applied
 
-## Evidence Of Skill
-
 ## Related Projects
+
+## Related Skills
 
 ## Related Stories
 
-## Related Technologies
+## Evidence
 
 ## Source Traceability

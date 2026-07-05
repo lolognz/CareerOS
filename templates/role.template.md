@@ -1,9 +1,10 @@
 ---
 id:
-type: experience
+type: role
 title:
 company:
-role:
+employment_type:
+location:
 from:
 to:
 source_fragments: []
@@ -11,14 +12,16 @@ related_projects: []
 related_stories: []
 related_skills: []
 related_technologies: []
+related_publications: []
+related_talks: []
 related_awards: []
 evidence: []
 tags: []
 ---
 
-# Experience
+# Role
 
-<!-- Experience is a broad container for a professional period. Prefer specific role, company, project, and story entities when possible. -->
+<!-- A role captures responsibility and scope over time. Do not invent cleaner job titles for positioning. -->
 
 ## Summary
 
@@ -26,13 +29,15 @@ tags: []
 
 ## Timeline
 
-## Role
+## Scope
 
 ## Responsibilities
 
-## Projects
+## Team And Stakeholders
 
-## Stories
+## Related Projects
+
+## Related Stories
 
 ## Skills Demonstrated
 

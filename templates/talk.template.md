@@ -1,13 +1,14 @@
 ---
 id:
-type: publication
+type: talk
 title:
-publication_type:
+talk_type:
 status:
 date:
 venue:
+location:
+audience:
 url:
-authors: []
 source_fragments: []
 related_companies: []
 related_roles: []
@@ -15,15 +16,15 @@ related_projects: []
 related_stories: []
 related_skills: []
 related_technologies: []
-related_talks: []
+related_publications: []
 related_awards: []
 evidence: []
 tags: []
 ---
 
-# Publication
+# Talk
 
-<!-- Publications are evidence of externalized knowledge. Keep metadata factual and separate from generated promotional wording. -->
+<!-- Talks capture public communication. Keep raw transcripts in raw knowledge and generated speaker bios in generated outputs. -->
 
 ## Summary
 
@@ -31,9 +32,9 @@ tags: []
 
 ## Topic
 
-## Contribution
+## Audience
 
-## Audience Or Venue
+## Contribution
 
 ## Related Work
 

@@ -1,4 +1,26 @@
+---
+id:
+type: project
+name:
+status:
+company:
+roles: []
+from:
+to:
+source_fragments: []
+related_stories: []
+related_skills: []
+related_technologies: []
+related_publications: []
+related_talks: []
+related_awards: []
+evidence: []
+tags: []
+---
+
 # Project
+
+<!-- A project is evidence of applied work. Preserve problem, constraints, decisions, and outcomes without turning them into resume bullets. -->
 
 ## Summary
 
@@ -8,21 +30,21 @@
 
 ## Objective
 
-## Role
+## Role And Scope
 
 ## Timeline
 
-## Team
+## Team And Stakeholders
 
-## Architecture
-
-## Technologies
-
-## Skills
+## Architecture Or Approach
 
 ## Decisions
 
 ## Challenges
+
+## Skills Demonstrated
+
+## Technologies Used
 
 ## Outcome
 
@@ -30,4 +52,4 @@
 
 ## Evidence
 
-## Related Stories
+## Source Traceability
