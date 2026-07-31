@@ -13,7 +13,7 @@
 | chronology | Empleador o contexto de consultoría desde 2023-01 hasta 2024-09. |
 | business-context | Organización mediante la que el usuario prestó servicios como consultor externo en Deutsche Bank. |
 | roles | [`role:cgi-deutsche-bank-consultant`] |
-| projects | [] |
+| projects | [`project:deutsche-bank-low-code-migration`] |
 | stories | [] |
 | technologies | [] |
 | skills | [] |
@@ -27,7 +27,6 @@ El usuario trabajó mediante CGI desde enero de 2023 hasta septiembre de 2024 y 
 
 ## Entidades candidatas pendientes
 
-- Proyecto candidato: migración de microservicios desde tecnología low-code a Java y Spring en Deutsche Bank.
 - Proyecto candidato: sistemas de pagos bancarios en Deutsche Bank.
 
 ## Incertidumbre y fuentes
