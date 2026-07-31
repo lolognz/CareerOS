@@ -14,7 +14,13 @@ Keep tables sorted by stable ID. Add links only to canonical entity files.
 
 | ID | Title | Link |
 | --- | --- | --- |
-| | | |
+| `role:cgi-deutsche-bank-consultant` | Consultor de software para Deutsche Bank — CGI | [cgi-deutsche-bank-consultant.md](../entities/roles/cgi-deutsche-bank-consultant.md) |
+| `role:deutsche-bank-senior-backend-software-engineer` | Senior Backend Software Engineer — Deutsche Bank | [deutsche-bank-senior-backend-software-engineer.md](../entities/roles/deutsche-bank-senior-backend-software-engineer.md) |
+| `role:harvard-visiting-researcher-scholar` | Visiting Researcher Scholar — Harvard University | [harvard-visiting-researcher-scholar.md](../entities/roles/harvard-visiting-researcher-scholar.md) |
+| `role:ideas-software-developer-intern` | Desarrollador de software en prácticas — IDEAS | [ideas-software-developer-intern.md](../entities/roles/ideas-software-developer-intern.md) |
+| `role:mercury-tfs-software-engineer` | Software Engineer — Mercury TFS | [mercury-tfs-software-engineer.md](../entities/roles/mercury-tfs-software-engineer.md) |
+| `role:sorbe-shoes-founder-operations-manager` | Fundador y responsable de operaciones — Sorbe Shoes / negocio familiar | [sorbe-shoes-founder-operations-manager.md](../entities/roles/sorbe-shoes-founder-operations-manager.md) |
+| `role:ucm-research-software-development` | Investigación y desarrollo de software — Universidad Complutense de Madrid | [ucm-research-software-development.md](../entities/roles/ucm-research-software-development.md) |
 
 ## Projects
 
