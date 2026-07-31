@@ -10,6 +10,14 @@
 - Rama CareerOS: feature/cv-master
 - Tag / versión: v0.1-cto-adjunto-application
 
+## Resultado
+
+- Resultado: candidatura rechazada / no continúa
+- Fecha de actualización: 2026-07-31
+- Hipótesis: la oferta llevaba más de una semana publicada y acumulaba más de 150 candidaturas. Es posible que el proceso ya estuviera avanzado o que nuevas candidaturas fueran filtradas automáticamente.
+- Nota: no hay evidencia directa de esta causa; conservar como interpretación del usuario, no como hecho confirmado.
+- Aprendizaje: para ofertas interesantes, CareerOS debe permitir preparar candidatura en menos de 24 horas desde la detección de la oferta.
+
 ## Material enviado
 
 - CV PDF
