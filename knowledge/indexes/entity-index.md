@@ -8,7 +8,13 @@ Keep tables sorted by stable ID. Add links only to canonical entity files.
 
 | ID | Title | Link |
 | --- | --- | --- |
-| | | |
+| `company:cgi` | CGI | [cgi.md](../entities/companies/cgi.md) |
+| `company:deutsche-bank` | Deutsche Bank | [deutsche-bank.md](../entities/companies/deutsche-bank.md) |
+| `company:harvard-university` | Harvard University | [harvard-university.md](../entities/companies/harvard-university.md) |
+| `company:ideas` | IDEAS | [ideas.md](../entities/companies/ideas.md) |
+| `company:mercury-tfs` | Mercury TFS | [mercury-tfs.md](../entities/companies/mercury-tfs.md) |
+| `company:sorbe-shoes-family-business` | Sorbe Shoes / negocio familiar | [sorbe-shoes-family-business.md](../entities/companies/sorbe-shoes-family-business.md) |
+| `company:ucm` | Universidad Complutense de Madrid | [ucm.md](../entities/companies/ucm.md) |
 
 ## Roles
 

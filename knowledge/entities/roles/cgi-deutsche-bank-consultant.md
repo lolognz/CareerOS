@@ -7,7 +7,7 @@
 | id | `role:cgi-deutsche-bank-consultant` |
 | title | Senior Software Engineer / Senior Backend Software Engineer |
 | organization | CGI, prestando servicios para Deutsche Bank |
-| organization_id | `pending-company-entity` |
+| organization_id | `company:cgi` |
 | start_date | 2023-01 |
 | end_date | 2024-09 |
 | date_precision | Meses confirmados en la entrevista; días exactos no documentados. |
@@ -23,8 +23,8 @@
 | skills | [] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
-| uncertainty | La entidad canónica de empresa para CGI todavía no ha sido creada. La fuente ofrece dos variantes del título. No separa con fechas exactas todas las responsabilidades del periodo CGI frente al empleo directo posterior y señala que fueron ampliamente similares. |
-| related_entities | [`company:deutsche-bank`] |
+| uncertainty | La fuente ofrece dos variantes del título. No separa con fechas exactas todas las responsabilidades del periodo CGI frente al empleo directo posterior y señala que fueron ampliamente similares. |
+| related_entities | [`company:cgi`, `company:deutsche-bank`] |
 
 ## Contexto
 
@@ -44,7 +44,7 @@ Los sistemas del equipo de pagos incluyen microservicios asociados a transferenc
 
 ## Relaciones
 
-La relación laboral principal de esta entidad corresponde a CGI, cuya entidad canónica de empresa todavía no ha sido creada. `company:deutsche-bank` representa la organización cliente y el entorno donde se realizó el trabajo.
+La relación laboral principal de esta entidad corresponde a `company:cgi`. `company:deutsche-bank` representa la organización cliente y el entorno donde se realizó el trabajo.
 
 ## Entidades candidatas pendientes
 
@@ -57,7 +57,7 @@ La relación laboral principal de esta entidad corresponde a CGI, cuya entidad c
 
 ## Incertidumbre
 
-La entidad canónica de empresa para CGI todavía no ha sido creada. No se confirma cuál de las dos variantes del título era la denominación contractual. No se atribuye empleo directo por Deutsche Bank antes de septiembre de 2024 ni empleo actual en CGI.
+No se confirma cuál de las dos variantes del título era la denominación contractual. No se atribuye empleo directo por Deutsche Bank antes de septiembre de 2024 ni empleo actual en CGI.
 
 ## Evidencia
 

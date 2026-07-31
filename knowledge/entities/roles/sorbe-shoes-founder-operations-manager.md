@@ -7,7 +7,7 @@
 | id | `role:sorbe-shoes-founder-operations-manager` |
 | title | Fundador y responsable de operaciones |
 | organization | Sorbe Shoes / negocio familiar de calzado |
-| organization_id | `pending-company-entity` |
+| organization_id | `company:sorbe-shoes-family-business` |
 | start_date | 2005 aprox. |
 | end_date | 2015 aprox. |
 | date_precision | Años aproximados proporcionados para esta primera versión; la dedicación se redujo progresivamente al comenzar la universidad y los mercados de fin de semana continuaron después del periodo principal. |
@@ -23,8 +23,8 @@
 | skills | [] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
-| uncertainty | La entidad canónica de empresa para Sorbe Shoes / negocio familiar todavía no ha sido creada. El nombre comercial exacto, las fechas de constitución y cierre, la ubicación y la secuencia jurídica entre la sociedad propia y la empresa familiar no están confirmados en la fuente. El máximo de plantilla se recuerda como unas 8 personas, quizá 9. |
-| related_entities | [] |
+| uncertainty | El nombre comercial exacto, las fechas de constitución y cierre, la ubicación y la secuencia jurídica entre la sociedad propia y la empresa familiar no están confirmados en la fuente. El máximo de plantilla se recuerda como unas 8 personas, quizá 9. |
+| related_entities | [`company:sorbe-shoes-family-business`] |
 
 ## Contexto
 
@@ -62,7 +62,7 @@ No existen todavía entidades canónicas separadas para proyectos, historias, te
 
 ## Incertidumbre
 
-La entidad canónica de empresa para Sorbe Shoes / negocio familiar todavía no ha sido creada. La fuente expresa edades y etapas, pero no fechas exactas. La cronología 2005–2015 es aproximada y debe refinarse con evidencia adicional. No se atribuye al rol experiencia formal de dirección tecnológica.
+La fuente expresa edades y etapas, pero no fechas exactas. La cronología 2005–2015 es aproximada y debe refinarse con evidencia adicional. No se atribuye al rol experiencia formal de dirección tecnológica.
 
 ## Evidencia
 

@@ -7,7 +7,7 @@
 | id | `role:ideas-software-developer-intern` |
 | title | Desarrollador de software en prácticas |
 | organization | IDEAS |
-| organization_id | `pending-company-entity` |
+| organization_id | `company:ideas` |
 | start_date | 2014-09 aprox. |
 | end_date | 2015-09 aprox. |
 | date_precision | Meses aproximados según la entrevista. |
@@ -23,8 +23,8 @@
 | skills | [] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
-| uncertainty | La entidad canónica de empresa para IDEAS todavía no ha sido creada. No constan el título contractual exacto, la ubicación ni las fechas diarias. La evolución hacia trabajo de nivel junior es una descripción funcional del usuario, no una promoción formal confirmada. |
-| related_entities | [] |
+| uncertainty | No constan el título contractual exacto, la ubicación ni las fechas diarias. La evolución hacia trabajo de nivel junior es una descripción funcional del usuario, no una promoción formal confirmada. |
+| related_entities | [`company:ideas`] |
 
 ## Contexto
 
@@ -61,7 +61,7 @@ Tras un año, la empresa ofreció ampliar la jornada de 25 a 40 horas manteniend
 
 ## Incertidumbre
 
-La entidad canónica de empresa para IDEAS todavía no ha sido creada. Las fechas son aproximadas. No se asignan IDs a .NET o Visual Basic porque todavía no existen sus entidades canónicas de tecnología.
+Las fechas son aproximadas. No se asignan IDs a .NET o Visual Basic porque todavía no existen sus entidades canónicas de tecnología.
 
 ## Evidencia
 
