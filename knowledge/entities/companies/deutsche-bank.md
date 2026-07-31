@@ -13,7 +13,7 @@
 | chronology | Organización cliente desde 2023-01 durante la consultoría mediante CGI; empleador directo desde 2024-09 hasta el presente. |
 | business-context | Entorno bancario internacional asociado al mantenimiento de sistemas críticos de pagos y transferencias. |
 | roles | [`role:cgi-deutsche-bank-consultant`, `role:deutsche-bank-senior-backend-software-engineer`] |
-| projects | [] |
+| projects | [`project:deutsche-bank-low-code-migration`, `project:deutsche-bank-payments-systems`] |
 | stories | [] |
 | technologies | [] |
 | skills | [] |
@@ -29,8 +29,6 @@ El contexto documentado es un equipo de pagos pequeño, experimentado y autónom
 
 ## Entidades candidatas pendientes
 
-- Proyecto candidato: migración de microservicios desde tecnología low-code a Java y Spring.
-- Proyecto candidato: sistemas de pagos bancarios.
 - Tecnología candidata: Java.
 - Tecnología candidata: Spring.
 - Tecnología candidata: Node.js.

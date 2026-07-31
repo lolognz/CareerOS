@@ -32,7 +32,16 @@ Keep tables sorted by stable ID. Add links only to canonical entity files.
 
 | ID | Title | Link |
 | --- | --- | --- |
-| | | |
+| `project:bailando-un-tesoro` | Bailando un Tesoro | [bailando-un-tesoro.md](../entities/projects/bailando-un-tesoro.md) |
+| `project:comunicarte` | ComunicArte | [comunicarte.md](../entities/projects/comunicarte.md) |
+| `project:deos` | DEOS | [deos.md](../entities/projects/deos.md) |
+| `project:deutsche-bank-low-code-migration` | Migración low-code a Java y Spring en Deutsche Bank | [deutsche-bank-low-code-migration.md](../entities/projects/deutsche-bank-low-code-migration.md) |
+| `project:deutsche-bank-payments-systems` | Sistemas de pagos de Deutsche Bank | [deutsche-bank-payments-systems.md](../entities/projects/deutsche-bank-payments-systems.md) |
+| `project:invoice-automation-apps-script` | Automatización de facturas con Apps Script | [invoice-automation-apps-script.md](../entities/projects/invoice-automation-apps-script.md) |
+| `project:la-cortesia-de-espana` | La Cortesía de España | [la-cortesia-de-espana.md](../entities/projects/la-cortesia-de-espana.md) |
+| `project:mercury-document-generation` | Generación documental de Mercury TFS | [mercury-document-generation.md](../entities/projects/mercury-document-generation.md) |
+| `project:mercury-trade-finance-platform` | Plataforma de trade finance de Mercury TFS | [mercury-trade-finance-platform.md](../entities/projects/mercury-trade-finance-platform.md) |
+| `project:pulsecore` | PulseCore | [pulsecore.md](../entities/projects/pulsecore.md) |
 
 ## Stories
 

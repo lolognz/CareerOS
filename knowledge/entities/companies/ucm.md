@@ -13,7 +13,7 @@
 | chronology | Etapa de investigación y desarrollo de software entre 2015 y 2019; las fechas de proyectos y contratos internos varían. |
 | business-context | Contexto universitario de tecnología educativa, serious games, investigación aplicada, experimentos con usuarios, publicaciones y comunicación académica. |
 | roles | [`role:ucm-research-software-development`] |
-| projects | [] |
+| projects | [`project:bailando-un-tesoro`, `project:comunicarte`, `project:la-cortesia-de-espana`] |
 | stories | [] |
 | technologies | [] |
 | skills | [] |
@@ -27,9 +27,6 @@ La relación documentada agrupa varios proyectos vinculados a educación, artes 
 
 ## Entidades candidatas pendientes
 
-- Proyecto candidato: La Cortesía de España.
-- Proyecto candidato: Bailando un Tesoro.
-- Proyecto candidato: ComunicArte.
 - Organización relacionada candidata: Ballet Nacional de España.
 - Organización relacionada candidata: Fundación BBVA.
 - Publicaciones candidatas: publicaciones académicas derivadas de los tres proyectos, pendientes de identificación individual.

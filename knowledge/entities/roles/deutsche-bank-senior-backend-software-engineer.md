@@ -17,7 +17,7 @@
 | context | Equipo de pagos bancarios crítico, con autonomía y responsabilidad sobre desarrollo, operación y soporte de microservicios. |
 | responsibilities | Revisión operativa diaria, desarrollo, gestión de despliegues, colas MQ, certificados, vulnerabilidades, investigación de errores, soporte a otros equipos y respuesta rápida ante problemas graves. |
 | systems | Microservicios de pagos, principalmente Java y Spring y algunos Node.js; transferencias entrantes y salientes, pagos desde cuenta, pagos recurrentes e inmediatos, SEPA y transferencias transfronterizas. |
-| projects | [] |
+| projects | [`project:deutsche-bank-payments-systems`] |
 | stories | [] |
 | technologies | [] |
 | skills | [] |
@@ -54,7 +54,6 @@ No existen todavía entidades canónicas específicas para los sistemas de pagos
 
 ## Entidades candidatas pendientes
 
-- Proyecto candidato: sistemas de pagos bancarios.
 - Historia candidata: investigación y resolución de un incidente grave en producción.
 - Historia candidata: soporte ante errores de comunicación reportados por otros equipos.
 - Tecnología candidata: Java.

@@ -17,7 +17,7 @@
 | context | Incorporación al entorno de Deutsche Bank como consultor externo; primero en migración de microservicios y, tras aproximadamente seis meses, en el equipo de pagos. |
 | responsibilities | Desarrollo backend, migración de servicios, mantenimiento de microservicios de pagos y responsabilidades operativas que continuaron de forma general tras la contratación directa. |
 | systems | Microservicios migrados desde tecnología low-code a Java y Spring; posteriormente sistemas de pagos bancarios mantenidos por el equipo de pagos. |
-| projects | [] |
+| projects | [`project:deutsche-bank-low-code-migration`] |
 | stories | [] |
 | technologies | [] |
 | skills | [] |
@@ -48,7 +48,6 @@ La relación laboral principal de esta entidad corresponde a `company:cgi`. `com
 
 ## Entidades candidatas pendientes
 
-- Proyecto candidato: migración de microservicios desde tecnología low-code a Java y Spring.
 - Proyecto candidato: sistemas de pagos bancarios.
 - Historia candidata: cambio desde el equipo inicial al equipo de pagos.
 - Tecnología candidata: Java.

@@ -17,7 +17,7 @@
 | context | Desarrollo de software bancario de trade finance en una aplicación compleja con herencia monolítica y microservicios. |
 | responsibilities | Desarrollo, estimación, reuniones con cliente, gestión de tareas y prioridades, revisión de código, apoyo a compañeros y responsabilidad funcional sobre generación documental y contabilidad durante parte del periodo. |
 | systems | Plataforma de trade finance, microservicios de generación documental, área contable y procesos de generación de esquema de base de datos y despliegue. |
-| projects | [] |
+| projects | [`project:mercury-document-generation`, `project:mercury-trade-finance-platform`] |
 | stories | [] |
 | technologies | [] |
 | skills | [] |
@@ -46,12 +46,10 @@ Uno de los cambios técnicos documentados fue IntegrationBase. El objeto Base he
 
 ## Relaciones
 
-Las áreas de contabilidad, generación documental y la plataforma de trade finance todavía no tienen entidades canónicas con IDs definidos. Los casos “account fields” e IntegrationBase tampoco tienen aún entidades de historia canónicas y no se reproducen completos en esta entidad.
+La generación documental y la plataforma de trade finance tienen entidades canónicas de proyecto. El área de contabilidad sigue pendiente. Los casos “account fields” e IntegrationBase tampoco tienen aún entidades de historia canónicas y no se reproducen completos en esta entidad.
 
 ## Entidades candidatas pendientes
 
-- Proyecto candidato: plataforma de trade finance.
-- Proyecto candidato: generación documental.
 - Proyecto candidato: área contable.
 - Historia candidata: IntegrationBase.
 - Historia candidata: account fields.

@@ -17,7 +17,7 @@
 | context | Etapa de tecnología educativa, serious games, investigación aplicada, experimentos con usuarios, publicaciones y comunicación pública. |
 | responsibilities | Diseño y desarrollo de videojuegos educativos, pruebas con usuarios, coordinación técnica y artística, análisis de datos, escritura científica, presentaciones, preparación de propuestas y participación en gestión de proyectos. |
 | systems | Videojuegos y entornos de investigación para teatro clásico, danza española y práctica de comunicación oral en realidad virtual. |
-| projects | [] |
+| projects | [`project:bailando-un-tesoro`, `project:comunicarte`, `project:la-cortesia-de-espana`] |
 | stories | [] |
 | technologies | [] |
 | skills | [] |
@@ -46,13 +46,10 @@ Los tres proyectos utilizaron Unity3D y C#. Bailando un Tesoro incorporó 3D, ca
 
 ## Relaciones
 
-Los detalles de La Cortesía de España, Bailando un Tesoro y ComunicArte corresponden a futuros registros de proyecto. Las experiencias con más de 700 escolares, la entrevista de radio y las publicaciones tampoco tienen todavía entidades canónicas con IDs definidos.
+Los detalles de La Cortesía de España, Bailando un Tesoro y ComunicArte corresponden a sus entidades canónicas de proyecto. Las experiencias con más de 700 escolares, la entrevista de radio y las publicaciones todavía no tienen entidades canónicas con IDs definidos.
 
 ## Entidades candidatas pendientes
 
-- Proyecto candidato: La Cortesía de España.
-- Proyecto candidato: Bailando un Tesoro.
-- Proyecto candidato: ComunicArte.
 - Historia candidata: estudio de Bailando un Tesoro con más de 700 niños.
 - Historia candidata: entrevista en radio nacional sobre Bailando un Tesoro.
 - Historia candidata: presentación en inglés en una conferencia internacional de videojuegos.

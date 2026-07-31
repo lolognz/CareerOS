@@ -13,7 +13,7 @@
 | chronology | Relación profesional desde 2020-01 aproximadamente hasta algún momento de 2023. |
 | business-context | Desarrollo de una plataforma compleja para operaciones de importación y exportación en las que bancos median entre empresas. El sistema combinaba herencia monolítica y microservicios. |
 | roles | [`role:mercury-tfs-software-engineer`] |
-| projects | [] |
+| projects | [`project:mercury-document-generation`, `project:mercury-trade-finance-platform`] |
 | stories | [] |
 | technologies | [] |
 | skills | [] |
@@ -28,8 +28,6 @@ Durante la relación profesional del usuario, Mercury TFS desarrollaba software 
 ## Entidades candidatas pendientes
 
 - Organización relacionada candidata: Banco Santander.
-- Proyecto candidato: plataforma de trade finance.
-- Proyecto candidato: generación documental.
 - Proyecto candidato: área contable.
 - Historia candidata: IntegrationBase.
 - Historia candidata: account fields.
