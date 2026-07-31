@@ -7,7 +7,7 @@
 | id | `role:ucm-research-software-development` |
 | title | Investigación y desarrollo de software |
 | organization | Universidad Complutense de Madrid |
-| organization_id | `pending-company-entity` |
+| organization_id | `company:ucm` |
 | start_date | 2015 |
 | end_date | 2019 |
 | date_precision | Años indicados para la entidad; los proyectos y contratos internos tienen cronologías propias parcialmente documentadas. |
@@ -23,8 +23,8 @@
 | skills | [] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
-| uncertainty | La entidad canónica de empresa para la Universidad Complutense de Madrid todavía no ha sido creada. La relación contractual y las fechas exactas varían entre proyectos. ComunicArte tuvo contrato desde abril de 2018 y duración prevista de 21 meses; no se conoce aquí la fecha exacta de cierre. Las cifras de visibilidad de Bailando un Tesoro requieren conservar sus reservas. |
-| related_entities | [] |
+| uncertainty | La relación contractual y las fechas exactas varían entre proyectos. ComunicArte tuvo contrato desde abril de 2018 y duración prevista de 21 meses; no se conoce aquí la fecha exacta de cierre. Las cifras de visibilidad de Bailando un Tesoro requieren conservar sus reservas. |
+| related_entities | [`company:ucm`] |
 
 ## Contexto
 
@@ -73,7 +73,7 @@ La afirmación de que Bailando un Tesoro alcanzó el número 2 entre los juegos 
 
 ## Incertidumbre
 
-La entidad canónica de empresa para la Universidad Complutense de Madrid todavía no ha sido creada. No se infiere un único contrato continuo entre 2015 y 2019 ni un título formal común para toda la etapa. El intervalo representa la secuencia de investigación y desarrollo descrita por el usuario. No se atribuye experiencia formal de CTO.
+No se infiere un único contrato continuo entre 2015 y 2019 ni un título formal común para toda la etapa. El intervalo representa la secuencia de investigación y desarrollo descrita por el usuario. No se atribuye experiencia formal de CTO.
 
 ## Evidencia
 

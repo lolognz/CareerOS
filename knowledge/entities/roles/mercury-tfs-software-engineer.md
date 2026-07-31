@@ -7,7 +7,7 @@
 | id | `role:mercury-tfs-software-engineer` |
 | title | Software Engineer |
 | organization | Mercury TFS |
-| organization_id | `pending-company-entity` |
+| organization_id | `company:mercury-tfs` |
 | start_date | 2020-01 aprox. |
 | end_date | 2023 |
 | date_precision | Inicio aproximado en enero de 2020; no consta el mes exacto de finalización. |
@@ -23,8 +23,8 @@
 | skills | [] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
-| uncertainty | La entidad canónica de empresa para Mercury TFS todavía no ha sido creada. No constan día o mes de salida, título contractual exacto, ubicación ni fechas exactas de cada etapa interna. La condición de referente se limita a determinadas áreas funcionales y periodos. |
-| related_entities | [] |
+| uncertainty | No constan día o mes de salida, título contractual exacto, ubicación ni fechas exactas de cada etapa interna. La condición de referente se limita a determinadas áreas funcionales y periodos. |
+| related_entities | [`company:mercury-tfs`] |
 
 ## Contexto
 
@@ -68,7 +68,7 @@ Las áreas de contabilidad, generación documental y la plataforma de trade fina
 
 ## Incertidumbre
 
-La entidad canónica de empresa para Mercury TFS todavía no ha sido creada. La adquisición parcial por Banco Santander y la reorganización están documentadas en la entrevista, pero no se infieren de ellas cambios contractuales o de título. Tampoco se convierte la autonomía adquirida en una promoción formal no confirmada.
+La adquisición parcial por Banco Santander y la reorganización están documentadas en la entrevista, pero no se infieren de ellas cambios contractuales o de título. Tampoco se convierte la autonomía adquirida en una promoción formal no confirmada.
 
 ## Evidencia
 

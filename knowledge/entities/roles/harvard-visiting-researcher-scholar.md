@@ -7,7 +7,7 @@
 | id | `role:harvard-visiting-researcher-scholar` |
 | title | Visiting Researcher Scholar |
 | organization | Harvard University |
-| organization_id | `pending-company-entity` |
+| organization_id | `company:harvard-university` |
 | start_date | 2017-09 aprox. |
 | end_date | 2018-07 aprox. |
 | date_precision | Meses aproximados; la fuente describe una estancia de alrededor de un año. |
@@ -23,8 +23,8 @@
 | skills | [] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
-| uncertainty | La entidad de empresa para Harvard University todavía no ha sido creada. No constan fechas exactas, campus o unidad académica, nombre de la profesora o profesor, tecnologías de la plataforma, relación contractual, financiación ni estado final del sistema. |
-| related_entities | [] |
+| uncertainty | No constan fechas exactas, campus o unidad académica, nombre de la profesora o profesor, tecnologías de la plataforma, relación contractual, financiación ni estado final del sistema. |
+| related_entities | [`company:harvard-university`] |
 
 ## Contexto
 
@@ -42,17 +42,16 @@ La fuente no especifica la arquitectura, tecnologías, volumen de usuarios ni es
 
 ## Relaciones
 
-La estancia y la plataforma todavía no tienen entidades relacionadas con IDs canónicos definidos. Tampoco existe aún una entidad canónica de Harvard University, por lo que `organization_id` usa el marcador `pending-company-entity`.
+La estancia se vincula a `company:harvard-university`. La plataforma todavía no tiene una entidad de proyecto con ID canónico definido.
 
 ## Entidades candidatas pendientes
 
-- Organización candidata: Harvard University.
 - Proyecto candidato: plataforma web para conectar a personas que aplicaban una metodología educativa basada en el arte.
 - Historia candidata: estancia de investigación en Harvard University.
 
 ## Incertidumbre
 
-La entidad de empresa para Harvard University todavía no ha sido creada. “Visiting Researcher Scholar” se conserva como título aportado. No se deduce empleo directo por Harvard ni se amplía el alcance más allá de la plataforma descrita.
+“Visiting Researcher Scholar” se conserva como título aportado. No se deduce empleo directo por Harvard ni se amplía el alcance más allá de la plataforma descrita.
 
 ## Evidencia
 
