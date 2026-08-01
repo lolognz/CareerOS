@@ -16,7 +16,7 @@
 | projects | [`project:bailando-un-tesoro`, `project:comunicarte`, `project:la-cortesia-de-espana`] |
 | stories | [`story:bailando-un-tesoro-user-tests`, `story:comunicarte-bbva-proposal`, `story:comunicarte-virtual-audience`, `story:la-cortesia-from-tfg-to-product`] |
 | technologies | [] |
-| skills | [] |
+| skills | [`skill:interdisciplinary-collaboration`, `skill:requirements-analysis`, `skill:research-software-development`, `skill:stakeholder-communication`, `skill:user-testing-and-validation`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/ucm-research-software-development.md` |
 | related-entities | [] |

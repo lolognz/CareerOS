@@ -16,7 +16,7 @@
 | projects | [] |
 | stories | [] |
 | technologies | [] |
-| skills | [] |
+| skills | [`skill:research-software-development`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/harvard-visiting-researcher-scholar.md` |
 | related-entities | [] |

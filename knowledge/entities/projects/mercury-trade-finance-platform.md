@@ -13,6 +13,7 @@
 | organization_id | `company:mercury-tfs` |
 | related_roles | [`role:mercury-tfs-software-engineer`] |
 | stories | [`story:mercury-account-fields`, `story:mercury-integration-base`] |
+| skills | [`skill:backend-development`, `skill:legacy-system-diagnosis`, `skill:microservices`, `skill:requirements-analysis`] |
 | context | Plataforma para operaciones de importación y exportación en las que bancos median entre empresas que no se conocen o no confían entre sí. |
 | problem | Dar soporte de software a procesos complejos de trade finance. |
 | contribution | Desarrollo de funcionalidades, estimación, participación en reuniones con cliente, gestión de tareas, revisión de código y apoyo a compañeros; el alcance evolucionó con el tiempo. |

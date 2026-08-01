@@ -13,6 +13,7 @@
 | organization_id | `company:ucm` |
 | related_roles | [`role:ucm-research-software-development`] |
 | stories | [`story:la-cortesia-from-tfg-to-product`] |
+| skills | [`skill:interdisciplinary-collaboration`, `skill:rapid-learning`, `skill:research-software-development`, `skill:user-testing-and-validation`] |
 | context | Proyecto para acercar el teatro clásico a niños y jóvenes mediante un videojuego educativo. |
 | problem | Explorar si un videojuego podía aumentar el interés de públicos jóvenes por el teatro clásico. |
 | contribution | Desarrollo junto a otros dos desarrolladores; adaptación de un framework conversacional; trabajo en escenas, iluminación, animaciones, guardado, minijuegos y pruebas e investigación con usuarios. |

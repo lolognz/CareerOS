@@ -20,7 +20,7 @@
 | projects | [`project:deutsche-bank-low-code-migration`] |
 | stories | [`story:deutsche-bank-transfer-to-payments-team`] |
 | technologies | [] |
-| skills | [] |
+| skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
 | uncertainty | La fuente ofrece dos variantes del título. No separa con fechas exactas todas las responsabilidades del periodo CGI frente al empleo directo posterior y señala que fueron ampliamente similares. |

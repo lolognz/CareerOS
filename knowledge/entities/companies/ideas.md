@@ -16,7 +16,7 @@
 | projects | [] |
 | stories | [`story:ideas-admin-permissions-mistake`, `story:ideas-client-export`, `story:ideas-four-weeks-in-one-morning`, `story:ideas-internal-chat`] |
 | technologies | [] |
-| skills | [] |
+| skills | [`skill:backend-development`, `skill:requirements-analysis`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/ideas-software-developer-intern.md` |
 | related-entities | [] |

@@ -12,6 +12,8 @@
 | organization | Mercury TFS |
 | organization_id | `company:mercury-tfs` |
 | related_roles | [`role:mercury-tfs-software-engineer`] |
+| stories | [] |
+| skills | [`skill:backend-development`, `skill:microservices`] |
 | context | Área de generación de documentos dentro de la plataforma de trade finance, reorganizada en un equipo pequeño durante una etapa posterior. |
 | problem | Generar distintos tipos de documentos dentro de la plataforma y mantener los microservicios asociados. |
 | contribution | Responsabilidad sobre tareas de generación documental; durante un periodo el usuario fue el único desarrollador que atendía esta área junto con contabilidad. |

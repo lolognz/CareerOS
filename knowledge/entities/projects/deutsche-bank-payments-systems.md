@@ -13,6 +13,7 @@
 | organization_id | `company:deutsche-bank` |
 | related_roles | [`role:deutsche-bank-senior-backend-software-engineer`] |
 | stories | [`story:deutsche-bank-transfer-to-payments-team`] |
+| skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
 | context | Conjunto de microservicios bancarios mantenidos por un equipo pequeño, experimentado y autónomo. |
 | problem | Mantener y operar flujos de pagos cuya interrupción puede tener consecuencias importantes para el negocio. |
 | contribution | Desarrollo, despliegues, gestión de colas MQ y certificados, tratamiento de vulnerabilidades, investigación de errores y soporte a otros equipos dentro del rol directo. |

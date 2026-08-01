@@ -20,7 +20,7 @@
 | projects | [] |
 | stories | [] |
 | technologies | [] |
-| skills | [] |
+| skills | [`skill:interdisciplinary-collaboration`, `skill:research-software-development`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
 | uncertainty | No constan fechas exactas, campus o unidad académica, nombre de la profesora o profesor, tecnologías de la plataforma, relación contractual, financiación ni estado final del sistema. |

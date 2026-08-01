@@ -16,7 +16,7 @@
 | projects | [`project:deutsche-bank-low-code-migration`, `project:deutsche-bank-payments-systems`] |
 | stories | [`story:deutsche-bank-transfer-to-payments-team`] |
 | technologies | [] |
-| skills | [] |
+| skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/cgi-deutsche-bank-consultant.md`; `knowledge/entities/roles/deutsche-bank-senior-backend-software-engineer.md` |
 | related-entities | [`company:cgi`] |

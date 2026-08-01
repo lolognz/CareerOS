@@ -16,7 +16,7 @@
 | projects | [] |
 | stories | [`story:sorbe-shoes-operations-under-pressure`] |
 | technologies | [] |
-| skills | [] |
+| skills | [`skill:business-operations`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/sorbe-shoes-founder-operations-manager.md` |
 | related-entities | [] |

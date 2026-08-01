@@ -20,7 +20,7 @@
 | projects | [] |
 | stories | [`story:ideas-admin-permissions-mistake`, `story:ideas-client-export`, `story:ideas-four-weeks-in-one-morning`, `story:ideas-internal-chat`] |
 | technologies | [] |
-| skills | [] |
+| skills | [`skill:backend-development`, `skill:rapid-learning`, `skill:requirements-analysis`, `skill:stakeholder-communication`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
 | uncertainty | No constan el título contractual exacto, la ubicación ni las fechas diarias. La evolución hacia trabajo de nivel junior es una descripción funcional del usuario, no una promoción formal confirmada. |

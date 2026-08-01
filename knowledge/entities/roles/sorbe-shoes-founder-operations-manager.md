@@ -20,7 +20,7 @@
 | projects | [] |
 | stories | [`story:sorbe-shoes-operations-under-pressure`] |
 | technologies | [] |
-| skills | [] |
+| skills | [`skill:business-operations`, `skill:stakeholder-communication`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
 | uncertainty | El nombre comercial exacto, las fechas de constitución y cierre, la ubicación y la secuencia jurídica entre la sociedad propia y la empresa familiar no están confirmados en la fuente. El máximo de plantilla se recuerda como unas 8 personas, quizá 9. |

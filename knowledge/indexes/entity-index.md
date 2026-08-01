@@ -67,7 +67,26 @@ Keep tables sorted by stable ID. Add links only to canonical entity files.
 
 | ID | Title | Link |
 | --- | --- | --- |
-| | | |
+| `skill:api-design-and-integration` | Diseño e integración de APIs | [api-design-and-integration.md](../entities/skills/api-design-and-integration.md) |
+| `skill:automation-and-process-improvement` | Automatización y mejora de procesos | [automation-and-process-improvement.md](../entities/skills/automation-and-process-improvement.md) |
+| `skill:backend-development` | Desarrollo backend | [backend-development.md](../entities/skills/backend-development.md) |
+| `skill:business-operations` | Operaciones de negocio | [business-operations.md](../entities/skills/business-operations.md) |
+| `skill:code-review-and-mentoring` | Revisión de código y acompañamiento técnico | [code-review-and-mentoring.md](../entities/skills/code-review-and-mentoring.md) |
+| `skill:critical-systems-operation` | Operación de sistemas críticos | [critical-systems-operation.md](../entities/skills/critical-systems-operation.md) |
+| `skill:estimation-and-prioritization` | Estimación y priorización | [estimation-and-prioritization.md](../entities/skills/estimation-and-prioritization.md) |
+| `skill:interdisciplinary-collaboration` | Colaboración interdisciplinar | [interdisciplinary-collaboration.md](../entities/skills/interdisciplinary-collaboration.md) |
+| `skill:knowledge-management` | Gestión del conocimiento | [knowledge-management.md](../entities/skills/knowledge-management.md) |
+| `skill:legacy-system-diagnosis` | Diagnóstico de sistemas heredados | [legacy-system-diagnosis.md](../entities/skills/legacy-system-diagnosis.md) |
+| `skill:microservices` | Sistemas de microservicios | [microservices.md](../entities/skills/microservices.md) |
+| `skill:production-support-and-debugging` | Soporte a producción y diagnóstico de errores | [production-support-and-debugging.md](../entities/skills/production-support-and-debugging.md) |
+| `skill:rapid-learning` | Aprendizaje rápido | [rapid-learning.md](../entities/skills/rapid-learning.md) |
+| `skill:requirements-analysis` | Análisis de requisitos | [requirements-analysis.md](../entities/skills/requirements-analysis.md) |
+| `skill:research-software-development` | Desarrollo de software para investigación | [research-software-development.md](../entities/skills/research-software-development.md) |
+| `skill:software-architecture` | Arquitectura de software | [software-architecture.md](../entities/skills/software-architecture.md) |
+| `skill:stakeholder-communication` | Comunicación con partes interesadas | [stakeholder-communication.md](../entities/skills/stakeholder-communication.md) |
+| `skill:technical-documentation` | Documentación técnica | [technical-documentation.md](../entities/skills/technical-documentation.md) |
+| `skill:technical-leadership-without-title` | Liderazgo técnico sin título formal | [technical-leadership-without-title.md](../entities/skills/technical-leadership-without-title.md) |
+| `skill:user-testing-and-validation` | Pruebas y validación con usuarios | [user-testing-and-validation.md](../entities/skills/user-testing-and-validation.md) |
 
 ## Technologies
 

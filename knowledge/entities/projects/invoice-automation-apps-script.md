@@ -13,6 +13,7 @@
 | organization_id | [] |
 | related_roles | [] |
 | stories | [`story:invoice-automation-monthly-process`] |
+| skills | [] |
 | context | La solicitud actual identifica la existencia de un proyecto de automatización de facturas asociado a Apps Script. |
 | problem | Desconocido en la evidencia canónica disponible |
 | contribution | Desconocida en la evidencia canónica disponible |

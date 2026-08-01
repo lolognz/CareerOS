@@ -13,6 +13,7 @@
 | organization_id | `company:ucm` |
 | related_roles | [`role:ucm-research-software-development`] |
 | stories | [`story:comunicarte-bbva-proposal`, `story:comunicarte-virtual-audience`] |
+| skills | [`skill:api-design-and-integration`, `skill:interdisciplinary-collaboration`, `skill:requirements-analysis`, `skill:research-software-development`, `skill:stakeholder-communication`] |
 | context | Proyecto financiado mediante una ayuda de 100.000 euros para practicar comunicación oral ante una audiencia virtual. |
 | problem | La dificultad de practicar de forma realista el habla en público y el miedo asociado a esa situación. |
 | contribution | Participación en propuesta, concepto, nombre, presupuesto, equipo y tecnología; diseño, desarrollo y presentación; responsabilidad técnica sobre el escenario y la audiencia virtual. |

@@ -28,6 +28,8 @@ Un proyecto no es un rol, una historia concreta ni una redacción para CV. Tampo
 | `organization` | Sí | Organización o contexto independiente del proyecto. |
 | `organization_id` | Sí | ID canónico de organización cuando exista; `[]` para un proyecto independiente o cuando no haya entidad canónica aplicable. |
 | `related_roles` | Sí | IDs canónicos de roles claramente relacionados. |
+| `stories` | Sí | IDs canónicos de historias concretas claramente relacionadas. |
+| `skills` | Sí | IDs canónicos de habilidades demostradas de forma clara en el proyecto. |
 | `context` | Sí | Entorno factual necesario para comprender el proyecto. |
 | `problem` | Sí | Necesidad o problema que dio origen o sentido al proyecto. |
 | `contribution` | Sí | Alcance documentado de la contribución de la persona, sin atribuir trabajo ajeno. |
@@ -54,9 +56,10 @@ Después de la tabla `Canonical Fields`, el archivo puede ampliar de forma compa
 ## Reglas de validación
 
 - Todos los campos deben estar presentes, incluso con valor explícitamente desconocido o `[]`.
-- `organization_id`, `related_roles`, `technologies` y `related_entities` solo pueden contener IDs de archivos canónicos existentes.
+- `organization_id`, `related_roles`, `stories`, `skills`, `technologies` y `related_entities` solo pueden contener IDs de archivos canónicos existentes.
 - Un proyecto independiente puede usar `organization_id | []` y `related_roles | []`.
 - Los detalles completos de roles e historias no deben copiarse.
+- Las habilidades deben enlazarse cuando estén respaldadas por la contribución, los sistemas, los resultados o historias del proyecto; no deben asignarse por plausibilidad.
 - Los resultados no deben formularse como impacto probado cuando la evidencia solo registra intención, visibilidad reportada o una métrica ambigua.
 - IntegrationBase debe tratarse como candidata a historia mientras no exista una razón estructural y evidencia para modelarla de otro modo.
 - Una salida generada no debe usarse como única fuente de hechos canónicos.
@@ -78,6 +81,8 @@ Después de la tabla `Canonical Fields`, el archivo puede ampliar de forma compa
 | organization |  |
 | organization_id | [] |
 | related_roles | [] |
+| stories | [] |
+| skills | [] |
 | context |  |
 | problem |  |
 | contribution |  |

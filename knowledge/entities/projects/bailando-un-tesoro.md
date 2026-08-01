@@ -13,6 +13,7 @@
 | organization_id | `company:ucm` |
 | related_roles | [`role:ucm-research-software-development`] |
 | stories | [`story:bailando-un-tesoro-user-tests`] |
+| skills | [`skill:interdisciplinary-collaboration`, `skill:requirements-analysis`, `skill:research-software-development`, `skill:software-architecture`, `skill:stakeholder-communication`, `skill:user-testing-and-validation`] |
 | context | Iniciativa para acercar la danza española a niños y públicos jóvenes mediante un videojuego. |
 | problem | Representar la danza española de forma educativa y accesible, gestionando a la vez animaciones 3D largas y tiempos de carga adecuados para personas no habituadas a videojuegos. |
 | contribution | Participación desde la definición de la idea hasta diseño, desarrollo, pruebas, presentación y publicación; interlocución técnica frecuente con el Ballet Nacional y coordinación con perfiles técnicos y artísticos. |
