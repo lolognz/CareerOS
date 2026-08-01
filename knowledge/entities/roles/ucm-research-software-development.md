@@ -19,7 +19,7 @@
 | systems | Videojuegos y entornos de investigación para teatro clásico, danza española y práctica de comunicación oral en realidad virtual. |
 | projects | [`project:bailando-un-tesoro`, `project:comunicarte`, `project:la-cortesia-de-espana`] |
 | stories | [`story:bailando-un-tesoro-user-tests`, `story:comunicarte-bbva-proposal`, `story:comunicarte-virtual-audience`, `story:la-cortesia-from-tfg-to-product`] |
-| technologies | [] |
+| technologies | [`technology:c-sharp`, `technology:docker`, `technology:unity3d`] |
 | skills | [`skill:interdisciplinary-collaboration`, `skill:rapid-learning`, `skill:requirements-analysis`, `skill:research-software-development`, `skill:software-architecture`, `skill:stakeholder-communication`, `skill:technical-leadership-without-title`, `skill:user-testing-and-validation`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
@@ -54,11 +54,8 @@ Los detalles de La Cortesía de España, Bailando un Tesoro y ComunicArte corres
 - Historia candidata: entrevista en radio nacional sobre Bailando un Tesoro.
 - Historia candidata: presentación en inglés en una conferencia internacional de videojuegos.
 - Historia candidata: coordinación de pruebas y experimentos en escuelas.
-- Tecnología candidata: Unity3D.
-- Tecnología candidata: C#.
 - Tecnología candidata: realidad virtual.
 - Tecnología candidata: captura de movimiento.
-- Tecnología candidata: Docker.
 - Tecnología candidata: WordPress.
 - Publicaciones candidatas: artículos derivados de La Cortesía de España, Bailando un Tesoro y ComunicArte, pendientes de identificación individual.
 

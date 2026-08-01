@@ -18,7 +18,7 @@
 | problem | Explorar si un videojuego podía aumentar el interés de públicos jóvenes por el teatro clásico. |
 | contribution | Desarrollo junto a otros dos desarrolladores; adaptación de un framework conversacional; trabajo en escenas, iluminación, animaciones, guardado, minijuegos y pruebas e investigación con usuarios. |
 | systems | Videojuego para tableta y escritorio con navegación por escenas, conversaciones, animaciones, minijuegos y persistencia de partida. |
-| technologies | [] |
+| technologies | [`technology:c-sharp`, `technology:unity3d`] |
 | users_or_stakeholders | Niños y jóvenes, escuelas, participantes universitarios en pruebas, director del proyecto, artista gráfico y equipo de desarrollo. |
 | outcomes | Publicación en Play Store y para escritorio; experimentos en escuelas; datos analizados; publicaciones académicas; calificación de 10 para el trabajo final. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/ucm-research-software-development.md` |
@@ -31,8 +31,6 @@ El proyecto partió de un diseño y recursos gráficos existentes. El usuario ap
 
 ## Entidades candidatas pendientes
 
-- Tecnología candidata: Unity3D.
-- Tecnología candidata: C#.
 - Historia candidata: coordinación de grabación de voces y experimentos escolares.
 - Historia candidata: presentación en inglés en una conferencia internacional de videojuegos.
 - Publicaciones candidatas: artículos derivados del proyecto, pendientes de identificación individual.

@@ -18,7 +18,7 @@
 | problem | Generar distintos tipos de documentos dentro de la plataforma y mantener los microservicios asociados. |
 | contribution | Responsabilidad sobre tareas de generación documental; durante un periodo el usuario fue el único desarrollador que atendía esta área junto con contabilidad. |
 | systems | Microservicios separados por tipo de documento y componentes heredados que afectaban la generación del esquema de base de datos. |
-| technologies | [] |
+| technologies | [`technology:ci-cd`, `technology:hibernate`, `technology:java`, `technology:spring`, `technology:spring-boot`, `technology:sql`] |
 | users_or_stakeholders | Equipo técnico, responsables del proyecto, interlocutores de cliente y áreas usuarias de documentos; detalle no documentado. |
 | outcomes | Mantenimiento y evolución del área. IntegrationBase eliminó la necesidad de ciertos scripts de despliegue, pero su detalle queda reservado para una futura historia. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/mercury-tfs-software-engineer.md` |
@@ -28,10 +28,6 @@
 ## Entidades candidatas pendientes
 
 - Historia candidata: IntegrationBase.
-- Tecnología candidata: Java.
-- Tecnología candidata: Spring y Spring Boot.
-- Tecnología candidata: Hibernate y SQL.
-- Tecnología candidata: CI/CD y automatización de despliegues.
 
 ## Incertidumbre y evidencia
 

@@ -19,7 +19,7 @@
 | systems | Microservicios de pagos, principalmente Java y Spring y algunos Node.js; transferencias entrantes y salientes, pagos desde cuenta, pagos recurrentes e inmediatos, SEPA y transferencias transfronterizas. |
 | projects | [`project:deutsche-bank-payments-systems`] |
 | stories | [] |
-| technologies | [] |
+| technologies | [`technology:ibm-mq`, `technology:java`, `technology:node-js`, `technology:spring`, `technology:spring-boot`] |
 | skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
@@ -50,16 +50,12 @@ La experiencia expuso al usuario a arquitectura en una organización más grande
 
 ## Relaciones
 
-No existen todavía entidades canónicas específicas para los sistemas de pagos, las tecnologías o las historias operativas de este rol. Las relaciones se crearán cuando esas entidades estén disponibles, sin duplicar aquí sus futuros contenidos.
+Las tecnologías respaldadas se enlazan en los campos canónicos. Todavía no existen entidades específicas para los sistemas internos ni para las historias operativas de este rol.
 
 ## Entidades candidatas pendientes
 
 - Historia candidata: investigación y resolución de un incidente grave en producción.
 - Historia candidata: soporte ante errores de comunicación reportados por otros equipos.
-- Tecnología candidata: Java.
-- Tecnología candidata: Spring.
-- Tecnología candidata: Node.js.
-- Tecnología candidata: IBM MQ.
 - Sistema candidato: producción para recuperación ante desastres.
 
 ## Incertidumbre

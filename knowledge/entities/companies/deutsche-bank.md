@@ -15,7 +15,7 @@
 | roles | [`role:cgi-deutsche-bank-consultant`, `role:deutsche-bank-senior-backend-software-engineer`] |
 | projects | [`project:deutsche-bank-low-code-migration`, `project:deutsche-bank-payments-systems`] |
 | stories | [`story:deutsche-bank-transfer-to-payments-team`] |
-| technologies | [] |
+| technologies | [`technology:ibm-mq`, `technology:java`, `technology:spring`, `technology:spring-boot`] |
 | skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/cgi-deutsche-bank-consultant.md`; `knowledge/entities/roles/deutsche-bank-senior-backend-software-engineer.md` |
@@ -29,10 +29,7 @@ El contexto documentado es un equipo de pagos pequeño, experimentado y autónom
 
 ## Entidades candidatas pendientes
 
-- Tecnología candidata: Java.
-- Tecnología candidata: Spring.
-- Tecnología candidata: Node.js.
-- Tecnología candidata: IBM MQ.
+- Node.js está documentado en algunos servicios del entorno y enlazado desde el rol y el proyecto de pagos, pero no se agrega aquí como tecnología organizativa principal.
 
 ## Incertidumbre y fuentes
 

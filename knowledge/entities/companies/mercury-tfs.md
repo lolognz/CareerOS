@@ -15,7 +15,7 @@
 | roles | [`role:mercury-tfs-software-engineer`] |
 | projects | [`project:mercury-document-generation`, `project:mercury-trade-finance-platform`] |
 | stories | [`story:mercury-account-fields`, `story:mercury-integration-base`] |
-| technologies | [] |
+| technologies | [`technology:ci-cd`, `technology:docker`, `technology:elasticsearch`, `technology:hibernate`, `technology:java`, `technology:kubernetes`, `technology:spring`, `technology:spring-boot`, `technology:sql`] |
 | skills | [`skill:backend-development`, `skill:legacy-system-diagnosis`, `skill:microservices`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/mercury-tfs-software-engineer.md` |

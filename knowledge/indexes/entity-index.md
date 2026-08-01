@@ -92,7 +92,25 @@ Keep tables sorted by stable ID. Add links only to canonical entity files.
 
 | ID | Title | Link |
 | --- | --- | --- |
-| | | |
+| `technology:bash` | Bash | [bash.md](../entities/technologies/bash.md) |
+| `technology:c-sharp` | C# | [c-sharp.md](../entities/technologies/c-sharp.md) |
+| `technology:ci-cd` | CI/CD | [ci-cd.md](../entities/technologies/ci-cd.md) |
+| `technology:docker` | Docker | [docker.md](../entities/technologies/docker.md) |
+| `technology:elasticsearch` | Elasticsearch | [elasticsearch.md](../entities/technologies/elasticsearch.md) |
+| `technology:fastapi` | FastAPI | [fastapi.md](../entities/technologies/fastapi.md) |
+| `technology:google-apps-script` | Google Apps Script | [google-apps-script.md](../entities/technologies/google-apps-script.md) |
+| `technology:hibernate` | Hibernate | [hibernate.md](../entities/technologies/hibernate.md) |
+| `technology:ibm-mq` | IBM MQ | [ibm-mq.md](../entities/technologies/ibm-mq.md) |
+| `technology:java` | Java | [java.md](../entities/technologies/java.md) |
+| `technology:javascript` | JavaScript | [javascript.md](../entities/technologies/javascript.md) |
+| `technology:kubernetes` | Kubernetes | [kubernetes.md](../entities/technologies/kubernetes.md) |
+| `technology:node-js` | Node.js | [node-js.md](../entities/technologies/node-js.md) |
+| `technology:postman` | Postman | [postman.md](../entities/technologies/postman.md) |
+| `technology:python` | Python | [python.md](../entities/technologies/python.md) |
+| `technology:spring` | Spring | [spring.md](../entities/technologies/spring.md) |
+| `technology:spring-boot` | Spring Boot | [spring-boot.md](../entities/technologies/spring-boot.md) |
+| `technology:sql` | SQL | [sql.md](../entities/technologies/sql.md) |
+| `technology:unity3d` | Unity3D | [unity3d.md](../entities/technologies/unity3d.md) |
 
 ## Publications
 

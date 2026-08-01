@@ -19,7 +19,7 @@
 | systems | Plataforma de trade finance, microservicios de generación documental, área contable y procesos de generación de esquema de base de datos y despliegue. |
 | projects | [`project:mercury-document-generation`, `project:mercury-trade-finance-platform`] |
 | stories | [`story:mercury-account-fields`, `story:mercury-integration-base`] |
-| technologies | [] |
+| technologies | [`technology:ci-cd`, `technology:docker`, `technology:elasticsearch`, `technology:hibernate`, `technology:java`, `technology:kubernetes`, `technology:spring`, `technology:spring-boot`, `technology:sql`] |
 | skills | [`skill:api-design-and-integration`, `skill:automation-and-process-improvement`, `skill:backend-development`, `skill:code-review-and-mentoring`, `skill:estimation-and-prioritization`, `skill:legacy-system-diagnosis`, `skill:microservices`, `skill:rapid-learning`, `skill:requirements-analysis`, `skill:stakeholder-communication`, `skill:technical-leadership-without-title`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
@@ -40,7 +40,7 @@ En esa etapa estimaba su propio trabajo, revisaba código y ayudaba a compañero
 
 ## Sistemas y ámbito de trabajo
 
-El entorno incluía Java, Spring, Spring Boot, Hibernate, SQL, Elasticsearch y Sencha, con Docker, Kubernetes, CI/CD y automatización de despliegues. No se asignan aún IDs tecnológicos porque esas entidades no existen.
+El entorno incluía Java, Spring, Spring Boot, Hibernate, SQL, Elasticsearch y Sencha, con Docker, Kubernetes, CI/CD y automatización de despliegues. Las tecnologías que ya tienen entidad canónica se enlazan en la tabla; Sencha permanece como candidata.
 
 Uno de los cambios técnicos documentados fue IntegrationBase. El objeto Base heredado del monolito impedía generar correctamente tablas de base de datos en microservicios y obligaba a usar scripts durante los despliegues. El usuario y un compañero identificaron la causa después de más de dos años y crearon IntegrationBase para conservar el comportamiento necesario sin esos scripts.
 
@@ -53,16 +53,7 @@ La generación documental y la plataforma de trade finance tienen entidades can�
 - Proyecto candidato: área contable.
 - Historia candidata: IntegrationBase.
 - Historia candidata: account fields.
-- Tecnología candidata: Java.
-- Tecnología candidata: Spring.
-- Tecnología candidata: Spring Boot.
-- Tecnología candidata: Hibernate.
-- Tecnología candidata: SQL.
-- Tecnología candidata: Elasticsearch.
 - Tecnología candidata: Sencha.
-- Tecnología candidata: Docker.
-- Tecnología candidata: Kubernetes.
-- Tecnología candidata: CI/CD y automatización de despliegues.
 
 ## Incertidumbre
 

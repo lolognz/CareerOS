@@ -18,16 +18,16 @@
 | problem | Extraer información de fuentes y conservarla organizada por temas para su reutilización con agentes. |
 | contribution | Diseño y desarrollo personal del flujo descrito; alcance concreto no documentado. |
 | systems | Extracción desde fuentes como YouTube, obtención de audio, transcripción, generación de resúmenes y almacenamiento temático de conocimiento. |
-| technologies | [] |
+| technologies | [`technology:fastapi`, `technology:python`] |
 | users_or_stakeholders | Usuario como creador y usuario principal; otros usuarios no documentados. |
 | outcomes | Existe un flujo descrito para extraer, transcribir, resumir y organizar conocimiento; no constan despliegue, usuarios, escala ni uso en producción. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
-| uncertainty | No constan fechas, estado de implementación, arquitectura, tecnologías concretas, métricas, repositorio, despliegue ni nivel de automatización real. |
+| uncertainty | No constan fechas, estado de implementación, arquitectura detallada, métricas, repositorio, despliegue ni nivel de automatización real. Python y FastAPI están confirmados por el usuario, pero no se conoce qué partes concretas del flujo implementa cada uno. |
 | related_entities | [] |
 
 ## Entidades candidatas pendientes
 
-- Tecnología candidata: Python, pendiente de evidencia específica del proyecto en la fuente canónica.
+- Tecnologías relacionadas: `technology:python` y `technology:fastapi`; faltan detalles raw sobre su implementación.
 - Historia candidata: diseño del flujo de extracción y organización de conocimiento.
 
 ## Incertidumbre y evidencia

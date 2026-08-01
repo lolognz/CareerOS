@@ -18,7 +18,7 @@
 | problem | Sustituir servicios implementados con una tecnología low-code por servicios basados en Java y Spring. |
 | contribution | Desarrollo dentro del equipo de migración y mejora de conocimientos prácticos de Java y Spring; el detalle de componentes concretos no está documentado. |
 | systems | Microservicios migrados desde tecnología low-code; nombres, límites y flujos no documentados. |
-| technologies | [] |
+| technologies | [`technology:java`, `technology:spring`, `technology:spring-boot`] |
 | users_or_stakeholders | Equipo de migración de Deutsche Bank; otros usuarios o partes interesadas no documentados. |
 | outcomes | El usuario avanzaba por delante del plan según su recuerdo; no constan métricas ni estado final de la migración. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/cgi-deutsche-bank-consultant.md` |
@@ -27,8 +27,6 @@
 
 ## Entidades candidatas pendientes
 
-- Tecnología candidata: Java.
-- Tecnología candidata: Spring.
 - Tecnología candidata: plataforma low-code no identificada.
 - Historia candidata: cambio desde el equipo de migración al equipo de pagos.
 

@@ -18,7 +18,7 @@
 | problem | Desconocido en la evidencia canónica disponible |
 | contribution | Desconocida en la evidencia canónica disponible |
 | systems | Desconocidos en la evidencia canónica disponible |
-| technologies | [] |
+| technologies | [`technology:google-apps-script`] |
 | users_or_stakeholders | Desconocidos en la evidencia canónica disponible |
 | outcomes | Desconocidos en la evidencia canónica disponible |
 | evidence | Solicitud del usuario para crear Project Entities v1; falta una fuente raw dentro del repositorio con los detalles del proyecto. |
@@ -27,7 +27,7 @@
 
 ## Entidades candidatas pendientes
 
-- Tecnología candidata: Google Apps Script, pendiente de entidad canónica de tecnología.
+- Tecnología relacionada: `technology:google-apps-script`.
 
 ## Incertidumbre y evidencia
 

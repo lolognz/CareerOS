@@ -18,7 +18,7 @@
 | problem | Representar la danza española de forma educativa y accesible, gestionando a la vez animaciones 3D largas y tiempos de carga adecuados para personas no habituadas a videojuegos. |
 | contribution | Participación desde la definición de la idea hasta diseño, desarrollo, pruebas, presentación y publicación; interlocución técnica frecuente con el Ballet Nacional y coordinación con perfiles técnicos y artísticos. |
 | systems | Videojuego 3D basado en una escena Unity que cambiaba escenarios, personajes, música y animaciones; conversaciones y animaciones procedentes de captura de movimiento. |
-| technologies | [] |
+| technologies | [`technology:c-sharp`, `technology:unity3d`] |
 | users_or_stakeholders | Niños, escuelas, Ballet Nacional de España, dirección del proyecto, equipo técnico, artistas 2D y 3D y colaboradores especializados. |
 | outcomes | Publicación móvil; estudio con más de 700 niños; publicaciones; presencia en prensa, radio y televisión. El puesto número 2 y las 800.000 “reacciones” son cifras reportadas con reservas. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/ucm-research-software-development.md` |
@@ -32,8 +32,6 @@ La iniciativa surgió después de que el Ballet Nacional conociera La Cortesía 
 ## Entidades candidatas pendientes
 
 - Organización candidata: Ballet Nacional de España.
-- Tecnología candidata: Unity3D.
-- Tecnología candidata: C#.
 - Tecnología candidata: captura de movimiento.
 - Historia candidata: estudio con más de 700 niños.
 - Historia candidata: entrevista de radio con el director del Ballet Nacional.

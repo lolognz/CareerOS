@@ -15,7 +15,7 @@
 | roles | [`role:cgi-deutsche-bank-consultant`] |
 | projects | [`project:deutsche-bank-low-code-migration`] |
 | stories | [`story:deutsche-bank-transfer-to-payments-team`] |
-| technologies | [] |
+| technologies | [`technology:java`, `technology:spring`] |
 | skills | [`skill:backend-development`, `skill:microservices`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/cgi-deutsche-bank-consultant.md` |

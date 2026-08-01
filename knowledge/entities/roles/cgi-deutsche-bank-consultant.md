@@ -19,7 +19,7 @@
 | systems | Microservicios migrados desde tecnología low-code a Java y Spring; posteriormente sistemas de pagos bancarios mantenidos por el equipo de pagos. |
 | projects | [`project:deutsche-bank-low-code-migration`] |
 | stories | [`story:deutsche-bank-transfer-to-payments-team`] |
-| technologies | [] |
+| technologies | [`technology:java`, `technology:spring`, `technology:spring-boot`] |
 | skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`] |
 | achievements | [] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
@@ -50,8 +50,6 @@ La relación laboral principal de esta entidad corresponde a `company:cgi`. `com
 
 - Proyecto candidato: sistemas de pagos bancarios.
 - Historia candidata: cambio desde el equipo inicial al equipo de pagos.
-- Tecnología candidata: Java.
-- Tecnología candidata: Spring.
 - Tecnología candidata: microservicios.
 
 ## Incertidumbre

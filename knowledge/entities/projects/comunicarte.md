@@ -18,7 +18,7 @@
 | problem | La dificultad de practicar de forma realista el habla en público y el miedo asociado a esa situación. |
 | contribution | Participación en propuesta, concepto, nombre, presupuesto, equipo y tecnología; diseño, desarrollo y presentación; responsabilidad técnica sobre el escenario y la audiencia virtual. |
 | systems | Entorno de realidad virtual con escenario, audiencia, generación y distribución de personajes, análisis del habla mediante un componente de otro miembro y reacciones animadas según sus resultados. |
-| technologies | [] |
+| technologies | [`technology:c-sharp`, `technology:docker`, `technology:unity3d`] |
 | users_or_stakeholders | Personas que practican comunicación oral, equipo técnico, dirección del proyecto, colaboradores de investigación y Fundación BBVA. |
 | outcomes | Produjo publicaciones, presentaciones en conferencias y revistas, colaboraciones interdisciplinarias y soporte para trabajos doctorales y proyectos posteriores. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/ucm-research-software-development.md` |
@@ -32,10 +32,7 @@ El sistema se dividía en pantallas iniciales y de puntuación, análisis de la 
 ## Entidades candidatas pendientes
 
 - Organización candidata: Fundación BBVA.
-- Tecnología candidata: Unity3D.
-- Tecnología candidata: C#.
 - Tecnología candidata: realidad virtual.
-- Tecnología candidata: Docker.
 - Tecnología candidata: WordPress.
 - Historia candidata: preparación y gestión de la propuesta y la ayuda.
 - Publicaciones candidatas: artículos y presentaciones derivados del proyecto.
