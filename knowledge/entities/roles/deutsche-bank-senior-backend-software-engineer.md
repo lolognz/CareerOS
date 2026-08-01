@@ -21,7 +21,7 @@
 | stories | [] |
 | technologies | [`technology:ibm-mq`, `technology:java`, `technology:node-js`, `technology:spring`, `technology:spring-boot`] |
 | skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
-| achievements | [] |
+| achievements | [`achievement:deutsche-bank-direct-hire-after-consulting`] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
 | uncertainty | No constan día exacto de contratación, ubicación, título contractual literal, nombres de sistemas, métricas de tráfico ni delimitación temporal de cada responsabilidad. No se afirma que el usuario sea CTO ni Tech Lead. |
 | related_entities | [`company:deutsche-bank`] |

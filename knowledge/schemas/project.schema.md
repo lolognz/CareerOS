@@ -35,6 +35,7 @@ Un proyecto no es un rol, una historia concreta ni una redacción para CV. Tampo
 | `contribution` | Sí | Alcance documentado de la contribución de la persona, sin atribuir trabajo ajeno. |
 | `systems` | Sí | Componentes, flujos o límites técnicos documentados. |
 | `technologies` | Sí | IDs canónicos de tecnologías existentes; `[]` cuando aún no existan esas entidades. |
+| `achievements` | Sí | IDs canónicos de logros producidos o claramente vinculados al proyecto. |
 | `users_or_stakeholders` | Sí | Usuarios, clientes, colaboradores o partes interesadas conocidas. |
 | `outcomes` | Sí | Resultados documentados, con reservas explícitas para cifras reportadas o significado incierto. |
 | `evidence` | Sí | Rutas o IDs de fuentes que respaldan los hechos. |
@@ -56,7 +57,7 @@ Después de la tabla `Canonical Fields`, el archivo puede ampliar de forma compa
 ## Reglas de validación
 
 - Todos los campos deben estar presentes, incluso con valor explícitamente desconocido o `[]`.
-- `organization_id`, `related_roles`, `stories`, `skills`, `technologies` y `related_entities` solo pueden contener IDs de archivos canónicos existentes.
+- `organization_id`, `related_roles`, `stories`, `skills`, `technologies`, `achievements` y `related_entities` solo pueden contener IDs de archivos canónicos existentes.
 - Un proyecto independiente puede usar `organization_id | []` y `related_roles | []`.
 - Los detalles completos de roles e historias no deben copiarse.
 - Las habilidades deben enlazarse cuando estén respaldadas por la contribución, los sistemas, los resultados o historias del proyecto; no deben asignarse por plausibilidad.
@@ -88,6 +89,7 @@ Después de la tabla `Canonical Fields`, el archivo puede ampliar de forma compa
 | contribution |  |
 | systems |  |
 | technologies | [] |
+| achievements | [] |
 | users_or_stakeholders |  |
 | outcomes |  |
 | evidence |  |

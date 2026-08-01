@@ -19,6 +19,7 @@
 | contribution | Diseño y desarrollo personal del flujo descrito; alcance concreto no documentado. |
 | systems | Extracción desde fuentes como YouTube, obtención de audio, transcripción, generación de resúmenes y almacenamiento temático de conocimiento. |
 | technologies | [`technology:fastapi`, `technology:python`] |
+| achievements | [`achievement:deos-knowledge-extraction-working-pipeline`] |
 | users_or_stakeholders | Usuario como creador y usuario principal; otros usuarios no documentados. |
 | outcomes | Existe un flujo descrito para extraer, transcribir, resumir y organizar conocimiento; no constan despliegue, usuarios, escala ni uso en producción. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |

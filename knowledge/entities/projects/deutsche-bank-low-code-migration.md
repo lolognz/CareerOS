@@ -19,6 +19,7 @@
 | contribution | Desarrollo dentro del equipo de migración y mejora de conocimientos prácticos de Java y Spring; el detalle de componentes concretos no está documentado. |
 | systems | Microservicios migrados desde tecnología low-code; nombres, límites y flujos no documentados. |
 | technologies | [`technology:java`, `technology:spring`, `technology:spring-boot`] |
+| achievements | [`achievement:deutsche-bank-transfer-to-critical-payments-team`] |
 | users_or_stakeholders | Equipo de migración de Deutsche Bank; otros usuarios o partes interesadas no documentados. |
 | outcomes | El usuario avanzaba por delante del plan según su recuerdo; no constan métricas ni estado final de la migración. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/cgi-deutsche-bank-consultant.md` |

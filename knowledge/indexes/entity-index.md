@@ -128,4 +128,16 @@ Keep tables sorted by stable ID. Add links only to canonical entity files.
 
 | ID | Title | Link |
 | --- | --- | --- |
-| | | |
+| `achievement:bailando-un-tesoro-educational-games-ranking` | Posición reportada de Bailando un Tesoro en juegos educativos | [bailando-un-tesoro-educational-games-ranking.md](../entities/achievements/bailando-un-tesoro-educational-games-ranking.md) |
+| `achievement:bailando-un-tesoro-media-visibility` | Visibilidad mediática reportada de Bailando un Tesoro | [bailando-un-tesoro-media-visibility.md](../entities/achievements/bailando-un-tesoro-media-visibility.md) |
+| `achievement:bailando-un-tesoro-user-testing` | Pruebas con más de 700 niños en Bailando un Tesoro | [bailando-un-tesoro-user-testing.md](../entities/achievements/bailando-un-tesoro-user-testing.md) |
+| `achievement:comunicarte-bbva-funding` | Financiación de ComunicArte por Fundación BBVA | [comunicarte-bbva-funding.md](../entities/achievements/comunicarte-bbva-funding.md) |
+| `achievement:deos-knowledge-extraction-working-pipeline` | Pipeline funcional de extracción de conocimiento de DEOS | [deos-knowledge-extraction-working-pipeline.md](../entities/achievements/deos-knowledge-extraction-working-pipeline.md) |
+| `achievement:deutsche-bank-direct-hire-after-consulting` | Contratación directa por Deutsche Bank tras la consultoría | [deutsche-bank-direct-hire-after-consulting.md](../entities/achievements/deutsche-bank-direct-hire-after-consulting.md) |
+| `achievement:deutsche-bank-transfer-to-critical-payments-team` | Selección y traslado al equipo crítico de pagos de Deutsche Bank | [deutsche-bank-transfer-to-critical-payments-team.md](../entities/achievements/deutsche-bank-transfer-to-critical-payments-team.md) |
+| `achievement:invoice-automation-monthly-pdf-backup-email` | Automatización mensual de facturas, PDF, copia y correo | [invoice-automation-monthly-pdf-backup-email.md](../entities/achievements/invoice-automation-monthly-pdf-backup-email.md) |
+| `achievement:la-cortesia-publication-and-release` | Publicación y lanzamiento de La Cortesía de España | [la-cortesia-publication-and-release.md](../entities/achievements/la-cortesia-publication-and-release.md) |
+| `achievement:la-cortesia-tfg-grade` | Calificación del TFG de La Cortesía de España | [la-cortesia-tfg-grade.md](../entities/achievements/la-cortesia-tfg-grade.md) |
+| `achievement:mercury-functional-reference-areas` | Referencia funcional en áreas de Mercury TFS | [mercury-functional-reference-areas.md](../entities/achievements/mercury-functional-reference-areas.md) |
+| `achievement:mercury-integration-base-deployment-simplification` | Simplificación de despliegues mediante IntegrationBase | [mercury-integration-base-deployment-simplification.md](../entities/achievements/mercury-integration-base-deployment-simplification.md) |
+| `achievement:pulsecore-health-metrics-model` | Modelo de métricas de salud de PulseCore | [pulsecore-health-metrics-model.md](../entities/achievements/pulsecore-health-metrics-model.md) |

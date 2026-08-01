@@ -1,26 +1,26 @@
-# Achievements
+# Logros
 
-This folder contains achievement entities.
+Esta carpeta contiene entidades de logro.
 
-## What Belongs Here
+## Qué pertenece aquí
 
-- Concrete outcomes, recognitions, awards, milestones, measurable improvements, or validated accomplishments.
-- Context, impact, evidence, and relationships to the company, role, project, story, skill, or technology involved.
+- Resultados concretos, reconocimientos, premios, hitos, mejoras medibles o realizaciones validadas.
+- Contexto, resultado, evidencia y relaciones con la empresa, rol, proyecto, historia, habilidad o tecnología implicados.
 
-## Naming Convention
+## Convención de nombres
 
-Use a stable lowercase slug based on the achievement:
+Usar un slug estable en minúsculas basado en el logro:
 
 ```text
 achievement-name.md
 ```
 
-When needed, include a project, company, or year:
+Cuando sea necesario, incluir un proyecto, empresa o año:
 
 ```text
 achievement-name-project-or-YYYY.md
 ```
 
-## Relationship With Other Entities
+## Relación con otras entidades
 
-Achievements should never float without context. They should reference the role, project, story, or evidence that supports them. Do not duplicate achievement wording across projects and stories; link to the achievement entity.
+Los logros no deben quedar aislados de su contexto. Deben referenciar el rol, proyecto, historia o evidencia que los respalda. La redacción del logro no debe duplicarse entre proyectos e historias; esas entidades deben enlazar a la entidad de logro cuando su esquema lo permita.

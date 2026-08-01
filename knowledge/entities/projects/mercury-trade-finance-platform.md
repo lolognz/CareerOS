@@ -19,6 +19,7 @@
 | contribution | Desarrollo de funcionalidades, estimación, participación en reuniones con cliente, gestión de tareas, revisión de código y apoyo a compañeros; el alcance evolucionó con el tiempo. |
 | systems | Aplicación compleja con herencia monolítica y microservicios, incluida funcionalidad de contabilidad y generación documental. |
 | technologies | [`technology:ci-cd`, `technology:docker`, `technology:elasticsearch`, `technology:hibernate`, `technology:java`, `technology:kubernetes`, `technology:spring`, `technology:spring-boot`, `technology:sql`] |
+| achievements | [`achievement:mercury-functional-reference-areas`, `achievement:mercury-integration-base-deployment-simplification`] |
 | users_or_stakeholders | Clientes bancarios, interlocutores de negocio, equipo técnico y responsables del proyecto. |
 | outcomes | No constan resultados globales del producto ni métricas de negocio o adopción atribuibles a la contribución del usuario. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/mercury-tfs-software-engineer.md` |

@@ -19,6 +19,7 @@
 | contribution | Desarrollo, despliegues, gestión de colas MQ y certificados, tratamiento de vulnerabilidades, investigación de errores y soporte a otros equipos dentro del rol directo. |
 | systems | Microservicios para transferencias entrantes y salientes, pagos desde cuentas, pagos recurrentes e inmediatos, SEPA y transferencias transfronterizas; entornos de pruebas, producción y recuperación ante desastres. |
 | technologies | [`technology:ibm-mq`, `technology:java`, `technology:node-js`, `technology:spring`, `technology:spring-boot`] |
+| achievements | [`achievement:deutsche-bank-transfer-to-critical-payments-team`] |
 | users_or_stakeholders | Equipo de pagos, otros equipos que se comunican con los sistemas y áreas de negocio dependientes de los flujos de pagos. |
 | outcomes | El mantenimiento y la operación forman parte del trabajo documentado; no se aportan métricas de disponibilidad, volumen o impacto atribuible al usuario. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/deutsche-bank-senior-backend-software-engineer.md` |

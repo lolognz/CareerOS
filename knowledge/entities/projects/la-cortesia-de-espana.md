@@ -19,6 +19,7 @@
 | contribution | Desarrollo junto a otros dos desarrolladores; adaptación de un framework conversacional; trabajo en escenas, iluminación, animaciones, guardado, minijuegos y pruebas e investigación con usuarios. |
 | systems | Videojuego para tableta y escritorio con navegación por escenas, conversaciones, animaciones, minijuegos y persistencia de partida. |
 | technologies | [`technology:c-sharp`, `technology:unity3d`] |
+| achievements | [`achievement:la-cortesia-publication-and-release`, `achievement:la-cortesia-tfg-grade`] |
 | users_or_stakeholders | Niños y jóvenes, escuelas, participantes universitarios en pruebas, director del proyecto, artista gráfico y equipo de desarrollo. |
 | outcomes | Publicación en Play Store y para escritorio; experimentos en escuelas; datos analizados; publicaciones académicas; calificación de 10 para el trabajo final. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/ucm-research-software-development.md` |

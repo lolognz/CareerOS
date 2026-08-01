@@ -21,7 +21,7 @@
 | stories | [`story:bailando-un-tesoro-user-tests`, `story:comunicarte-bbva-proposal`, `story:comunicarte-virtual-audience`, `story:la-cortesia-from-tfg-to-product`] |
 | technologies | [`technology:c-sharp`, `technology:docker`, `technology:unity3d`] |
 | skills | [`skill:interdisciplinary-collaboration`, `skill:rapid-learning`, `skill:requirements-analysis`, `skill:research-software-development`, `skill:software-architecture`, `skill:stakeholder-communication`, `skill:technical-leadership-without-title`, `skill:user-testing-and-validation`] |
-| achievements | [] |
+| achievements | [`achievement:bailando-un-tesoro-educational-games-ranking`, `achievement:bailando-un-tesoro-media-visibility`, `achievement:bailando-un-tesoro-user-testing`, `achievement:comunicarte-bbva-funding`, `achievement:la-cortesia-publication-and-release`, `achievement:la-cortesia-tfg-grade`] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
 | uncertainty | La relación contractual y las fechas exactas varían entre proyectos. ComunicArte tuvo contrato desde abril de 2018 y duración prevista de 21 meses; no se conoce aquí la fecha exacta de cierre. Las cifras de visibilidad de Bailando un Tesoro requieren conservar sus reservas. |
 | related_entities | [`company:ucm`] |

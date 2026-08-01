@@ -21,7 +21,7 @@
 | stories | [`story:mercury-account-fields`, `story:mercury-integration-base`] |
 | technologies | [`technology:ci-cd`, `technology:docker`, `technology:elasticsearch`, `technology:hibernate`, `technology:java`, `technology:kubernetes`, `technology:spring`, `technology:spring-boot`, `technology:sql`] |
 | skills | [`skill:api-design-and-integration`, `skill:automation-and-process-improvement`, `skill:backend-development`, `skill:code-review-and-mentoring`, `skill:estimation-and-prioritization`, `skill:legacy-system-diagnosis`, `skill:microservices`, `skill:rapid-learning`, `skill:requirements-analysis`, `skill:stakeholder-communication`, `skill:technical-leadership-without-title`] |
-| achievements | [] |
+| achievements | [`achievement:mercury-functional-reference-areas`, `achievement:mercury-integration-base-deployment-simplification`] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
 | uncertainty | No constan día o mes de salida, título contractual exacto, ubicación ni fechas exactas de cada etapa interna. La condición de referente se limita a determinadas áreas funcionales y periodos. |
 | related_entities | [`company:mercury-tfs`] |

@@ -19,6 +19,7 @@
 | contribution | Diseño personal de métricas, flujos de datos y arquitectura; implementación concreta no documentada. |
 | systems | Flujo de análisis de datos procedentes de Apple Health; componentes y almacenamiento no documentados. |
 | technologies | [] |
+| achievements | [`achievement:pulsecore-health-metrics-model`] |
 | users_or_stakeholders | Usuario como creador y usuario previsto; otros usuarios no documentados. |
 | outcomes | Métricas objetivo definidas; no constan resultados validados, producto terminado, despliegue ni uso por terceros. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |

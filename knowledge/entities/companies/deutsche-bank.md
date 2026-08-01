@@ -17,7 +17,7 @@
 | stories | [`story:deutsche-bank-transfer-to-payments-team`] |
 | technologies | [`technology:ibm-mq`, `technology:java`, `technology:spring`, `technology:spring-boot`] |
 | skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
-| achievements | [] |
+| achievements | [`achievement:deutsche-bank-direct-hire-after-consulting`, `achievement:deutsche-bank-transfer-to-critical-payments-team`] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/cgi-deutsche-bank-consultant.md`; `knowledge/entities/roles/deutsche-bank-senior-backend-software-engineer.md` |
 | related-entities | [`company:cgi`] |
 

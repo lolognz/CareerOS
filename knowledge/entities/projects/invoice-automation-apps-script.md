@@ -19,6 +19,7 @@
 | contribution | Desconocida en la evidencia canónica disponible |
 | systems | Desconocidos en la evidencia canónica disponible |
 | technologies | [`technology:google-apps-script`] |
+| achievements | [`achievement:invoice-automation-monthly-pdf-backup-email`] |
 | users_or_stakeholders | Desconocidos en la evidencia canónica disponible |
 | outcomes | Desconocidos en la evidencia canónica disponible |
 | evidence | Solicitud del usuario para crear Project Entities v1; falta una fuente raw dentro del repositorio con los detalles del proyecto. |

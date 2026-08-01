@@ -21,7 +21,7 @@
 | stories | [`story:deutsche-bank-transfer-to-payments-team`] |
 | technologies | [`technology:java`, `technology:spring`, `technology:spring-boot`] |
 | skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`] |
-| achievements | [] |
+| achievements | [`achievement:deutsche-bank-direct-hire-after-consulting`, `achievement:deutsche-bank-transfer-to-critical-payments-team`] |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
 | uncertainty | La fuente ofrece dos variantes del título. No separa con fechas exactas todas las responsabilidades del periodo CGI frente al empleo directo posterior y señala que fueron ampliamente similares. |
 | related_entities | [`company:cgi`, `company:deutsche-bank`] |

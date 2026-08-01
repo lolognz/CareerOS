@@ -19,6 +19,7 @@
 | contribution | Participación desde la definición de la idea hasta diseño, desarrollo, pruebas, presentación y publicación; interlocución técnica frecuente con el Ballet Nacional y coordinación con perfiles técnicos y artísticos. |
 | systems | Videojuego 3D basado en una escena Unity que cambiaba escenarios, personajes, música y animaciones; conversaciones y animaciones procedentes de captura de movimiento. |
 | technologies | [`technology:c-sharp`, `technology:unity3d`] |
+| achievements | [`achievement:bailando-un-tesoro-educational-games-ranking`, `achievement:bailando-un-tesoro-media-visibility`, `achievement:bailando-un-tesoro-user-testing`] |
 | users_or_stakeholders | Niños, escuelas, Ballet Nacional de España, dirección del proyecto, equipo técnico, artistas 2D y 3D y colaboradores especializados. |
 | outcomes | Publicación móvil; estudio con más de 700 niños; publicaciones; presencia en prensa, radio y televisión. El puesto número 2 y las 800.000 “reacciones” son cifras reportadas con reservas. |
 | evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/entities/roles/ucm-research-software-development.md` |
