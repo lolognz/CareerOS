@@ -14,7 +14,7 @@
 | business-context | Negocio familiar de venta de calzado mediante tiendas y puestos de mercado. La sociedad creada por el usuario terminó convirtiéndose en la empresa familiar. |
 | roles | [`role:sorbe-shoes-founder-operations-manager`] |
 | projects | [] |
-| stories | [] |
+| stories | [`story:sorbe-shoes-operations-under-pressure`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |

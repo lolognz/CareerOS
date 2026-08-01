@@ -18,7 +18,7 @@
 | responsibilities | Venta, operación de tiendas y mercados, compras, distribución de stock, administración, almacén, rutas, logística, atención al público, gestión de empleados y reducción de costes. |
 | systems | Operación física de tres tiendas y mercados varios días por semana; almacén, stock, caja, rutas de reparto y transporte en furgoneta. |
 | projects | [] |
-| stories | [] |
+| stories | [`story:sorbe-shoes-operations-under-pressure`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |

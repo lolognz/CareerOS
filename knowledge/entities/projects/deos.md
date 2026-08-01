@@ -12,6 +12,7 @@
 | organization | Proyecto personal independiente |
 | organization_id | [] |
 | related_roles | [] |
+| stories | [`story:deos-knowledge-extraction-pipeline`] |
 | context | Experimento personal relacionado con extracción, estructuración de conocimiento, agentes, IA y automatización. |
 | problem | Extraer información de fuentes y conservarla organizada por temas para su reutilización con agentes. |
 | contribution | Diseño y desarrollo personal del flujo descrito; alcance concreto no documentado. |

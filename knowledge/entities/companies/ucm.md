@@ -14,7 +14,7 @@
 | business-context | Contexto universitario de tecnología educativa, serious games, investigación aplicada, experimentos con usuarios, publicaciones y comunicación académica. |
 | roles | [`role:ucm-research-software-development`] |
 | projects | [`project:bailando-un-tesoro`, `project:comunicarte`, `project:la-cortesia-de-espana`] |
-| stories | [] |
+| stories | [`story:bailando-un-tesoro-user-tests`, `story:comunicarte-bbva-proposal`, `story:comunicarte-virtual-audience`, `story:la-cortesia-from-tfg-to-product`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |

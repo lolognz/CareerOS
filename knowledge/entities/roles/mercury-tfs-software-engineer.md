@@ -18,7 +18,7 @@
 | responsibilities | Desarrollo, estimación, reuniones con cliente, gestión de tareas y prioridades, revisión de código, apoyo a compañeros y responsabilidad funcional sobre generación documental y contabilidad durante parte del periodo. |
 | systems | Plataforma de trade finance, microservicios de generación documental, área contable y procesos de generación de esquema de base de datos y despliegue. |
 | projects | [`project:mercury-document-generation`, `project:mercury-trade-finance-platform`] |
-| stories | [] |
+| stories | [`story:mercury-account-fields`, `story:mercury-integration-base`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |

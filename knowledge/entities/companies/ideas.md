@@ -14,7 +14,7 @@
 | business-context | Pequeña consultora en la que el usuario trabajó sobre un producto GRC para detectar y gestionar riesgos empresariales. |
 | roles | [`role:ideas-software-developer-intern`] |
 | projects | [] |
-| stories | [] |
+| stories | [`story:ideas-admin-permissions-mistake`, `story:ideas-client-export`, `story:ideas-four-weeks-in-one-morning`, `story:ideas-internal-chat`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |

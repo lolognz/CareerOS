@@ -14,7 +14,7 @@
 | business-context | Desarrollo de una plataforma compleja para operaciones de importación y exportación en las que bancos median entre empresas. El sistema combinaba herencia monolítica y microservicios. |
 | roles | [`role:mercury-tfs-software-engineer`] |
 | projects | [`project:mercury-document-generation`, `project:mercury-trade-finance-platform`] |
-| stories | [] |
+| stories | [`story:mercury-account-fields`, `story:mercury-integration-base`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |

@@ -14,7 +14,7 @@
 | business-context | Organización mediante la que el usuario prestó servicios como consultor externo en Deutsche Bank. |
 | roles | [`role:cgi-deutsche-bank-consultant`] |
 | projects | [`project:deutsche-bank-low-code-migration`] |
-| stories | [] |
+| stories | [`story:deutsche-bank-transfer-to-payments-team`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |
