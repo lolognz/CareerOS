@@ -12,6 +12,7 @@
 | organization | Proyecto personal independiente |
 | organization_id | [] |
 | related_roles | [] |
+| stories | [`story:pulsecore-health-metrics-engine`] |
 | context | Proyecto personal para analizar datos de Apple Health y diseñar métricas derivadas. |
 | problem | Organizar datos de salud y calcular indicadores como readiness, recovery, fatigue y strain. |
 | contribution | Diseño personal de métricas, flujos de datos y arquitectura; implementación concreta no documentada. |

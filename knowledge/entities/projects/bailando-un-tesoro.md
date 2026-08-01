@@ -12,6 +12,7 @@
 | organization | Universidad Complutense de Madrid, en colaboración con el Ballet Nacional de España |
 | organization_id | `company:ucm` |
 | related_roles | [`role:ucm-research-software-development`] |
+| stories | [`story:bailando-un-tesoro-user-tests`] |
 | context | Iniciativa para acercar la danza española a niños y públicos jóvenes mediante un videojuego. |
 | problem | Representar la danza española de forma educativa y accesible, gestionando a la vez animaciones 3D largas y tiempos de carga adecuados para personas no habituadas a videojuegos. |
 | contribution | Participación desde la definición de la idea hasta diseño, desarrollo, pruebas, presentación y publicación; interlocución técnica frecuente con el Ballet Nacional y coordinación con perfiles técnicos y artísticos. |

@@ -18,7 +18,7 @@
 | responsibilities | Desarrollo de funcionalidades de distinto tamaño, resolución de consultas de negocio y apoyo puntual con Excel y Visual Basic. |
 | systems | Producto GRC (Governance, Risk Management and Compliance), sistema de correo interno reutilizado para chat y mecanismos de exportación de información de clientes. |
 | projects | [] |
-| stories | [] |
+| stories | [`story:ideas-admin-permissions-mistake`, `story:ideas-client-export`, `story:ideas-four-weeks-in-one-morning`, `story:ideas-internal-chat`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |

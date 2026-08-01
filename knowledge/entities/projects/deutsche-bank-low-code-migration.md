@@ -12,6 +12,7 @@
 | organization | Deutsche Bank, mediante consultoría de CGI |
 | organization_id | `company:deutsche-bank` |
 | related_roles | [`role:cgi-deutsche-bank-consultant`] |
+| stories | [`story:deutsche-bank-transfer-to-payments-team`] |
 | context | Equipo encargado de migrar microservicios desde una tecnología low-code a Java y Spring. |
 | problem | Sustituir servicios implementados con una tecnología low-code por servicios basados en Java y Spring. |
 | contribution | Desarrollo dentro del equipo de migración y mejora de conocimientos prácticos de Java y Spring; el detalle de componentes concretos no está documentado. |

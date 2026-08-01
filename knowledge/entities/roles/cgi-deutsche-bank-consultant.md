@@ -18,7 +18,7 @@
 | responsibilities | Desarrollo backend, migración de servicios, mantenimiento de microservicios de pagos y responsabilidades operativas que continuaron de forma general tras la contratación directa. |
 | systems | Microservicios migrados desde tecnología low-code a Java y Spring; posteriormente sistemas de pagos bancarios mantenidos por el equipo de pagos. |
 | projects | [`project:deutsche-bank-low-code-migration`] |
-| stories | [] |
+| stories | [`story:deutsche-bank-transfer-to-payments-team`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |

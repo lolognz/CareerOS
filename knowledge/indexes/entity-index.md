@@ -47,7 +47,21 @@ Keep tables sorted by stable ID. Add links only to canonical entity files.
 
 | ID | Title | Link |
 | --- | --- | --- |
-| | | |
+| `story:bailando-un-tesoro-user-tests` | Pruebas con usuarios de Bailando un Tesoro | [bailando-un-tesoro-user-tests.md](../entities/stories/bailando-un-tesoro-user-tests.md) |
+| `story:comunicarte-bbva-proposal` | Propuesta de ComunicArte para Fundación BBVA | [comunicarte-bbva-proposal.md](../entities/stories/comunicarte-bbva-proposal.md) |
+| `story:comunicarte-virtual-audience` | Audiencia virtual de ComunicArte | [comunicarte-virtual-audience.md](../entities/stories/comunicarte-virtual-audience.md) |
+| `story:deos-knowledge-extraction-pipeline` | Flujo de extracción de conocimiento de DEOS | [deos-knowledge-extraction-pipeline.md](../entities/stories/deos-knowledge-extraction-pipeline.md) |
+| `story:deutsche-bank-transfer-to-payments-team` | Traslado al equipo de pagos de Deutsche Bank | [deutsche-bank-transfer-to-payments-team.md](../entities/stories/deutsche-bank-transfer-to-payments-team.md) |
+| `story:ideas-admin-permissions-mistake` | Error de permisos de administración en IDEAS | [ideas-admin-permissions-mistake.md](../entities/stories/ideas-admin-permissions-mistake.md) |
+| `story:ideas-client-export` | Exportación de información de un cliente en IDEAS | [ideas-client-export.md](../entities/stories/ideas-client-export.md) |
+| `story:ideas-four-weeks-in-one-morning` | Cuatro semanas resueltas en una mañana en IDEAS | [ideas-four-weeks-in-one-morning.md](../entities/stories/ideas-four-weeks-in-one-morning.md) |
+| `story:ideas-internal-chat` | Chat interno de IDEAS | [ideas-internal-chat.md](../entities/stories/ideas-internal-chat.md) |
+| `story:invoice-automation-monthly-process` | Proceso mensual de automatización de facturas | [invoice-automation-monthly-process.md](../entities/stories/invoice-automation-monthly-process.md) |
+| `story:la-cortesia-from-tfg-to-product` | La Cortesía de España, de TFG a producto e investigación | [la-cortesia-from-tfg-to-product.md](../entities/stories/la-cortesia-from-tfg-to-product.md) |
+| `story:mercury-account-fields` | Account fields en Mercury TFS | [mercury-account-fields.md](../entities/stories/mercury-account-fields.md) |
+| `story:mercury-integration-base` | IntegrationBase en Mercury TFS | [mercury-integration-base.md](../entities/stories/mercury-integration-base.md) |
+| `story:pulsecore-health-metrics-engine` | Motor de métricas de salud de PulseCore | [pulsecore-health-metrics-engine.md](../entities/stories/pulsecore-health-metrics-engine.md) |
+| `story:sorbe-shoes-operations-under-pressure` | Operaciones de Sorbe Shoes bajo presión | [sorbe-shoes-operations-under-pressure.md](../entities/stories/sorbe-shoes-operations-under-pressure.md) |
 
 ## Skills
 

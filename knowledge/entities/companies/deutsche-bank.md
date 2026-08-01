@@ -14,7 +14,7 @@
 | business-context | Entorno bancario internacional asociado al mantenimiento de sistemas críticos de pagos y transferencias. |
 | roles | [`role:cgi-deutsche-bank-consultant`, `role:deutsche-bank-senior-backend-software-engineer`] |
 | projects | [`project:deutsche-bank-low-code-migration`, `project:deutsche-bank-payments-systems`] |
-| stories | [] |
+| stories | [`story:deutsche-bank-transfer-to-payments-team`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |

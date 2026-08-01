@@ -18,7 +18,7 @@
 | responsibilities | Diseño y desarrollo de videojuegos educativos, pruebas con usuarios, coordinación técnica y artística, análisis de datos, escritura científica, presentaciones, preparación de propuestas y participación en gestión de proyectos. |
 | systems | Videojuegos y entornos de investigación para teatro clásico, danza española y práctica de comunicación oral en realidad virtual. |
 | projects | [`project:bailando-un-tesoro`, `project:comunicarte`, `project:la-cortesia-de-espana`] |
-| stories | [] |
+| stories | [`story:bailando-un-tesoro-user-tests`, `story:comunicarte-bbva-proposal`, `story:comunicarte-virtual-audience`, `story:la-cortesia-from-tfg-to-product`] |
 | technologies | [] |
 | skills | [] |
 | achievements | [] |
