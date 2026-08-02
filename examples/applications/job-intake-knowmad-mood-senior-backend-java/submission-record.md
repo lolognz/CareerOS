@@ -1,4 +1,13 @@
-# Registro de candidatura — knowmad mood — Senior Backend Java
+# Registro de fixture de ejemplo — knowmad mood — Senior Backend Java
+
+## Clasificación
+
+- Tipo: fixture de ejemplo no canónico
+- Aplicación real: no
+- Presentada: no
+- Propósito: probar el workflow de Job Intake con una oferta realista
+- Outputs generados: ninguno
+- Restricción: no debe tratarse como historia profesional canónica ni como historial real de candidaturas
 
 ## Identificación
 
@@ -12,7 +21,7 @@
 
 ## Estado
 
-- Estado: Job Intake completado; candidatura todavía no presentada
+- Estado: Job Intake de ejemplo completado; no es una candidatura real
 - Recomendación: aplicar tras aclarar
 - Outputs generados: ninguno
 
@@ -22,7 +31,7 @@
 
 ## Resultado
 
-- Outcome: candidatura no presentada
+- Outcome: fixture de prueba completado; candidatura no presentada
 
 ## Próximos pasos
 

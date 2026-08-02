@@ -31,7 +31,9 @@ Argumentos opcionales:
 
 Por seguridad, el script rechaza por defecto una carpeta de candidatura existente. `--force` no borra la carpeta ni archivos adicionales: vuelve a escribir solo los seis documentos basados en plantillas, `submission-record.md` y `generated/README.md`.
 
-El resultado queda bajo `career/applications/YYYY-MM-company-slug-role-slug/`. El siguiente paso obligatorio es pegar la oferta original en `job-description.md`; el scaffold no inventa ni completa contenido de la oferta.
+El resultado queda bajo `career/applications/YYYY-MM-company-slug-role-slug/` y, por tanto, se considera un expediente activo por defecto. El siguiente paso obligatorio es pegar la oferta original en `job-description.md`; el scaffold no inventa ni completa contenido de la oferta.
+
+Los expedientes creados únicamente como ejemplos deben prepararse intencionadamente bajo `examples/applications/` o moverse allí manualmente, dejando claro en su registro que son fixtures no canónicos y no candidaturas reales.
 
 ## Validar un expediente
 

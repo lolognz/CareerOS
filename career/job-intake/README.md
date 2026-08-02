@@ -9,10 +9,13 @@ knowledge/                 hechos profesionales canónicos
 career/target-profiles/    estrategias de posicionamiento reutilizables
 career/job-intake/         método para analizar oportunidades
 career/applications/       expedientes de candidaturas concretas
+examples/applications/     fixtures no canónicos para probar el workflow
 generated/                 salidas desechables generales
 ```
 
 Dentro de una candidatura, `generated/` contiene las salidas desechables específicas de esa oportunidad. Ninguna salida se convierte en fuente canónica.
+
+Las candidaturas reales y activas pertenecen a `career/applications/`. Los intakes creados para probar el sistema pertenecen a `examples/applications/` y no deben interpretarse como historial real de candidaturas.
 
 ## Componentes
 
