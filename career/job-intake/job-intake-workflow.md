@@ -44,6 +44,8 @@ La carpeta `generated/` y `submission-record.md` se crean o completan en fases p
 
 Control de salida: no continuar si falta el texto original o no está identificada su incompletitud.
 
+Ejecutar `scripts/applications/validate_application.py RUTA` antes del análisis. Corregir cualquier `FAIL`; revisar los `WARN` o usar `--strict` cuando se requiera una captura sin advertencias.
+
 ### 2. Extraer requisitos
 
 - Completar `job-intake.md` desde la oferta preservada.

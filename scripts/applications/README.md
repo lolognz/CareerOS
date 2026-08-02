@@ -32,3 +32,30 @@ Argumentos opcionales:
 Por seguridad, el script rechaza por defecto una carpeta de candidatura existente. `--force` no borra la carpeta ni archivos adicionales: vuelve a escribir solo los seis documentos basados en plantillas, `submission-record.md` y `generated/README.md`.
 
 El resultado queda bajo `career/applications/YYYY-MM-company-slug-role-slug/`. El siguiente paso obligatorio es pegar la oferta original en `job-description.md`; el scaffold no inventa ni completa contenido de la oferta.
+
+## Validar un expediente
+
+Después de pegar la descripción original y antes de ejecutar Job Intake, validar la estructura:
+
+```bash
+python scripts/applications/validate_application.py \
+  career/applications/2026-08-example-company-senior-backend-engineer
+```
+
+El resultado puede ser:
+
+- `PASS`: estructura lista para Job Intake.
+- `WARN`: usable, pero quedan precauciones como metadatos o encabezados pendientes. Devuelve código 0.
+- `FAIL`: falta estructura obligatoria, la oferta original no está presente o existen outputs prematuros. Devuelve código 1.
+
+Opciones:
+
+```bash
+# Tratar también los avisos como errores
+python scripts/applications/validate_application.py RUTA --strict
+
+# Permitir archivos ya existentes bajo generated/
+python scripts/applications/validate_application.py RUTA --allow-generated
+```
+
+La validación es estructural y de solo lectura. No interpreta semánticamente la oferta, no comprueba el encaje profesional y no ejecuta el análisis de Job Intake.

@@ -37,6 +37,8 @@ python scripts/applications/create_application.py \
 
 La carpeta debe ser nueva. `--force` permite sobrescribir únicamente los archivos administrados por el scaffold y nunca debe usarse sin revisar antes el expediente existente. Tras crearla, se debe pegar la oferta original en `job-description.md` antes de iniciar el análisis.
 
+Después de pegar la oferta y antes de ejecutar Job Intake, `scripts/applications/validate_application.py RUTA` comprueba en modo de solo lectura que el expediente tenga la estructura necesaria y que la sección original no siga vacía. Es una validación estructural, no un análisis semántico de la oportunidad.
+
 ## Principios
 
 - Preservar primero el texto original de la oferta, sin corregirlo ni resumirlo.
