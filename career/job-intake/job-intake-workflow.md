@@ -29,7 +29,9 @@ La carpeta `generated/` y `submission-record.md` se crean o completan en fases p
 ### 0. Crear el expediente
 
 - Elegir un slug estable `YYYY-MM-company-role` sin inventar datos no presentes.
-- Copiar las seis plantillas de `templates/applications/` al expediente.
+- Ejecutar `scripts/applications/create_application.py` con fecha, slugs, empresa y título del puesto; consultar `scripts/applications/README.md` para los argumentos opcionales.
+- El script copia y renombra las seis plantillas de `templates/applications/`, crea `submission-record.md` pendiente y deja `generated/` sin materiales de candidatura.
+- No usar `--force` sobre un expediente existente sin revisar antes qué archivos administrados serán sobrescritos.
 - No crear salidas generadas en esta fase.
 
 ### 1. Preservar la oferta original

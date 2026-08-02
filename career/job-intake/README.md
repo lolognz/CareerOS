@@ -22,6 +22,21 @@ Dentro de una candidatura, `generated/` contiene las salidas desechables especí
 - [index.md](index.md): navegación de la capa.
 - `templates/applications/`: plantillas para cada documento de un expediente.
 
+## Crear el scaffold de una candidatura
+
+El script `scripts/applications/create_application.py` crea un expediente vacío con las seis plantillas, un registro de candidatura pendiente y una carpeta `generated/` sin outputs:
+
+```bash
+python scripts/applications/create_application.py \
+  --date 2026-08 \
+  --company-slug example-company \
+  --role-slug senior-backend-engineer \
+  --company-name "Example Company" \
+  --role-title "Senior Backend Engineer"
+```
+
+La carpeta debe ser nueva. `--force` permite sobrescribir únicamente los archivos administrados por el scaffold y nunca debe usarse sin revisar antes el expediente existente. Tras crearla, se debe pegar la oferta original en `job-description.md` antes de iniciar el análisis.
+
 ## Principios
 
 - Preservar primero el texto original de la oferta, sin corregirlo ni resumirlo.
