@@ -33,6 +33,8 @@ Por seguridad, el script rechaza por defecto una carpeta de candidatura existent
 
 El resultado queda bajo `career/applications/YYYY-MM-company-slug-role-slug/` y, por tanto, se considera un expediente activo por defecto. El siguiente paso obligatorio es pegar la oferta original en `job-description.md`; el scaffold no inventa ni completa contenido de la oferta.
 
+El scaffold deja `generated/` sin materiales. `generated/recruiter-message.md` solo se crea posteriormente mediante `generators/recruiter-message/`; no es responsabilidad de `create_application.py`.
+
 Los expedientes creados únicamente como ejemplos deben prepararse intencionadamente bajo `examples/applications/` o moverse allí manualmente, dejando claro en su registro que son fixtures no canónicos y no candidaturas reales.
 
 ## Validar un expediente

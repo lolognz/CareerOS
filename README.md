@@ -34,6 +34,7 @@ The repository gives humans and AI agents one place to read from, one place to u
 CareerOS/
 |-- assets/              # Supporting media and evidence assets
 |-- docs/                # Project documentation
+|-- generators/          # Reusable workflows for disposable outputs
 |-- generated/           # Disposable generated outputs, ignored by git
 |-- knowledge/           # Source professional knowledge
 |   |-- entities/        # Canonical entities: companies, projects, stories, etc.

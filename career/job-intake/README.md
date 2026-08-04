@@ -15,6 +15,8 @@ generated/                 salidas desechables generales
 
 Dentro de una candidatura, `generated/` contiene las salidas desechables específicas de esa oportunidad. Ninguna salida se convierte en fuente canónica.
 
+Tras completar y revisar el intake, una fase posterior puede usar `generators/recruiter-message/` para crear `generated/recruiter-message.md`; el mensaje no forma parte de Job Intake.
+
 Las candidaturas reales y activas pertenecen a `career/applications/`. Los intakes creados para probar el sistema pertenecen a `examples/applications/` y no deben interpretarse como historial real de candidaturas.
 
 ## Componentes
