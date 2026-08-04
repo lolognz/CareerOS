@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV - Manuel González Riojo</title>
+  <style>
+    @page {
+      size: A4;
+      margin: 10.5mm 11mm;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      background: #edf0f2;
+    }
+
+    body {
+      margin: 0;
+      color: #1f2933;
+      background: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 9.4pt;
+      line-height: 1.3;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 190mm;
+      min-height: 277mm;
+      margin: 0 auto;
+      padding: 0;
+      background: #fff;
+    }
+
+    header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+      padding-bottom: 7px;
+      border-bottom: 1.4px solid #26323d;
+      margin-bottom: 8px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .header-main {
+      min-width: 0;
+      flex: 1;
+      padding-top: 2px;
+    }
+
+    .photo {
+      width: 78px;
+      height: 94px;
+      border-radius: 6px;
+      border: 1px solid #d7dde3;
+      object-fit: cover;
+      object-position: center;
+      background: #f3f5f7;
+      flex: 0 0 auto;
+      display: block;
+    }
+
+    h1 {
+      margin: 0 0 3px;
+      color: #111827;
+      font-size: 20.5pt;
+      line-height: 1.02;
+      font-weight: 700;
+    }
+
+    .target-title {
+      margin: 0 0 5px;
+      color: #26323d;
+      font-size: 11pt;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+
+    .contact {
+      color: #4b5563;
+      font-size: 9pt;
+    }
+
+    .contact a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    h2 {
+      margin: 9px 0 4px;
+      padding-bottom: 2px;
+      border-bottom: 1px solid #d7dde3;
+      color: #111827;
+      font-size: 10.2pt;
+      line-height: 1.16;
+      text-transform: uppercase;
+      letter-spacing: 0.15px;
+    }
+
+    h3 {
+      margin: 7px 0 2px;
+      color: #18232e;
+      font-size: 9.55pt;
+      line-height: 1.2;
+    }
+
+    p {
+      margin: 0 0 4.5px;
+    }
+
+    ul {
+      margin: 3px 0 6px 15px;
+      padding: 0;
+    }
+
+    li {
+      margin: 1.3px 0;
+    }
+
+    .section,
+    .experience,
+    .compact-block {
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .role-meta {
+      margin: 0 0 3px;
+      color: #4b5563;
+      font-size: 8.8pt;
+      font-weight: 700;
+    }
+
+    .tech-lines p {
+      margin-bottom: 2.3px;
+    }
+
+    strong {
+      color: #111827;
+    }
+
+    @media screen {
+      body {
+        max-width: 210mm;
+        margin: 12px auto;
+        padding: 10.5mm 11mm;
+        box-shadow: 0 2px 18px rgba(31, 41, 51, 0.15);
+      }
+    }
+
+    @media print {
+      html,
+      body {
+        background: #fff;
+      }
+
+      body {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        font-size: 9pt;
+        line-height: 1.28;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .page {
+        min-height: 0;
+      }
+
+      h1 {
+        font-size: 19.2pt;
+      }
+
+      .target-title {
+        font-size: 10.4pt;
+      }
+
+      h2 {
+        margin-top: 8px;
+        margin-bottom: 4px;
+        font-size: 9.5pt;
+      }
+
+      h3 {
+        margin-top: 6px;
+        margin-bottom: 2px;
+        font-size: 9pt;
+      }
+
+      p {
+        margin-bottom: 3.5px;
+      }
+
+      ul {
+        margin-top: 2px;
+        margin-bottom: 5px;
+      }
+
+      li {
+        margin: 1px 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .photo {
+        width: 72px;
+        height: 88px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div class="header-main">
+        <h1>Manuel González Riojo</h1>
+        <p class="target-title">Senior Backend Engineer · Java y sistemas críticos</p>
+        <div class="contact">
+          <a href="mailto:lolognz@gmail.com">lolognz@gmail.com</a> ·
+          <a href="https://www.linkedin.com/in/mgonzalezriojo/">www.linkedin.com/in/mgonzalezriojo/</a>
+        </div>
+      </div>
+      <img class="photo" src="assets/manuel-gonzalez-riojo.jpg" alt="Foto profesional de Manuel González Riojo">
+    </header>
+
+    <section class="section">
+      <h2>Perfil profesional</h2>
+      <p>Senior Backend Software Engineer con experiencia profesional sostenida en Java y Spring desde 2020, especializado en microservicios y software bancario. Actualmente trabaja en sistemas críticos de pagos de Deutsche Bank, combinando desarrollo backend con despliegues, mensajería, seguimiento de producción, investigación de errores y soporte a otros equipos.</p>
+      <p>Aporta una forma de trabajo orientada al ciclo completo del software: análisis y diseño técnico, desarrollo, pruebas locales, revisión de código, CI/CD, paso por entornos y responsabilidad compartida sobre el comportamiento del producto en producción. En producción ha combinado monitorización y diagnóstico con colaboración con equipos DevOps para los cambios operativos sujetos a permisos. Ha ejercido revisión de código, apoyo a compañeros y responsabilidad funcional en ámbitos concretos, con potencial de evolución hacia liderazgo técnico hands-on.</p>
+    </section>
+
+    <section class="section">
+      <h2>Competencias clave</h2>
+      <ul>
+        <li>Backend Java/Spring y mantenimiento evolutivo de microservicios.</li>
+        <li>Sistemas críticos de pagos, producción y recuperación ante desastres.</li>
+        <li>Integración y mensajería con IBM MQ; diagnóstico de comunicaciones entre servicios.</li>
+        <li>Despliegues, CI/CD, monitorización, vulnerabilidades, certificados e investigación de errores.</li>
+        <li>Colaboración con equipos DevOps en despliegues, monitorización e investigación de incidencias, con mayor autonomía operativa en entornos previos a producción.</li>
+        <li>Revisión de código, apoyo técnico, estimación y coordinación con equipos técnicos y de negocio.</li>
+        <li>Diagnóstico de sistemas heredados y simplificación de soluciones de despliegue.</li>
+      </ul>
+    </section>
+
+    <section class="section tech-lines">
+      <h2>Tecnologías</h2>
+      <p><strong>Backend:</strong> Java, Spring, Spring Boot, microservicios.</p>
+      <p><strong>Integración y producción:</strong> IBM MQ, CI/CD, despliegues y soporte a producción.</p>
+      <p><strong>Contenedores y plataforma:</strong> exposición acotada a Docker y Kubernetes en entornos profesionales.</p>
+    </section>
+
+    <section>
+      <h2>Experiencia profesional</h2>
+
+      <article class="experience">
+        <h3>Senior Backend Software Engineer — Deutsche Bank</h3>
+        <p class="role-meta">Septiembre 2024–Actualidad</p>
+        <ul>
+          <li>Desarrollo y mantenimiento de microservicios de pagos, principalmente con Java y Spring, dentro de un equipo pequeño, experimentado y autónomo.</li>
+          <li>Trabajo sobre transferencias entrantes y salientes, pagos desde cuenta, pagos recurrentes e inmediatos, SEPA y transferencias transfronterizas.</li>
+          <li>Participación en la operación de los servicios mediante seguimiento de despliegues, gestión de colas MQ y certificados, tratamiento de vulnerabilidades e investigación de errores.</li>
+          <li>Monitorización de entornos, soporte a otros equipos y respuesta prioritaria ante problemas graves, con responsabilidad compartida del equipo sobre producción y recuperación ante desastres.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Senior Software Engineer / Senior Backend Software Engineer — CGI, para Deutsche Bank</h3>
+        <p class="role-meta">Enero 2023–Septiembre 2024</p>
+        <ul>
+          <li>Desarrollo backend como consultor externo en Deutsche Bank, primero en la migración de microservicios desde tecnología low-code a Java y Spring.</li>
+          <li>Tras aproximadamente seis meses, participación en un proceso interno de selección y traslado al equipo crítico de pagos.</li>
+          <li>Continuidad en el mantenimiento de microservicios y responsabilidades operativas del ámbito de pagos antes de la contratación directa posterior por Deutsche Bank.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Software Engineer — Mercury TFS</h3>
+        <p class="role-meta">Enero 2020–Enero 2023</p>
+        <ul>
+          <li>Desarrollo de software bancario para trade finance en una plataforma compleja que combinaba herencia monolítica y microservicios, utilizando Java, Spring y Spring Boot.</li>
+          <li>Evolución hacia autonomía y responsabilidad funcional en generación documental y contabilidad durante parte del periodo, con estimación, gestión de tareas, reuniones con cliente, revisión de código y apoyo a compañeros.</li>
+          <li>Trabajo en microservicios, CI/CD y entornos con Docker y Kubernetes, dentro del alcance del equipo y sin responsabilidad de administración de plataforma.</li>
+          <li>Identificación, junto con un compañero, de una causa heredada que impedía generar correctamente tablas para microservicios; creación compartida de IntegrationBase, eliminando los scripts de despliegue asociados a ese problema concreto.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Experiencia previa seleccionada</h2>
+
+      <article class="experience">
+        <h3>Investigación y desarrollo de software — Universidad Complutense de Madrid</h3>
+        <p class="role-meta">2015–2019</p>
+        <ul>
+          <li>Diseño y desarrollo de software para La Cortesía de España, Bailando un Tesoro y ComunicArte, combinando investigación aplicada, documentación y validación con usuarios.</li>
+          <li>Colaboración interdisciplinar y comunicación con perfiles técnicos, artísticos, académicos e institucionales durante el diseño, las pruebas y la presentación de los proyectos.</li>
+        </ul>
+      </article>
+
+      <article class="experience">
+        <h3>Visiting Researcher Scholar — Harvard University</h3>
+        <p class="role-meta">2017–2018</p>
+        <ul>
+          <li>Desarrollo de un sitio w
+              eb y una plataforma para ampliar el alcance de una metodología educativa basada en el arte y conectar a personas que la aplicaban en distintos lugares del mundo.</li>
+          <li>Experiencia internacional en Estados Unidos dentro de un contexto interdisciplinar de tecnología, educación, artes y alfabetización.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
