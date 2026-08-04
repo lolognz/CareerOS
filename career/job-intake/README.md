@@ -21,6 +21,7 @@ Las candidaturas reales y activas pertenecen a `career/applications/`. Los intak
 
 ## Componentes
 
+- [Fast Application Workflow](../../docs/workflows/fast-application-workflow.md): recorrido práctico desde una oferta real hasta el siguiente output permitido y su registro.
 - [job-intake.schema.md](job-intake.schema.md): contrato del análisis estructurado.
 - [job-intake-workflow.md](job-intake-workflow.md): secuencia operativa y controles.
 - [job-intake-prompt.md](job-intake-prompt.md): prompt reutilizable para ejecutar el análisis.

@@ -14,6 +14,7 @@ El archivo puede incluir un mensaje principal y entre dos y tres variantes cuand
 
 ## Componentes
 
+- [Fast Application Workflow](../../docs/workflows/fast-application-workflow.md): decide cuándo generar cada tipo de mensaje dentro de una candidatura real.
 - [recruiter-message.schema.md](recruiter-message.schema.md): contrato del output y reglas de validación.
 - [recruiter-message-prompt.md](recruiter-message-prompt.md): prompt directamente utilizable con Codex o ChatGPT.
 - [recruiter-message-workflow.md](recruiter-message-workflow.md): secuencia operativa, revisión y condiciones de parada.

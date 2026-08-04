@@ -1,5 +1,7 @@
 # Scripts de candidaturas
 
+Para el recorrido completo desde el triage de una oferta real, consultar [Fast Application Workflow](../../docs/workflows/fast-application-workflow.md).
+
 ## Crear un expediente nuevo
 
 `create_application.py` crea la estructura inicial de una candidatura a partir de las seis plantillas de Job Intake. No analiza la oferta, selecciona perfiles o evidencia ni genera materiales de candidatura.

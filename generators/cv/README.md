@@ -19,6 +19,7 @@ v1 genera Markdown estructurado. No implementa diseño visual ni conversión a P
 
 ## Componentes
 
+- [Fast Application Workflow](../../docs/workflows/fast-application-workflow.md): sitúa el CV después de la decisión y sus posibles aclaraciones bloqueantes.
 - [cv.schema.md](cv.schema.md): contrato del output y reglas de validación.
 - [cv-workflow.md](cv-workflow.md): proceso de selección, redacción y revisión.
 - [cv-prompt.md](cv-prompt.md): prompt directamente utilizable con Codex o ChatGPT.

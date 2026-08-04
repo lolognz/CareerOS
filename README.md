@@ -73,6 +73,8 @@ See [AGENTS.md](AGENTS.md) for the permanent rules every AI agent must follow.
 
 The generated file should not become the new source of truth.
 
+For a practical real-offer path from triage through submission tracking, see the [Fast Application Workflow](docs/workflows/fast-application-workflow.md).
+
 ## Future Roadmap
 
 CareerOS is currently a repository framework. Future work should add:
