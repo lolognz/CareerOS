@@ -156,6 +156,8 @@ La auditoría del CV no está destinada al envío. Después de revisar `generate
 
 Después de enviar, descartar, recibir respuesta o cerrar una candidatura, usar el prompt de actualización de `submission-record.md`.
 
+Aplicar los estados, eventos y reglas de evidencia de [Application Lifecycle v1](../../career/application-lifecycle/README.md). El estado resume la situación actual; el timeline conserva cada hecho y distingue outputs generados, finalizados y enviados.
+
 Registrar únicamente hechos conocidos:
 
 - fecha y canal;

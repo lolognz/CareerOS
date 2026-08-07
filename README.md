@@ -75,6 +75,7 @@ See [AGENTS.md](AGENTS.md) for the permanent rules every AI agent must follow.
 The generated file should not become the new source of truth.
 
 For a practical real-offer path from triage through submission tracking, see the [Fast Application Workflow](docs/workflows/fast-application-workflow.md).
+Para los estados, eventos y criterios de evidencia usados al registrar candidaturas reales, consultar [Application Lifecycle v1](career/application-lifecycle/README.md).
 
 ## Future Roadmap
 

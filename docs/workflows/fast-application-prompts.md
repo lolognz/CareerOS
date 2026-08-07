@@ -112,6 +112,8 @@ No generes carta, recruiter message, PDF, DOCX, HTML, LinkedIn ni entrevista. No
 
 ## Actualizar `submission-record.md`
 
+Esta actualización debe seguir [Application Lifecycle v1](../../career/application-lifecycle/README.md). Para nuevas ejecuciones se recomienda usar directamente su [prompt de actualización](../../career/application-lifecycle/submission-record-update-prompt.md).
+
 ```text
 Actualiza el registro de esta candidatura real:
 

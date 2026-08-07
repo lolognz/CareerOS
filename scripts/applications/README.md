@@ -2,6 +2,8 @@
 
 Para el recorrido completo desde el triage de una oferta real, consultar [Fast Application Workflow](../../docs/workflows/fast-application-workflow.md).
 
+Los estados, eventos y actualizaciones posteriores de `submission-record.md` siguen [Application Lifecycle v1](../../career/application-lifecycle/README.md). Los scripts de esta carpeta no avanzan el lifecycle automáticamente.
+
 ## Crear un expediente nuevo
 
 `create_application.py` crea la estructura inicial de una candidatura a partir de las seis plantillas de Job Intake. No analiza la oferta, selecciona perfiles o evidencia ni genera materiales de candidatura.
