@@ -17,6 +17,8 @@ El resultado contiene dos bloques claramente separados:
 
 v1 genera Markdown estructurado. No implementa diseño visual ni conversión a PDF, DOCX o HTML, y no genera carta de presentación, mensaje a recruiter ni preparación de entrevista.
 
+`generated/cv.md` no es la versión enviable porque conserva una auditoría interna. Tras su revisión, [CV Finalizer v1](../cv-finalizer/README.md) puede extraer el bloque candidato y crear las vistas limpias bajo `final/` sin añadir ni modificar hechos.
+
 ## Componentes
 
 - [Fast Application Workflow](../../docs/workflows/fast-application-workflow.md): sitúa el CV después de la decisión y sus posibles aclaraciones bloqueantes.

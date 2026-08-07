@@ -150,7 +150,7 @@ Antes de usar cualquier output:
 - eliminar cualquier exageración, pero corregir primero la fuente si el problema es factual;
 - cambiar el estado a `reviewed` solo después de una revisión real.
 
-La auditoría del CV no está destinada al envío. Preparar una vista de entrega separada es una fase futura; v1 no exporta formatos.
+La auditoría del CV no está destinada al envío. Después de revisar `generated/cv.md`, [CV Finalizer v1](../../generators/cv-finalizer/README.md) puede extraer el bloque candidato y crear Markdown enviable, HTML imprimible e instrucciones de exportación manual. Finalizar no autoriza cambios factuales ni genera el PDF.
 
 ### 9. Registrar cada acción
 

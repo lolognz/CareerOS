@@ -69,7 +69,8 @@ See [AGENTS.md](AGENTS.md) for the permanent rules every AI agent must follow.
 4. Preserve evidence in the source file or in `assets/` when appropriate.
 5. Generate an output into `generated/`.
 6. Review the generated output.
-7. If something is wrong, fix the source knowledge and regenerate.
+7. Cuando un CV revisado necesite una vista Markdown enviable y otra HTML lista para imprimir, finalizarlo con [`generators/cv-finalizer/`](generators/cv-finalizer/).
+8. If something is wrong, fix the source knowledge and regenerate.
 
 The generated file should not become the new source of truth.
 
