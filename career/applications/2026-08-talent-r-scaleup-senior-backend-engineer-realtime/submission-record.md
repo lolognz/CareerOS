@@ -5,15 +5,18 @@
 - Application ID: `application:2026-08-talent-r-scaleup-senior-backend-engineer-realtime`
 - Empresa: Smadex
 - Intermediario: Talent-R
+- Contacto: Eduardo Ruiz Romero, IT Consultant 360º @Talent-R
 - Puesto: Senior Backend Engineer
 - Fecha de creación: 2026-08-04
 - URL de la oferta: No proporcionada
 - Plataforma: LinkedIn
 - Ubicación: Full remote
 
-## Estado
+## Estado actual
 
-- Estado: esperando feedback
+- Estado: `waiting_feedback`
+- Desde: 2026-08-07
+- Evidencia: evento `interview_completed` del 2026-08-07 con Eduardo Ruiz Romero.
 
 ## Notas
 
@@ -27,11 +30,11 @@
 
 ## Resultado
 
-- Outcome: pendiente
+- Outcome: `pending`
 
 ## Próximos pasos
 
-1. Esperar feedback de Eduardo Ruiz Romero / Talent-R.
+1. Esperar feedback de Eduardo / Talent-R después del recruiter screen para saber si el proceso avanza a una siguiente fase.
 
 ## Historial de eventos
 
@@ -40,4 +43,4 @@
 | 2026-08-04 | LinkedIn | Recruiter aclaró el alcance 360/DevOps/Linux; candidato respondió con límites y experiencia real. | El recruiter indicó que los gaps DevOps no implican descarte automático y propuso entrevista. |
 | 2026-08-04 | LinkedIn | Recruiter pidió CV y email; se facilitó `lolognz@gmail.com`. | Pendiente enviar CV y confirmar entrevista para mañana por la tarde. |
 | 2026-08-04 | LinkedIn | CV adaptado enviado a Eduardo Ruiz Romero; `final/cv-print-es.html` fue exportado a PDF a partir del contenido de `final/cv-send-es.md`. | CV enviado; entrevista pendiente de confirmar para mañana por la tarde. |
-| 2026-08-07 | Conversación con recruiter | Entrevista/conversación con Eduardo Ruiz Romero completada; empresa final identificada como Smadex. | Esperando feedback de Eduardo Ruiz Romero / Talent-R; outcome pendiente. |
+| 2026-08-07 | Llamada / entrevista con recruiter | `interview_completed`: se completó el recruiter screen con Eduardo Ruiz Romero, IT Consultant 360º @Talent-R; la empresa final identificada para el proceso es Smadex. | Estado posterior: `waiting_feedback`; outcome `pending`. Esperar feedback de Eduardo / Talent-R para saber si el proceso avanza a una siguiente fase. |
