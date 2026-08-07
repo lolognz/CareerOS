@@ -1,9 +1,10 @@
-# Registro de candidatura — Talent-R / scale-up no identificada — Senior Backend Engineer
+# Registro de candidatura — Talent-R / Smadex — Senior Backend Engineer
 
 ## Identificación
 
 - Application ID: `application:2026-08-talent-r-scaleup-senior-backend-engineer-realtime`
-- Empresa: Talent-R / scale-up no identificada
+- Empresa: Smadex
+- Intermediario: Talent-R
 - Puesto: Senior Backend Engineer
 - Fecha de creación: 2026-08-04
 - URL de la oferta: No proporcionada
@@ -12,7 +13,7 @@
 
 ## Estado
 
-- Estado: CV enviado; entrevista pendiente de confirmar
+- Estado: esperando feedback
 
 ## Notas
 
@@ -30,9 +31,7 @@
 
 ## Próximos pasos
 
-1. Esperar confirmación del horario de entrevista para mañana por la tarde.
-2. Preparar la entrevista si se confirma.
-3. Registrar la fecha y hora cuando exista confirmación explícita del recruiter.
+1. Esperar feedback de Eduardo Ruiz Romero / Talent-R.
 
 ## Historial de eventos
 
@@ -41,3 +40,4 @@
 | 2026-08-04 | LinkedIn | Recruiter aclaró el alcance 360/DevOps/Linux; candidato respondió con límites y experiencia real. | El recruiter indicó que los gaps DevOps no implican descarte automático y propuso entrevista. |
 | 2026-08-04 | LinkedIn | Recruiter pidió CV y email; se facilitó `lolognz@gmail.com`. | Pendiente enviar CV y confirmar entrevista para mañana por la tarde. |
 | 2026-08-04 | LinkedIn | CV adaptado enviado a Eduardo Ruiz Romero; `final/cv-print-es.html` fue exportado a PDF a partir del contenido de `final/cv-send-es.md`. | CV enviado; entrevista pendiente de confirmar para mañana por la tarde. |
+| 2026-08-07 | Conversación con recruiter | Entrevista/conversación con Eduardo Ruiz Romero completada; empresa final identificada como Smadex. | Esperando feedback de Eduardo Ruiz Romero / Talent-R; outcome pendiente. |
