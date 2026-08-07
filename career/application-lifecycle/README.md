@@ -38,3 +38,4 @@ Sus componentes son:
 
 Los registros históricos pueden conservar formatos anteriores. La estructura recomendada se adopta al crear registros nuevos o cuando exista una migración explícita; esta capa no autoriza migraciones automáticas.
 
+La preparación creada por [Interview Prep Generator v1](../../generators/interview-prep/README.md) es un output desechable bajo `generated/`, no un estado ni un evento del lifecycle. Generarla no confirma una entrevista ni avanza la candidatura.

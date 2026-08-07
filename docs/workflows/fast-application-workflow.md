@@ -152,6 +152,8 @@ Antes de usar cualquier output:
 
 La auditoría del CV no está destinada al envío. Después de revisar `generated/cv.md`, [CV Finalizer v1](../../generators/cv-finalizer/README.md) puede extraer el bloque candidato y crear Markdown enviable, HTML imprimible e instrucciones de exportación manual. Finalizar no autoriza cambios factuales ni genera el PDF.
 
+Cuando exista una entrevista programada, o durante `waiting_feedback` si conviene anticipar una conversación probable sin darla por confirmada, [Interview Prep Generator v1](../../generators/interview-prep/README.md) puede crear `generated/interview-prep.md`. Este output prepara respuestas y preguntas; no modifica el lifecycle ni sustituye evidencia.
+
 ### 9. Registrar cada acción
 
 Después de enviar, descartar, recibir respuesta o cerrar una candidatura, usar el prompt de actualización de `submission-record.md`.

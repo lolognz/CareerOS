@@ -134,3 +134,7 @@ Añade el evento sin borrar hechos históricos. No marques un mensaje como envia
 
 No modifiques generated/, conocimiento canónico, perfiles ni otros documentos del expediente. Detente después de actualizar el registro.
 ```
+
+## Preparar una entrevista
+
+Para crear únicamente `generated/interview-prep.md` cuando exista una entrevista programada o se quiera anticipar una conversación probable, usar el [prompt de Interview Prep Generator v1](../../generators/interview-prep/interview-prep-prompt.md). Preparar una entrevista no confirma la etapa ni actualiza `submission-record.md`.
