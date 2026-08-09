@@ -63,3 +63,5 @@ Si existe un `generated/opportunity-dossier.md` ya revisado, interview prep pued
 ## Límites
 
 El generador no envía mensajes, no genera CV, no cambia intake, plan, riesgos o `submission-record.md`, no crea eventos y no avanza estados del lifecycle. Tras escribir y revisar el único output permitido, se detiene.
+
+Después de una entrevista, [Interview Debrief v1](../interview-debrief/README.md) puede comparar esta preparación con las notas brutas. `interview-prep.md` demuestra qué se preparó, nunca qué se preguntó, respondió o evaluó realmente.

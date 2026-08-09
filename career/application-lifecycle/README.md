@@ -39,3 +39,5 @@ Sus componentes son:
 Los registros históricos pueden conservar formatos anteriores. La estructura recomendada se adopta al crear registros nuevos o cuando exista una migración explícita; esta capa no autoriza migraciones automáticas.
 
 La preparación creada por [Interview Prep Generator v1](../../generators/interview-prep/README.md) es un output desechable bajo `generated/`, no un estado ni un evento del lifecycle. Generarla no confirma una entrevista ni avanza la candidatura.
+
+Las notas brutas creadas con [Interview Debrief v1](../../generators/interview-debrief/README.md) pueden aportar evidencia informada por el usuario para registrar una entrevista mediante una ejecución separada. El debrief generado solo propone implicaciones: no crea eventos, no cambia estados y nunca sustituye la nota como fuente de lo ocurrido.

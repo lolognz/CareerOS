@@ -156,6 +156,8 @@ La auditoría del CV no está destinada al envío. Después de revisar `generate
 
 Cuando exista una entrevista programada, o durante `waiting_feedback` si conviene anticipar una conversación probable sin darla por confirmada, [Interview Prep Generator v1](../../generators/interview-prep/README.md) puede crear `generated/interview-prep.md`. Este output prepara respuestas y preguntas; no modifica el lifecycle ni sustituye evidencia.
 
+Después de una entrevista, preservar primero el recuerdo bruto bajo `interviews/<note-stem>.md`. [Interview Debrief v1](../../generators/interview-debrief/README.md) puede crear después el debrief correspondiente en `generated/interview-debriefs/<note-stem>.md`, permitiendo conservar varias entrevistas sin sobrescribirlas. El debrief no sustituye la nota ni actualiza lifecycle, plan, riesgos o conocimiento; esas acciones se ejecutan por separado.
+
 ### 9. Registrar cada acción
 
 Después de enviar, descartar, recibir respuesta o cerrar una candidatura, usar el prompt de actualización de `submission-record.md`.
