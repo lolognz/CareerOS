@@ -110,6 +110,10 @@ Si pasa todas las precondiciones, genera únicamente career/applications/YYYY-MM
 No generes carta, recruiter message, PDF, DOCX, HTML, LinkedIn ni entrevista. No modifiques inputs ni conocimiento canónico.
 ```
 
+## Investigar la oportunidad
+
+Para crear únicamente `generated/opportunity-dossier.md` después del intake o cuando se conozca la empresa o cliente final, usar el [prompt de Opportunity Dossier Generator v1](../../generators/opportunity-dossier/opportunity-dossier-prompt.md). Elegir `source_only` para trabajar solo con el expediente o `external_research` para usar notas, fragmentos, URLs con contenido o archivos entregados explícitamente. v1 no navega ni convierte investigación de empresa en evidencia del candidato.
+
 ## Actualizar `submission-record.md`
 
 Esta actualización debe seguir [Application Lifecycle v1](../../career/application-lifecycle/README.md). Para nuevas ejecuciones se recomienda usar directamente su [prompt de actualización](../../career/application-lifecycle/submission-record-update-prompt.md).

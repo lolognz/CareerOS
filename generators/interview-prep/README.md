@@ -45,6 +45,8 @@ Después, leer el perfil objetivo referenciado y únicamente las entidades canó
 
 Los documentos del lifecycle sirven solo para interpretar el estado y la etapa. Los CV finales o generados no son fuentes factuales y no se leen salvo instrucción explícita; aun entonces solo pueden ayudar a mantener coherencia de presentación, no a demostrar claims.
 
+Si existe un `generated/opportunity-dossier.md` ya revisado, interview prep puede usarlo únicamente como contexto de la candidatura y para evitar repetir preguntas. El dossier no es evidencia del candidato: cualquier claim sobre su experiencia sigue requiriendo las fuentes canónicas autorizadas.
+
 ## Principios
 
 - Toda respuesta preparada debe apoyarse en el expediente o en una entidad canónica autorizada.
@@ -61,4 +63,3 @@ Los documentos del lifecycle sirven solo para interpretar el estado y la etapa. 
 ## Límites
 
 El generador no envía mensajes, no genera CV, no cambia intake, plan, riesgos o `submission-record.md`, no crea eventos y no avanza estados del lifecycle. Tras escribir y revisar el único output permitido, se detiene.
-

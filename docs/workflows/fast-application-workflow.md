@@ -91,6 +91,8 @@ Usar el bloque «Job Intake» de [fast-application-prompts.md](fast-application-
 
 Job Intake no genera mensajes, CV, carta ni preparación de entrevista. Los gaps y blockers permanecen visibles; un requisito de la oferta nunca se convierte automáticamente en experiencia.
 
+Después del intake, o cuando se conozca más tarde la empresa o el cliente final, [Opportunity Dossier Generator v1](../../generators/opportunity-dossier/README.md) puede crear `generated/opportunity-dossier.md` como investigación y soporte de decisión. No modifica el intake ni el lifecycle, y el contexto de empresa no es evidencia del candidato.
+
 ### 6. Revisar la decisión
 
 Leer conjuntamente `target-profile-selection.md`, `application-plan.md` y `risk-register.md`. Comprobar que la recomendación, los outputs permitidos y sus dependencias coinciden.
