@@ -41,3 +41,5 @@ Los registros históricos pueden conservar formatos anteriores. La estructura re
 La preparación creada por [Interview Prep Generator v1](../../generators/interview-prep/README.md) es un output desechable bajo `generated/`, no un estado ni un evento del lifecycle. Generarla no confirma una entrevista ni avanza la candidatura.
 
 Las notas brutas creadas con [Interview Debrief v1](../../generators/interview-debrief/README.md) pueden aportar evidencia informada por el usuario para registrar una entrevista mediante una ejecución separada. El debrief generado solo propone implicaciones: no crea eventos, no cambia estados y nunca sustituye la nota como fuente de lo ocurrido.
+
+Cuando el lifecycle ya documenta un outcome significativo, [Application Outcome v1](../../generators/application-outcome/README.md) puede analizar el proceso completo en `generated/application-outcome.md`. El outcome generado no crea ni corrige eventos o estados: cualquier implicación lifecycle se aplica, si procede, mediante una ejecución separada sobre `submission-record.md`.

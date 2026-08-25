@@ -71,3 +71,5 @@ La oferta explica qué busca la empresa. La investigación pública explica empr
 ## Límites
 
 El generador no modifica conocimiento canónico, perfiles objetivo, intake, plan, riesgos, aplicaciones existentes ni lifecycle. No crea eventos ni cambia estados. No genera CV, mensaje a recruiter, preparación de entrevista u otros outputs. Tras escribir y revisar el único dossier permitido, se detiene.
+
+Si más adelante la candidatura alcanza un outcome significativo, [Application Outcome v1](../application-outcome/README.md) puede usar el dossier como contexto analítico secundario. El dossier no demuestra qué ocurrió en el proceso ni qué causó el resultado.

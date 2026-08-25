@@ -79,6 +79,7 @@ Para los estados, eventos y criterios de evidencia usados al registrar candidatu
 Para preparar conversaciones de selección desde el expediente y la evidencia autorizada, consultar [Interview Prep Generator v1](generators/interview-prep/README.md).
 Para investigar una empresa u oportunidad concreta sin mezclar ese contexto con evidencia del candidato, consultar [Opportunity Dossier Generator v1](generators/opportunity-dossier/README.md).
 Para preservar notas brutas de una entrevista y convertirlas en aprendizaje y propuestas de seguimiento, consultar [Interview Debrief v1](generators/interview-debrief/README.md).
+Para analizar un proceso con outcome significativo sin inventar causalidad ni generalizar desde una sola candidatura, consultar [Application Outcome v1](generators/application-outcome/README.md).
 
 ## Future Roadmap
 

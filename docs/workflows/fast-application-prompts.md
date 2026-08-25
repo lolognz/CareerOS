@@ -146,3 +146,7 @@ Para crear únicamente `generated/interview-prep.md` cuando exista una entrevist
 ## Analizar una entrevista realizada
 
 Después de capturar manualmente el recuerdo bruto con [`interview-notes.template.md`](../../templates/applications/interview-notes.template.md), usar el [prompt de Interview Debrief v1](../../generators/interview-debrief/interview-debrief-prompt.md) para crear únicamente `generated/interview-debriefs/<note-stem>.md`, derivado de la nota indicada. El debrief propone actualizaciones separadas; no modifica la nota, otros debriefs, lifecycle, plan, riesgos, dossier, preparación ni conocimiento canónico.
+
+## Analizar el outcome de una candidatura
+
+Cuando `submission-record.md` documente un outcome significativo o un cierre material inequívoco, usar el [prompt de Application Outcome v1](../../generators/application-outcome/application-outcome-prompt.md) para crear únicamente `generated/application-outcome.md`. El análisis revisa feedback, riesgos e hipótesis sin atribuir causas no comunicadas ni generalizar desde un único proceso. Puede regenerarse si llega feedback posterior; no modifica lifecycle, plan, riesgos, perfiles, conocimiento ni otros outputs.

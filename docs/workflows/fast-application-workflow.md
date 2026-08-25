@@ -158,6 +158,8 @@ Cuando exista una entrevista programada, o durante `waiting_feedback` si convien
 
 Después de una entrevista, preservar primero el recuerdo bruto bajo `interviews/<note-stem>.md`. [Interview Debrief v1](../../generators/interview-debrief/README.md) puede crear después el debrief correspondiente en `generated/interview-debriefs/<note-stem>.md`, permitiendo conservar varias entrevistas sin sobrescribirlas. El debrief no sustituye la nota ni actualiza lifecycle, plan, riesgos o conocimiento; esas acciones se ejecutan por separado.
 
+Cuando la candidatura alcance un outcome significativo documentado —por ejemplo rechazo, retirada, oferta, negociación, aceptación, declinación o cierre— [Application Outcome v1](../../generators/application-outcome/README.md) puede crear el singleton `generated/application-outcome.md`. Este post-mortem analiza el proceso completo, separa feedback de inferencia y propone lecciones o experimentos; no actualiza lifecycle, plan, riesgos, perfiles ni conocimiento. Si llega feedback factual posterior, puede regenerarse el mismo archivo.
+
 ### 9. Registrar cada acción
 
 Después de enviar, descartar, recibir respuesta o cerrar una candidatura, usar el prompt de actualización de `submission-record.md`.

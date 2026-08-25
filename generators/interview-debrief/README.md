@@ -95,3 +95,5 @@ El debrief puede identificar cambios que deberían evaluarse por separado en:
 - conocimiento canónico.
 
 Interview Debrief v1 no modifica ninguno de esos destinos. Tampoco envía follow-ups, genera otros materiales o cambia estados/eventos. Cada ejecución crea o reemplaza únicamente `generated/interview-debriefs/<note-stem>.md`, correspondiente a la nota indicada explícitamente, y se detiene. No existe un singleton `generated/interview-debrief.md` en v1.
+
+Cuando la candidatura completa alcance un outcome significativo, [Application Outcome v1](../application-outcome/README.md) puede leer los debriefs como contexto analítico secundario. El debrief de una entrevista no determina por sí solo el outcome ni su causa.
