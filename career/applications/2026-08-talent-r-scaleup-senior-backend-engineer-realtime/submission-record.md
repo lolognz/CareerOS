@@ -14,9 +14,9 @@
 
 ## Estado actual
 
-- Estado: `waiting_feedback`
-- Desde: 2026-08-07
-- Evidencia: evento `interview_completed` del 2026-08-07 con Eduardo Ruiz Romero.
+- Estado: `rejected`
+- Desde: fecha exacta desconocida, anterior al 2026-08-25
+- Evidencia: evento `rejection_received` comunicado por Eduardo Ruiz Romero mediante LinkedIn.
 
 ## Notas
 
@@ -30,11 +30,12 @@
 
 ## Resultado
 
-- Outcome: `pending`
+- Outcome: `rejected`
+- Evidencia: Eduardo comunicó explícitamente por LinkedIn que no se sigue adelante con el perfil.
 
 ## Próximos pasos
 
-1. Esperar feedback de Eduardo / Talent-R después del recruiter screen para saber si el proceso avanza a una siguiente fase.
+- Ninguno activo; la candidatura no continúa. El feedback solicitado después del rechazo ya fue recibido el 2026-08-25.
 
 ## Historial de eventos
 
@@ -44,3 +45,7 @@
 | 2026-08-04 | LinkedIn | Recruiter pidió CV y email; se facilitó `lolognz@gmail.com`. | Pendiente enviar CV y confirmar entrevista para mañana por la tarde. |
 | 2026-08-04 | LinkedIn | CV adaptado enviado a Eduardo Ruiz Romero; `final/cv-print-es.html` fue exportado a PDF a partir del contenido de `final/cv-send-es.md`. | CV enviado; entrevista pendiente de confirmar para mañana por la tarde. |
 | 2026-08-07 | Llamada / entrevista con recruiter | `interview_completed`: se completó el recruiter screen con Eduardo Ruiz Romero, IT Consultant 360º @Talent-R; la empresa final identificada para el proceso es Smadex. | Estado posterior: `waiting_feedback`; outcome `pending`. Esperar feedback de Eduardo / Talent-R para saber si el proceso avanza a una siguiente fase. |
+| Fecha exacta desconocida, anterior al 2026-08-25; 11:59 | LinkedIn | `recruiter_message_sent`: Manuel hizo seguimiento proactivo con Eduardo sobre el estado del proceso después del recruiter screen y del periodo de vacaciones mencionado. | Estado posterior: `waiting_feedback`; seguía pendiente una respuesta de Eduardo / Talent-R. |
+| Fecha exacta desconocida, anterior al 2026-08-25; 17:53 | LinkedIn | `rejection_received`: Eduardo comunicó que no se sigue adelante con el perfil de Manuel y que mantendría el contacto para posiciones más alineadas. | Estado posterior: `rejected`; outcome `rejected`. |
+| 2026-08-25 09:05 | LinkedIn | `recruiter_message_sent`: Manuel pidió explícitamente feedback a Eduardo después de recibir el rechazo. | Estado posterior: `rejected`; feedback pendiente de Eduardo. |
+| 2026-08-25 11:21 | LinkedIn | `feedback_received`: Eduardo comunicó como feedback del proceso que se buscaba que la experiencia de los últimos años procediera de un entorno más startup, con menos burocracia y otro tipo de entorno. | Estado posterior: `rejected`; feedback recibido. |

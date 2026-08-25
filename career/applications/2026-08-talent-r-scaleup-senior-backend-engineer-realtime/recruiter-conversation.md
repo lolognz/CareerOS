@@ -50,3 +50,23 @@ Ver el perfil de Lolo Lolo González Riojo
 Lolo González Riojo     12:56
 No estoy en casa hoy, asi que te paso mail y cuabdo llegue a casa esta noche te paso CV
 lolognz@gmail.com
+
+## Seguimiento y rechazo — fecha exacta desconocida, anterior al 2026-08-25
+
+### Seguimiento de Manuel — 11:59
+
+> Buenas Edu, me dijiste que te escribiese la semana pasada si nome habías dicho nada, pero estaba fuera por vacas, asi que ponse que no pasaba nada por esperar una semana mas. De todos modos, si no se nada de Smadex, imagino que no habrán seguido adelante con la candidatura, si no ya me habrian dicho algo, pero bueno, me cuentas cuando puedas
+
+### Rechazo comunicado por Eduardo — 17:53
+
+> Buenas, Lolo. Justo, por desgracia no sé sigue adelante con tu perfil pero decirte que estoy en contacto para cuando tenga posiciones más alineadas. Mil gracias por el fwp y espero que hayan ido bien las vacas. Un abrazo.
+
+## Solicitud y recepción de feedback — 2026-08-25
+
+### Solicitud explícita de feedback de Manuel — 09:05
+
+> Hay algún tipo de feedback? Pura curiosidad
+
+### Feedback de Eduardo — 11:21
+
+> Se busca que los últimos años vengas de un mundo más startapero, con menos burocracy y otro tipo de entorno.
