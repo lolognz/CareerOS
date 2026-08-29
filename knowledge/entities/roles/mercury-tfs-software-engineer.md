@@ -15,14 +15,14 @@
 | employment_type | Empleo; modalidad contractual exacta desconocida |
 | seniority | Comenzó con experiencia práctica limitada; evolucionó hacia autonomía y referencia funcional en generación documental y contabilidad. No consta un cambio formal de título. |
 | context | Desarrollo de software bancario de trade finance en una aplicación compleja con herencia monolítica y microservicios. |
-| responsibilities | Desarrollo, estimación, reuniones con cliente, gestión de tareas y prioridades, revisión de código, apoyo a compañeros y responsabilidad funcional sobre generación documental y contabilidad durante parte del periodo. |
+| responsibilities | Desarrollo y consumo de APIs REST, evolución desde implementar diseños técnicos sénior hasta diseñar e implementar personalmente, estimación, reuniones con cliente, gestión de tareas y prioridades, revisión de código, apoyo a compañeros, integración acotada en Python de software externo y responsabilidad funcional sobre generación documental y contabilidad durante parte del periodo. |
 | systems | Plataforma de trade finance, microservicios de generación documental, área contable y procesos de generación de esquema de base de datos y despliegue. |
 | projects | [`project:mercury-document-generation`, `project:mercury-trade-finance-platform`] |
 | stories | [`story:mercury-account-fields`, `story:mercury-integration-base`] |
-| technologies | [`technology:ci-cd`, `technology:docker`, `technology:elasticsearch`, `technology:hibernate`, `technology:java`, `technology:kubernetes`, `technology:spring`, `technology:spring-boot`, `technology:sql`] |
+| technologies | [`technology:bash`, `technology:ci-cd`, `technology:docker`, `technology:elasticsearch`, `technology:hibernate`, `technology:java`, `technology:kubernetes`, `technology:linux`, `technology:python`, `technology:spring`, `technology:spring-boot`, `technology:sql`] |
 | skills | [`skill:api-design-and-integration`, `skill:automation-and-process-improvement`, `skill:backend-development`, `skill:code-review-and-mentoring`, `skill:estimation-and-prioritization`, `skill:legacy-system-diagnosis`, `skill:microservices`, `skill:rapid-learning`, `skill:requirements-analysis`, `skill:stakeholder-communication`, `skill:technical-leadership-without-title`] |
 | achievements | [`achievement:mercury-functional-reference-areas`, `achievement:mercury-integration-base-deployment-simplification`] |
-| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
+| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md` |
 | uncertainty | No constan día o mes de salida, título contractual exacto, ubicación ni fechas exactas de cada etapa interna. La condición de referente se limita a determinadas áreas funcionales y periodos. |
 | related_entities | [`company:mercury-tfs`] |
 
@@ -41,6 +41,10 @@ En esa etapa estimaba su propio trabajo, revisaba código y ayudaba a compañero
 ## Sistemas y ámbito de trabajo
 
 El entorno incluía Java, Spring, Spring Boot, Hibernate, SQL, Elasticsearch y Sencha, con Docker, Kubernetes, CI/CD y automatización de despliegues. Las tecnologías que ya tienen entidad canónica se enlazan en la tabla; Sencha permanece como candidata.
+
+Linux era el entorno profesional de trabajo y el usuario lo utilizaba activamente: uso sustancial de terminal, scripting Bash y gestión de Docker. En Kubernetes trabajaba en preproducción con logs, ejecución dentro de pods, reinicio o borrado de pods y diagnóstico; cuando dejó Mercury, la operación de producción correspondía a otro equipo. Esto no implica administración de sistemas Linux o clústeres, escalado ni ownership de plataforma.
+
+En APIs REST, inicialmente implementaba diseños técnicos elaborados por ingenieros sénior y más adelante también elaboraba e implementaba los diseños personalmente. Durante aproximadamente tres meses de trabajo intermitente, analizó la respuesta REST de un software externo de análisis documental, implementó un consumidor Python y expuso una API desde el programa de integración para facilitar su consumo por Mercury. También preparó Docker y Docker Compose para desplegar o probar esta integración temprana. No desarrolló el producto de IA ni sus modelos, y Python no fue su lenguaje principal en Mercury.
 
 Uno de los cambios técnicos documentados fue IntegrationBase. El objeto Base heredado del monolito impedía generar correctamente tablas de base de datos en microservicios y obligaba a usar scripts durante los despliegues. El usuario y un compañero identificaron la causa después de más de dos años y crearon IntegrationBase para conservar el comportamiento necesario sin esos scripts.
 
@@ -62,3 +66,4 @@ La adquisición parcial por Banco Santander y la reorganización están document
 ## Evidencia
 
 - `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`, sección “Previous Experience: Mercury TFS”.
+- `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`.

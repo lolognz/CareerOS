@@ -104,7 +104,9 @@ Keep tables sorted by stable ID. Add links only to canonical entity files.
 | `technology:java` | Java | [java.md](../entities/technologies/java.md) |
 | `technology:javascript` | JavaScript | [javascript.md](../entities/technologies/javascript.md) |
 | `technology:kubernetes` | Kubernetes | [kubernetes.md](../entities/technologies/kubernetes.md) |
+| `technology:linux` | Linux | [linux.md](../entities/technologies/linux.md) |
 | `technology:node-js` | Node.js | [node-js.md](../entities/technologies/node-js.md) |
+| `technology:openshift` | OpenShift | [openshift.md](../entities/technologies/openshift.md) |
 | `technology:postman` | Postman | [postman.md](../entities/technologies/postman.md) |
 | `technology:python` | Python | [python.md](../entities/technologies/python.md) |
 | `technology:spring` | Spring | [spring.md](../entities/technologies/spring.md) |

@@ -14,9 +14,9 @@
 | related_roles | [`role:mercury-tfs-software-engineer`, `role:cgi-deutsche-bank-consultant`, `role:deutsche-bank-senior-backend-software-engineer`] |
 | related_projects | [`project:mercury-trade-finance-platform`, `project:deutsche-bank-payments-systems`] |
 | related_stories | [`story:mercury-integration-base`] |
-| observed_behaviors | Investiga errores reportados, apoya comunicaciones entre equipos, revisa incidentes y vulnerabilidades y aísla causas en componentes heredados. |
+| observed_behaviors | Investiga incidentes y resuelve los pertenecientes a los sistemas del equipo; cuando la evidencia apunta a aplicaciones móviles, mainframe u otros sistemas, enruta o escala el caso y coopera en el diagnóstico con el equipo correspondiente; reprioriza trabajo planificado ante incidentes de producción. |
 | representative_examples | `story:mercury-integration-base` documenta un diagnóstico causal compartido; el rol de Deutsche Bank incluye investigación y soporte operativo recurrentes. |
-| boundaries | No existe una historia canónica de incidente grave en producción ni métricas de resolución, disponibilidad o reducción de fallos. |
-| evidence | Fuente raw, secciones “Mercury TFS” y “Current Experience: Deutsche Bank”; entidades relacionadas. |
-| uncertainty | La fuente no detalla casos de producción concretos en Deutsche Bank ni separa siempre desarrollo, soporte y operación por fecha. |
+| boundaries | No existe una historia canónica de un incidente grave concreto ni métricas de resolución, disponibilidad o reducción de fallos. El trabajo es compartido por el equipo; no demuestra ownership individual exclusivo, administración de infraestructura ni que el usuario haya recibido una llamada crítica fuera de horario. |
+| evidence | Fuente raw, secciones “Mercury TFS” y “Current Experience: Deutsche Bank”; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`; entidades relacionadas. |
+| uncertainty | No constan incidentes concretos, frecuencia exacta por tipo, tiempos de resolución ni delimitación de contribuciones individuales en cada caso. |
 | related_entities | [`skill:critical-systems-operation`, `skill:legacy-system-diagnosis`] |

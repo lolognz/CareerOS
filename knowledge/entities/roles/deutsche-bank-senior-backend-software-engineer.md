@@ -15,14 +15,14 @@
 | employment_type | Empleo directo |
 | seniority | Senior; el usuario se considera la persona con menos experiencia dentro de un equipo pequeño y experimentado. |
 | context | Equipo de pagos bancarios crítico, con autonomía y responsabilidad sobre desarrollo, operación y soporte de microservicios. |
-| responsibilities | Revisión operativa diaria, desarrollo, gestión de despliegues, colas MQ, certificados, vulnerabilidades, investigación de errores, soporte a otros equipos y respuesta rápida ante problemas graves. |
-| systems | Microservicios de pagos, principalmente Java y Spring y algunos Node.js; transferencias entrantes y salientes, pagos desde cuenta, pagos recurrentes e inmediatos, SEPA y transferencias transfronterizas. |
+| responsibilities | Revisión operativa diaria, desarrollo, creación o modificación y consumo de APIs, mantenimiento personal de cuatro microservicios Node.js heredados, coordinación recurrente de despliegues fuera de horario, colas MQ, certificados, vulnerabilidades, diagnóstico de incidentes y soporte entre equipos. |
+| systems | Microservicios de pagos, principalmente Java y Spring y algunos Node.js; APIs mayoritariamente REST y algunas SOAP; transferencias entrantes y salientes, pagos desde cuenta, pagos recurrentes e inmediatos, SEPA y transferencias transfronterizas. |
 | projects | [`project:deutsche-bank-payments-systems`] |
 | stories | [] |
-| technologies | [`technology:ibm-mq`, `technology:java`, `technology:node-js`, `technology:spring`, `technology:spring-boot`] |
-| skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
+| technologies | [`technology:ibm-mq`, `technology:java`, `technology:kubernetes`, `technology:node-js`, `technology:openshift`, `technology:spring`, `technology:spring-boot`] |
+| skills | [`skill:api-design-and-integration`, `skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
 | achievements | [`achievement:deutsche-bank-direct-hire-after-consulting`] |
-| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
+| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md` |
 | uncertainty | No constan día exacto de contratación, ubicación, título contractual literal, nombres de sistemas, métricas de tráfico ni delimitación temporal de cada responsabilidad. No se afirma que el usuario sea CTO ni Tech Lead. |
 | related_entities | [`company:deutsche-bank`] |
 
@@ -40,9 +40,21 @@ Algunas semanas tienen poco o ningún desarrollo de código porque las tareas op
 
 ## Sistemas y ámbito de trabajo
 
-El equipo mantiene microservicios, principalmente en Java y Spring, además de algunos servicios Node.js. El dominio incluye transferencias entrantes y salientes, pagos desde cuentas bancarias distintos de tarjetas, pagos recurrentes, pagos inmediatos, transferencias SEPA y transferencias transfronterizas.
+El equipo mantiene microservicios, principalmente en Java y Spring. Desde aproximadamente principios de 2025, el usuario tiene responsabilidad profesional personal sobre el mantenimiento de cuatro microservicios Node.js heredados de otro equipo, ya implementados y en funcionamiento. Aplicó ingeniería inversa para entenderlos y ha realizado pequeños cambios de código; el mantenimiento posterior existe, pero hasta ahora ha requerido una carga limitada. Java continúa siendo su tecnología backend principal.
+
+La mayoría de las APIs son REST y algunas SOAP. Manuel crea o modifica y consume APIs, aunque los servicios del equipo son consumidos por otros sistemas con mayor frecuencia. Participa en el diseño de contratos internos y se adapta a contratos impuestos por partes externas cuando corresponde. Escribe y modifica OpenAPI, utilizado como documentación y cada vez más para generación de código; en SOAP modifica contratos y trabaja con clientes generados mediante WSDL.
+
+La plataforma de destino es OpenShift. Manuel trabaja con pods, logs, reinicios o borrado, deployments, escalado de réplicas, Services, ConfigMaps, Secrets y troubleshooting. Edita plantillas predefinidas utilizadas por Helm para desplegar en distintos entornos y trabaja con OpenShift Routes. Esto no implica administración de clústeres o plataforma, instalación o upgrades, ownership de infraestructura, experiencia con Ingress ni acceso productivo irrestricto.
+
+El dominio incluye transferencias entrantes y salientes, pagos desde cuentas bancarias distintos de tarjetas, pagos recurrentes, pagos inmediatos, transferencias SEPA y transferencias transfronterizas.
 
 Algunos servicios tienen tráfico muy alto y otros presentan menor actividad. Existen dos entornos de pruebas y dos de producción: producción normal y producción para recuperación ante desastres. La criticidad deriva del impacto empresarial que puede tener un fallo en los sistemas de pagos.
+
+## Operación fuera de horario e incidentes
+
+El usuario participa regularmente en trabajo fuera del horario normal: algunos meses incluyen varios días y es inusual que no haya ninguno. La causa más frecuente son cambios o despliegues en producción, no una guardia clásica de pager. Se programan en periodos de menor tráfico determinados con monitorización como New Relic y Splunk, a menudo alrededor de medianoche. El equipo prepara, organiza y controla el despliegue y entrega las instrucciones técnicas; por separación de permisos, otro equipo autorizado ejecuta los comandos restringidos en producción.
+
+Cuando aparece un incidente, el usuario y su equipo investigan y resuelven lo que pertenece a sus sistemas. Si la evidencia apunta a otro sistema, enrutan o escalan el caso y colaboran en el diagnóstico con el equipo correspondiente, incluidas interacciones con aplicaciones móviles o sistemas mainframe. Los incidentes críticos pueden activar escalado telefónico fuera de horario, aunque el usuario no ha recibido personalmente una llamada crítica. Los incidentes no críticos también pueden detectarse a primera hora y provocar la repriorización del trabajo planificado.
 
 ## Entorno arquitectónico
 
@@ -67,3 +79,4 @@ El usuario se considera más próximo a un posible recorrido de Tech Lead que a 
 ## Evidencia
 
 - `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`, sección “Current Experience: Deutsche Bank”.
+- `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`.

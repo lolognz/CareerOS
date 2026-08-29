@@ -8,17 +8,17 @@
 | name | Node.js |
 | type | runtime/platform |
 | category | backend |
-| description | Tecnología presente en algunos servicios mantenidos por el equipo de pagos de Deutsche Bank. |
-| evidence_level | limited |
-| chronology | Presente en el contexto de pagos desde la incorporación del usuario al equipo, durante la consultoría y el empleo directo; fecha exacta desconocida. |
-| contexts | Microservicios y sistemas de pagos bancarios. |
+| description | Tecnología utilizada profesionalmente en el mantenimiento de cuatro microservicios del equipo de pagos de Deutsche Bank. |
+| evidence_level | moderate |
+| chronology | Responsabilidad profesional personal desde aproximadamente principios de 2025. |
+| contexts | Mantenimiento de cuatro microservicios heredados dentro de los sistemas de pagos bancarios de Deutsche Bank. |
 | related_roles | [`role:deutsche-bank-senior-backend-software-engineer`] |
 | related_projects | [`project:deutsche-bank-payments-systems`] |
 | related_stories | [] |
 | related_skills | [`skill:backend-development`, `skill:microservices`] |
-| usage_summary | Algunos servicios del equipo son Node.js; parte de ellos fue migrada por otro equipo y se mantiene dentro del entorno operativo del usuario. |
-| representative_examples | `project:deutsche-bank-payments-systems` delimita la presencia de Node.js dentro de los servicios mantenidos por pagos. |
-| boundaries | No demuestra que el usuario migrara esos servicios, desarrollo sostenido en Node.js, diseño del stack ni profundidad comparable a Java/Spring. |
-| evidence | Fuente raw, sección “Current Experience: Deutsche Bank”; rol y proyecto relacionados. |
-| uncertainty | No constan servicios concretos, tareas personales sobre su código, frecuencia de uso ni fecha de inicio. |
+| usage_summary | El usuario mantiene personalmente cuatro microservicios Node.js que su equipo heredó ya implementados y en funcionamiento. El trabajo inicial más sustancial fue aplicar ingeniería inversa para entender su finalidad y funcionamiento; después ha realizado pequeños cambios de código y mantenimiento continuado, hasta ahora con una carga limitada. |
+| representative_examples | `project:deutsche-bank-payments-systems` documenta la responsabilidad personal sobre los cuatro servicios heredados. |
+| boundaries | Java sigue siendo su tecnología backend principal. Esta experiencia no demuestra especialización profunda en Node.js, diseño o arquitectura greenfield, desarrollo original de los servicios ni desarrollo Node.js a gran escala. |
+| evidence | `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`; rol y proyecto relacionados. |
+| uncertainty | No constan nombres, frameworks, librerías, versiones, internals ni fecha exacta de inicio dentro de principios de 2025. |
 | related_entities | [`technology:javascript`] |
