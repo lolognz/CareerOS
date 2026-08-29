@@ -9,7 +9,7 @@
 - **interview_type:** `recruiter_screen`
 - **interview_date:** `2026-08-07`
 - **language:** español, solicitado mediante `language: es`
-- **status:** `draft`
+- **status:** `reviewed`
 - **source_interview_notes:** `interviews/2026-08-07-recruiter_screen.md`
 - **source_files_used:**
   - `career/applications/2026-08-talent-r-scaleup-senior-backend-engineer-realtime/interviews/2026-08-07-recruiter_screen.md` → única fuente de lo que Manuel recuerda que ocurrió.

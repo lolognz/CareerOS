@@ -7,7 +7,7 @@
 - **source_application_folder:** `career/applications/2026-08-talent-r-scaleup-senior-backend-engineer-realtime`
 - **output_type:** `application-outcome`
 - **language:** español, solicitado mediante `language: es`
-- **status:** `draft`
+- **status:** `reviewed`
 - **generated_date:** `2026-08-25`
 - **application_outcome:** `rejected`
 - **outcome_date:** `desconocida`; el rechazo se comunicó en una fecha exacta desconocida anterior al 2026-08-25.
