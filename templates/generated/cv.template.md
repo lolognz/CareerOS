@@ -57,15 +57,19 @@
 
 ### Metadata
 
-- **id:** `cv:[application-slug]`
-- **application_id:** `application:[application-slug]`
-- **source_application_folder:** `[career/applications/<application-slug> o examples/applications/<example-slug>]`
+- **id:** `cv:[application-slug o strategy-slug]`
+- **source_mode:** [application / reusable_strategy]
+- **application_id:** [`application:[application-slug]` en application / `[]` en reusable_strategy]
+- **source_application_folder:** [`career/applications/<application-slug>` o `examples/applications/<example-slug>` en application / `[]` en reusable_strategy]
+- **source_strategy_file:** [`[]` en application / ruta del archivo estratégico en reusable_strategy]
 - **output_type:** cv
 - **target_profile:** [ID de perfil objetivo o `[]` con justificación]
+- **secondary_target_profiles:** [IDs secundarios o `[]`]
 - **language:** [español / inglés + base de la elección]
 - **status:** draft
 - **source_files_used:**
   - `[ruta de un input, perfil o entidad realmente leídos]`
+- **output_path:** [ruta única permitida por el modo]
 - **target_role_title:** [título objetivo respaldado]
 - **positioning_summary:** [síntesis de posicionamiento + fuentes + límites]
 
