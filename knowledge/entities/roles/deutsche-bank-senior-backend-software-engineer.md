@@ -10,7 +10,7 @@
 | organization_id | `company:deutsche-bank` |
 | start_date | 2024-09 |
 | end_date | presente |
-| date_precision | Mes de inicio confirmado; el rol seguía vigente en la actualización de la fuente de julio de 2026. |
+| date_precision | Mes de inicio confirmado; el rol seguía vigente en la actualización de la fuente de noviembre de 2026. |
 | location | Desconocida en la evidencia disponible |
 | employment_type | Empleo directo |
 | seniority | Senior; el usuario se considera la persona con menos experiencia dentro de un equipo pequeño y experimentado. |
@@ -20,15 +20,15 @@
 | projects | [`project:deutsche-bank-payments-systems`] |
 | stories | [] |
 | technologies | [`technology:ibm-mq`, `technology:java`, `technology:kubernetes`, `technology:node-js`, `technology:openshift`, `technology:spring`, `technology:spring-boot`] |
-| skills | [`skill:api-design-and-integration`, `skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
+| skills | [`skill:api-design-and-integration`, `skill:backend-development`, `skill:code-review-and-mentoring`, `skill:stakeholder-communication`, `skill:technical-leadership-without-title`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
 | achievements | [`achievement:deutsche-bank-direct-hire-after-consulting`] |
-| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md` |
+| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`; `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md` |
 | uncertainty | No constan día exacto de contratación, ubicación, título contractual literal, nombres de sistemas, métricas de tráfico ni delimitación temporal de cada responsabilidad. No se afirma que el usuario sea CTO ni Tech Lead. |
 | related_entities | [`company:deutsche-bank`] |
 
 ## Contexto
 
-Deutsche Bank contrató directamente al usuario en septiembre de 2024 después de su etapa como consultor externo mediante CGI. Las responsabilidades siguieron siendo ampliamente similares después de la transición. El usuario continúa en Deutsche Bank según la fuente actualizada en julio de 2026.
+Deutsche Bank contrató directamente al usuario en septiembre de 2024 después de su etapa como consultor externo mediante CGI. Las responsabilidades siguieron siendo ampliamente similares después de la transición. El usuario continúa en Deutsche Bank según la verificación de noviembre de 2026.
 
 El equipo de pagos es pequeño, experimentado, autónomo y con capacidad de autoorganización. Las tareas no siempre están muy detalladas en Jira y el equipo coordina internamente el trabajo mediante comunicación frecuente. El usuario se describe como la persona con menos experiencia del equipo.
 
@@ -60,6 +60,32 @@ Cuando aparece un incidente, el usuario y su equipo investigan y resuelven lo qu
 
 La experiencia expuso al usuario a arquitectura en una organización más grande, internacional y especializada que Mercury TFS, con equipos específicos de arquitectura y desarrollo de soluciones. La fuente señala que el impacto de un fallo en producción es mayor que en roles anteriores, sin aportar métricas concretas.
 
+## Verificación actual — 2026-11-08
+
+### Equipo, revisión y acompañamiento
+
+El equipo sénior cuenta efectivamente con dos desarrolladores y una tercera persona que actúa más como enlace negocio-técnica. Los perfiles júnior son poco habituales por la criticidad del equipo. Cada PR requiere la aprobación del otro desarrollador: la revisión es recíproca entre pares, sin autoridad jerárquica. El compañero tiene más años de experiencia y es técnicamente fuerte; ambos aprenden del otro. Revisan corrección funcional, errores, código innecesario, dependencias sin uso, mantenibilidad y la opción técnica más sencilla y sostenible.
+
+Durante un periodo anterior con una desarrolladora menos experimentada, Manuel la acompañó en varios desarrollos, explicando cómo abordar las implementaciones y por qué una solución funcionalmente correcta podía ser peor en diseño o mantenibilidad. En un ejemplo reciente explicó a un compañero cada paso para llevar un desarrollo a producción, su propósito y la importancia del orden. Prefiere explicar el porqué frente a instrucciones mecánicas. Esto acredita mentoring y transferencia de conocimiento, no people management ni un título formal de Tech Lead.
+
+### Ejemplo reciente: proxy entre mainframe y API de otro equipo
+
+Partiendo únicamente de la definición Swagger/OpenAPI de la API externa al equipo, Manuel elaboró el documento técnico, diseñó y creó el microservicio, coordinó con mainframe la comunicación y la estructura de mensajes/datos, implementó la solución y sus pruebas, realizó testing y la llevó al entorno de desarrollo. En esta verificación todavía NO ha llegado a producción: depende de otros equipos. No se atribuyen despliegue ni resultados productivos a este caso; no consta la fecha exacta del desarrollo.
+
+### Coordinación de integraciones
+
+Los equipos son organizativamente independientes. Manuel participa regularmente en acordar la comunicación/integración con consumidores de las APIs de su equipo y en diagnosticar fallos reportados por ellos. Según su experiencia, la mayoría de esos fallos se deben a contenido o estructura de datos incorrectos en el consumidor; es una observación suya, no una métrica general. No implica gobierno organizativo de APIs ni ownership de otros equipos.
+
+### Testing y herramientas actuales
+
+Manuel se responsabiliza del testing de las soluciones que desarrolla: pruebas unitarias, de integración, Acceptance Testing (ACT) y end-to-end. Las E2E pueden requerir coordinación con varios equipos. Las herramientas profesionales actuales incluyen JUnit, Mockito, Spring Boot Test, WireMock, SOAPUI, Bruno y Karate; Karate se utiliza para Acceptance Testing. No se asigna a las demás herramientas una modalidad concreta no verificada.
+
+Utiliza TDD ocasionalmente, sin ser habitual ni una preferencia central de posicionamiento. Sonar está presente con relativamente poco énfasis actual y tuvo más importancia en proyectos anteriores. También se usan Waltz y Prisma, descritos por Manuel en el contexto de análisis de vulnerabilidades; no se infiere un alcance de producto adicional.
+
+### Uso profesional de inglés
+
+La documentación, el código, Jira y los correos con participantes no hispanohablantes se realizan mayoritariamente en inglés. Una parte significativa de TDI está en India y Manuel participa regularmente en reuniones profesionales/técnicas en inglés. La comprensión auditiva es su principal dificultad, especialmente con algunos acentos: suele entender el contexto, pero puede perder una palabra clave o pregunta y necesitar repetición. Se acredita uso profesional habitual escrito y oral, sin nivel CEFR ni etiquetas nativo, bilingüe o «fluent» sin restricciones.
+
 ## Relaciones
 
 Las tecnologías respaldadas se enlazan en los campos canónicos. Todavía no existen entidades específicas para los sistemas internos ni para las historias operativas de este rol.
@@ -80,3 +106,5 @@ El usuario se considera más próximo a un posible recorrido de Tech Lead que a 
 
 - `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`, sección “Current Experience: Deutsche Bank”.
 - `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`.
+
+- `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md`.

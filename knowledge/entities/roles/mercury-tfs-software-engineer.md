@@ -22,7 +22,7 @@
 | technologies | [`technology:bash`, `technology:ci-cd`, `technology:docker`, `technology:elasticsearch`, `technology:hibernate`, `technology:java`, `technology:kubernetes`, `technology:linux`, `technology:python`, `technology:spring`, `technology:spring-boot`, `technology:sql`] |
 | skills | [`skill:api-design-and-integration`, `skill:automation-and-process-improvement`, `skill:backend-development`, `skill:code-review-and-mentoring`, `skill:estimation-and-prioritization`, `skill:legacy-system-diagnosis`, `skill:microservices`, `skill:rapid-learning`, `skill:requirements-analysis`, `skill:stakeholder-communication`, `skill:technical-leadership-without-title`] |
 | achievements | [`achievement:mercury-functional-reference-areas`, `achievement:mercury-integration-base-deployment-simplification`] |
-| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md` |
+| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`; `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md` |
 | uncertainty | No constan día o mes de salida, título contractual exacto, ubicación ni fechas exactas de cada etapa interna. La condición de referente se limita a determinadas áreas funcionales y periodos. |
 | related_entities | [`company:mercury-tfs`] |
 
@@ -48,6 +48,10 @@ En APIs REST, inicialmente implementaba diseños técnicos elaborados por ingeni
 
 Uno de los cambios técnicos documentados fue IntegrationBase. El objeto Base heredado del monolito impedía generar correctamente tablas de base de datos en microservicios y obligaba a usar scripts durante los despliegues. El usuario y un compañero identificaron la causa después de más de dos años y crearon IntegrationBase para conservar el comportamiento necesario sin esos scripts.
 
+## Diseño y transferencia de conocimiento — verificación 2026-11-08
+
+Durante la etapa Mercury, Manuel trabajó estrechamente con el Tech Lead al diseñar nuevas funcionalidades. También elaboró algunos diseños técnicos implementados por desarrolladores menos experimentados, a quienes apoyaba cuando lo necesitaban, explicando el razonamiento del diseño y buenas prácticas. El acompañamiento prioriza comprender el porqué. No implica que Manuel ocupara el título de Tech Lead ni ejerciera people management; no constan fechas individuales de estos ejemplos.
+
 ## Relaciones
 
 La generación documental y la plataforma de trade finance tienen entidades canónicas de proyecto. El área de contabilidad sigue pendiente. Los casos “account fields” e IntegrationBase tampoco tienen aún entidades de historia canónicas y no se reproducen completos en esta entidad.
@@ -67,3 +71,5 @@ La adquisición parcial por Banco Santander y la reorganización están document
 
 - `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`, sección “Previous Experience: Mercury TFS”.
 - `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`.
+
+- `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md`.

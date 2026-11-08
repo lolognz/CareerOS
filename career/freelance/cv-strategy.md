@@ -174,10 +174,17 @@ Cada ID debe resolverse y leerse antes de utilizar cualquiera de sus hechos. La 
 - No inventar métricas de tráfico, latencia, disponibilidad, impacto, velocidad o negocio.
 - Mantener títulos, empleadores, fechas, atribución compartida, alcance y cronología de las entidades.
 
+## Evidencia verificada para la generación futura
+
+La ronda del 2026-11-08 está promovida en los roles y habilidades canónicos autorizados, con trazabilidad a `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md`:
+
+- Testing profesional actual: unitario, integración, Acceptance Testing (ACT; Karate) y E2E, con herramientas y responsabilidad sobre pruebas documentadas en el rol de Deutsche Bank. TDD ocasional, sin posicionarlo como práctica central.
+- Deutsche Bank: diseño técnico y coordinación del proxy hasta desarrollo, code review recíproco entre pares y mentoring/transferencia de conocimiento. El proxy espera a otros equipos para llegar a producción; no atribuirle despliegue ni resultados productivos.
+- Liderazgo técnico sin título respaldado por conductas concretas; sin autoridad jerárquica, people management ni gobierno organizativo de APIs.
+- Inglés profesional habitual escrito y oral, con dificultades de comprensión auditiva documentadas. No asignar CEFR ni etiquetas nativo, bilingüe o «fluent» sin restricciones.
+
 ## Gaps conocidos antes de generar
 
-- La evidencia de testing todavía no está promovida completamente a conocimiento canónico; no convertir las selecciones o textos de Manfred en evidencia.
-- El alcance actual de mentoring, code review y autoridad de diseño en Deutsche Bank puede requerir verificación adicional antes de formular claims fuertes de liderazgo.
 - No existe experiencia profesional canónica con AWS.
 - No existe experiencia profesional canónica con Kafka.
 - No asignar un nivel formal de inglés sin respaldo canónico suficiente.

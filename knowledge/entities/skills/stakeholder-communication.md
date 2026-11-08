@@ -15,8 +15,8 @@
 | related_projects | [`project:bailando-un-tesoro`, `project:comunicarte`, `project:mercury-trade-finance-platform`, `project:deutsche-bank-payments-systems`] |
 | related_stories | [`story:ideas-four-weeks-in-one-morning`, `story:bailando-un-tesoro-user-tests`, `story:comunicarte-bbva-proposal`] |
 | observed_behaviors | Explica soluciones en términos no técnicos, participa en reuniones con cliente, mantiene informadas a organizaciones colaboradoras, presenta a usuarios y atiende consultas de otros equipos. |
-| representative_examples | IDEAS aporta traducción negocio-técnica; Bailando un Tesoro aporta interlocución cultural y escolar; Mercury y Deutsche Bank aportan comunicación con cliente y equipos técnicos. |
-| boundaries | No demuestra responsabilidad comercial formal, negociación ejecutiva general ni dirección de todas las relaciones externas. |
-| evidence | Fuente raw, secciones Sorbe Shoes, IDEAS, UCM, Mercury TFS y Deutsche Bank; entidades relacionadas. |
+| representative_examples | IDEAS aporta traducción negocio-técnica; Bailando un Tesoro aporta interlocución cultural y escolar; Mercury y Deutsche Bank aportan comunicación con cliente y equipos técnicos. El rol de Deutsche Bank conserva coordinación habitual de integraciones entre equipos independientes y uso profesional habitual escrito y oral de inglés, con sus límites de comprensión auditiva. |
+| boundaries | No demuestra responsabilidad comercial formal, negociación ejecutiva general ni dirección de todas las relaciones externas. El uso de inglés no acredita nivel CEFR, condición nativa/bilingüe ni «fluent» sin restricciones; la coordinación no implica ownership de otros equipos. |
+| evidence | Fuente raw, secciones Sorbe Shoes, IDEAS, UCM, Mercury TFS y Deutsche Bank; entidades relacionadas. `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md` (verificación 2026-11-08). |
 | uncertainty | El alcance, frecuencia y grado de representación individual varían entre contextos. |
 | related_entities | [`skill:requirements-analysis`] |
