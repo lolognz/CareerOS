@@ -8,10 +8,11 @@ El esquema describe una operación reproducible que transforma el bloque candida
 
 | Campo | Descripción |
 |---|---|
-| `id` | Identificador estable con formato `cv-final:<application-slug>:<lang>`. |
-| `application_id` | Identificador del expediente: `application:<application-slug>`. |
-| `source_application_folder` | Ruta relativa exacta de la candidatura o fixture. |
-| `source_generated_cv` | Ruta exacta a `<source_application_folder>/generated/cv.md`. |
+| `id` | Identificador estable con formato `cv-final:<application-slug>:<lang>` en application; `cv-final:<strategy-slug>:<lang>` en reusable_strategy. |
+| `application_id` | Identificador del expediente: `application:<application-slug>`; `[]` en reusable_strategy. |
+| `source_application_folder` | Ruta relativa exacta de la candidatura o fixture; `[]` en reusable_strategy. |
+| `source_generated_cv` | Ruta exacta al CV; en application `<source_application_folder>/generated/cv.md`, en reusable_strategy `generated/<scope>/cv.md`. |
+| `source_mode` | `application` o `reusable_strategy`; omitirlo en invocaciones históricas con carpeta implica application. |
 | `output_type` | Tipo del output; en v1 solo admite `cv-final`. |
 | `language` | `es` o `en`, confirmado con el CV fuente o con las fuentes auxiliares permitidas. |
 | `status` | Estado permitido de la finalización. |
@@ -41,7 +42,7 @@ Una finalización recién creada comienza en `draft`. `reviewed` exige revisión
 
 ## Invariantes
 
-- `source_generated_cv` debe existir dentro del mismo `source_application_folder` y contener un bloque candidato identificable.
+- `source_generated_cv` debe existir y contener un bloque candidato identificable. En application permanece dentro del mismo `source_application_folder`. En reusable_strategy debe estar bajo `generated/<scope>/cv.md`, declarar ese modo y no referenciar una candidatura; no se requieren application_id ni dossier.
 - `final_markdown_output` y `final_html_output` deben usar el mismo idioma y prefijo.
 - El Markdown final contiene exclusivamente contenido dirigido al candidato; no contiene comentarios, auditoría, IDs, warnings ni metadatos de generación.
 - El HTML representa el mismo contenido y orden que el Markdown final. El diseño puede cambiar jerarquía visual, no significado.
@@ -52,14 +53,17 @@ Una finalización recién creada comienza en `draft`. `reviewed` exige revisión
 - La referencia de estilo no se usa como fuente factual ni como texto para copiar.
 - Los activos se copian; no se enlazan desde otra candidatura, no se cargan desde remoto y no se incrustan en base64.
 - El HTML usa rutas relativas, CSS interno, fuentes del sistema y ninguna dependencia externa.
-- `export-instructions.md` describe exportación manual; v1 no crea PDF.
-- Los únicos cambios permitidos están bajo `<source_application_folder>/final/`.
+- `export-instructions.md` describe exportación manual; v1 no entrega PDF automáticamente. Se permite PDF temporal de QA fuera de los artefactos finales para verificar páginas y layout.
+- Los únicos outputs permitidos están bajo `<source_application_folder>/final/` en application o `<directorio del CV reusable>/final/` en reusable_strategy. Idioma, nombres, extracción y plantillas son comunes.
+- La aprobación explícita del contenido por el usuario satisface la precondición de revisión sin cambiar el status de la fuente.
+- Solo el HTML puede abreviar la etiqueta de un enlace LinkedIn con URL visible completa, sin cambiar su href ni el Markdown aprobado.
 
 ## Revisión mínima de campos
 
 Antes de terminar, la ejecución debe poder responder este registro sin incluirlo en los outputs:
 
 ```yaml
+source_mode: application  # reusable_strategy usa slug de estrategia y campos de candidatura []
 id: cv-final:<application-slug>:<lang>
 application_id: application:<application-slug>
 source_application_folder: <ruta>

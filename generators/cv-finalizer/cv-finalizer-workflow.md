@@ -6,10 +6,12 @@ Convertir un CV generado y revisado en un Markdown enviable y un HTML imprimible
 
 ## 1. Preconditions
 
-- Recibir una única `source_application_folder` bajo `career/applications/` o `examples/applications/`.
+- Application (por defecto en invocaciones históricas): recibir una única `source_application_folder` bajo `career/applications/` o `examples/applications/`; conservar las precondiciones y rutas existentes.
+- Reusable: recibir únicamente `source_generated_cv` bajo `generated/<scope>/cv.md`, con metadata `source_mode: reusable_strategy`. No recibir carpeta de candidatura ni exigir application_id, dossier, plan o registro. Usar `<directorio del CV>/final/` como destino común de todos los outputs.
+- No mezclar modos; resolver rutas y rechazar escapes mediante enlaces simbólicos.
 - Confirmar que existe `generated/cv.md` y que contiene un bloque candidato inequívoco.
 - Confirmar `language` (`es` o `en`) y `output_prefix` (`cv` por defecto).
-- Confirmar que el CV fue revisado para contenido. Finalizar no sustituye la revisión factual.
+- Confirmar que el CV fue revisado para contenido, incluida aprobación explícita del usuario aunque la metadata fuente permanezca draft. Finalizar no sustituye la revisión factual.
 - Confirmar que la operación fue solicitada explícitamente y que solo escribirá bajo `final/`.
 - Revisar cambios locales antes de reemplazar cualquier output final existente.
 
@@ -17,7 +19,7 @@ Convertir un CV generado y revisado en un Markdown enviable y un HTML imprimible
 
 Obligatorios:
 
-1. `<source_application_folder>/generated/cv.md`.
+1. `<source_application_folder>/generated/cv.md` en application; `source_generated_cv` en reusable_strategy.
 2. `templates/final/cv-send.template.md`.
 3. `templates/final/cv-print.template.html`.
 4. `templates/final/export-instructions.template.md`.
@@ -33,8 +35,8 @@ No leer la oferta para buscar posicionamiento. No leer conocimiento canónico, p
 
 ## 3. Candidate block extraction
 
-1. Preferir el contenido entre `<!-- Inicio del bloque destinado a candidatura -->` y `<!-- Fin del bloque destinado a candidatura -->`.
-2. Excluir ambos marcadores y cualquier otro comentario HTML/Markdown.
+1. Puede ejecutarse el helper compartido `scripts/cv-finalizer/extract_candidate.py` (ver README); no genera HTML ni PDF. Preferir el contenido entre `<!-- Inicio del bloque destinado a candidatura -->` y `<!-- Fin del bloque destinado a candidatura -->`.
+2. Exigir una única pareja ordenada si aparece cualquier marcador; detenerse si falta uno, está duplicado o invertido. Excluir ambos marcadores y cualquier otro comentario HTML/Markdown.
 3. Si los marcadores no existen, aceptar solo un límite inequívoco: todo lo anterior al separador que introduce `## Notas de generación / Auditoría` y su aviso de no envío.
 4. No asumir que cualquier `---` termina el CV: puede ser contenido legítimo.
 5. Conservar literalmente estructura, orden, títulos, párrafos, bullets, enlaces y claims del bloque extraído antes de cualquier limpieza autorizada.
@@ -65,7 +67,7 @@ Nunca añadir o inferir claims, tecnologías, fechas, empleadores, métricas, sk
 ## 6. HTML print creation
 
 - Crear `final/<output_prefix>-print-<lang>.html` desde el Markdown final, no desde la auditoría.
-- Representar el mismo contenido y orden; no resumir para que quepa.
+- Representar el mismo contenido y orden; no resumir para que quepa. Puede abreviarse solo la etiqueta de un enlace LinkedIn que muestre su URL completa, manteniendo exactamente el href y el Markdown original.
 - Usar HTML semántico, CSS dentro del archivo y fuentes locales del sistema.
 - Configurar `@page` para A4, márgenes legibles y `print-color-adjust`.
 - Evitar saltos inmediatamente después de `h2`/`h3` y dentro de encabezado, bloques cortos y experiencias cuando sea razonable.
@@ -97,11 +99,11 @@ Crear `final/export-instructions.md` desde la plantilla e indicar:
 - verificación del PDF antes de enviarlo;
 - prohibición de enviar la auditoría.
 
-No ejecutar la exportación ni crear un PDF.
+No entregar PDF automáticamente. Puede crearse un PDF temporal de QA fuera de los outputs para medir páginas y revisar layout; la exportación final sigue siendo manual.
 
 ## 9. Review checklist
 
-- [ ] El input es el `generated/cv.md` del mismo expediente.
+- [ ] El input y destino corresponden al modo seleccionado; reusable no requiere expediente.
 - [ ] El bloque candidato quedó delimitado sin incluir auditoría.
 - [ ] Markdown y HTML conservan los mismos claims y el mismo orden.
 - [ ] `claims_added` es `[]` y ninguna fuente visual aportó contenido.
@@ -114,11 +116,12 @@ No ejecutar la exportación ni crear un PDF.
 - [ ] El HTML no depende de red, base64, scripts ni fuentes externas.
 - [ ] La vista de impresión usa A4, texto legible y saltos razonables.
 - [ ] Las instrucciones describen exportación manual y revisión del PDF.
-- [ ] Solo se modificó `final/` dentro del expediente.
+- [ ] Solo se escribieron outputs bajo el `final/` del modo seleccionado; la fuente permanece intacta.
+- [ ] Se midió la paginación con el CSS existente y se informó de cualquier exceso de dos páginas sin retirar claims.
 
 ## 10. Output location
 
-Crear o reemplazar exclusivamente:
+En application, crear o reemplazar exclusivamente (sin cambios):
 
 ```text
 <source_application_folder>/final/<output_prefix>-send-<lang>.md
@@ -126,6 +129,17 @@ Crear o reemplazar exclusivamente:
 <source_application_folder>/final/export-instructions.md
 <source_application_folder>/final/assets/<foto>  # solo si se proporciona
 ```
+
+En reusable_strategy, los mismos nombres y plantillas se escriben en:
+
+```text
+generated/<scope>/final/<output_prefix>-send-<lang>.md
+generated/<scope>/final/<output_prefix>-print-<lang>.html
+generated/<scope>/final/export-instructions.md
+generated/<scope>/final/assets/<foto>  # solo si se proporciona
+```
+
+Para el CV freelance aprobado: `generated/freelance/final/`. No crear application_id ni leer un dossier. Si el usuario no aporta foto, no añadir imagen ni placeholder.
 
 ## 11. Stop conditions
 
@@ -140,7 +154,7 @@ Detenerse sin crear o reemplazar outputs cuando:
 - Markdown y HTML no pueden mantener todos los claims con legibilidad razonable;
 - la foto no existe, no es válida o colisiona con un activo distinto;
 - un output existente contiene cambios locales que no pueden preservarse con seguridad;
-- la ruta de salida queda fuera de `final/` del expediente.
+- la ruta de salida queda fuera del `final/` correspondiente al modo.
 
-Tras crear, comparar y revisar los cuatro tipos de output permitidos, detenerse. No exportar PDF, no actualizar el registro de candidatura y no generar otros materiales.
+Tras crear, comparar y revisar los cuatro tipos de output permitidos, detenerse. No entregar PDF automáticamente (solo QA temporal de paginación), no actualizar el registro de candidatura y no generar otros materiales.
 

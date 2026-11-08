@@ -4,7 +4,7 @@ Esta capa convierte un CV ya generado y revisado en dos vistas limpias de entreg
 
 ## Lugar en el flujo
 
-El input principal es:
+El input de modo `application` sigue siendo:
 
 ```text
 <application-folder>/generated/cv.md
@@ -20,6 +20,8 @@ CV Generator v1 conserva en ese archivo un bloque candidato y una auditoría int
 `-- assets/
     `-- <nombre-del-archivo-de-foto>
 ```
+
+En modo `reusable_strategy`, el input explícito es `source_generated_cv`, por ejemplo `generated/freelance/cv.md`, cuya auditoría declara `source_mode: reusable_strategy`. Produce los mismos nombres bajo `generated/freelance/final/`. Es la convención análoga a la carpeta `final/` de candidatura, dentro del área generada e ignorada. No exige dossier, `application_id`, plan ni registro, y no inventa una candidatura. El contenido puede estar aprobado por petición explícita aunque la fuente aún registre `draft`; no se modifica la fuente.
 
 `<lang>` es `es` o `en`. El prefijo predeterminado es `cv`. No se crea PDF: la exportación se realiza manualmente desde el navegador.
 
@@ -55,3 +57,19 @@ No lee la oferta para buscar mejor posicionamiento ni consulta conocimiento can�
 - No genera PDF, DOCX, Google Docs, cartas, mensajes ni otros materiales.
 - No marca un CV como enviado sin evidencia externa y una actualización separada del registro de candidatura.
 
+
+## Extracción compartida y pruebas
+
+La implementación existente es un workflow ejecutado por el agente con las plantillas compartidas, no un renderer automático. `scripts/cv-finalizer/extract_candidate.py` automatiza únicamente la validación de ruta/modo y la extracción a Markdown, para ambos modos; el HTML y las instrucciones se completan siguiendo este mismo workflow y las plantillas existentes. No sustituye la revisión, las fotos ni las limpiezas solicitadas. Rechaza sobrescrituras: revisar primero cualquier final existente.
+
+```sh
+# Invocación histórica de candidatura; source_mode omitido equivale a application.
+python3 scripts/cv-finalizer/extract_candidate.py --source-application-folder career/applications/<slug> --language es --content-approved
+# Sin dossier ni application_id; toma el modo de la metadata del CV.
+python3 scripts/cv-finalizer/extract_candidate.py --source-generated-cv generated/freelance/cv.md --language es --content-approved
+python3 -m unittest discover -s scripts/cv-finalizer -p 'test_*.py' -v
+```
+
+Los marcadores explícitos se validan como pareja única y ordenada; una pareja incompleta no cae al fallback. El fallback histórico anterior al separador inequívoco de auditoría permanece válido. El Markdown conserva literalmente los claims y enlaces; el HTML puede abreviar solo la etiqueta visible de un enlace LinkedIn que imprima su URL completa, conservando exactamente el destino. No añade datos personales.
+
+Renderizar primero con el CSS A4 existente, sin retirar contenido. Medir páginas y revisar cabecera, saltos y legibilidad. Si excede dos páginas, informar del número y la causa probable; no truncar ni resumir. La verificación de paginación puede usar un PDF temporal de QA fuera de los artefactos finales; no convierte la exportación manual en una nueva funcionalidad del finalizador ni entrega un PDF automáticamente.

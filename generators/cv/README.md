@@ -29,7 +29,7 @@ El resultado contiene dos bloques claramente separados:
 
 v1 genera Markdown estructurado. No implementa diseño visual ni conversión a PDF, DOCX o HTML, y no genera carta de presentación, mensaje a recruiter ni preparación de entrevista.
 
-El Markdown generado no es la versión enviable porque conserva una auditoría interna. En modo `application`, tras su revisión, [CV Finalizer v1](../cv-finalizer/README.md) puede extraer el bloque candidato y crear las vistas limpias bajo `final/` sin añadir ni modificar hechos. El finalizador todavía no admite `reusable_strategy`.
+El Markdown generado no es la versión enviable porque conserva una auditoría interna. Tras su revisión, [CV Finalizer v1](../cv-finalizer/README.md) puede extraer el bloque candidato sin añadir ni modificar hechos: en `application` crea las vistas limpias bajo `<application-folder>/final/`; en `reusable_strategy`, bajo `<directorio del CV>/final/`, por ejemplo `generated/freelance/final/`, sin requerir candidatura.
 
 ## Componentes
 
