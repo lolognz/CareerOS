@@ -73,3 +73,9 @@ python3 -m unittest discover -s scripts/cv-finalizer -p 'test_*.py' -v
 Los marcadores explícitos se validan como pareja única y ordenada; una pareja incompleta no cae al fallback. El fallback histórico anterior al separador inequívoco de auditoría permanece válido. El Markdown conserva literalmente los claims y enlaces; el HTML puede abreviar solo la etiqueta visible de un enlace LinkedIn que imprima su URL completa, conservando exactamente el destino. No añade datos personales.
 
 Renderizar primero con el CSS A4 existente, sin retirar contenido. Medir páginas y revisar cabecera, saltos y legibilidad. Si excede dos páginas, informar del número y la causa probable; no truncar ni resumir. La verificación de paginación puede usar un PDF temporal de QA fuera de los artefactos finales; no convierte la exportación manual en una nueva funcionalidad del finalizador ni entrega un PDF automáticamente.
+
+## Foto reutilizable y presentación
+
+Cuando el usuario indique `photo_source_path: career/assets/profile/manuel-gonzalez-riojo.jpg`, usar ese activo reutilizable como origen y copiarlo sin modificar a `final/assets/manuel-gonzalez-riojo.jpg` del modo seleccionado. La cabecera HTML lo referencia relativamente; no enlazar directamente al origen ni mover, borrar o modificar copias históricas de candidaturas. La foto sigue siendo opcional y no se incorpora al Markdown enviable.
+
+La plantilla compartida conserva un único flujo de texto, con nombre dominante, subtítulo separado del contacto y foto opcional a la derecha. El color de acento, márgenes A4, espaciado y reglas de salto son comunes a application y reusable_strategy. Mantener cada experiencia unida cuando quepa; no imponer saltos por nombre de empresa ni alterar contenido para paginar. En el HTML puede presentarse el subtítulo antes del contacto como jerarquía de cabecera; ambos conservan literalmente su texto, y el Markdown conserva el orden aprobado.
