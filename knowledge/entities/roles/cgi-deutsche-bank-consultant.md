@@ -10,7 +10,7 @@
 | organization_id | `company:cgi` |
 | start_date | 2023-01 |
 | end_date | 2024-09 |
-| date_precision | Meses confirmados en la entrevista; días exactos no documentados. |
+| date_precision | Meses reafirmados el 2026-11-08; días recordados sin verificación documental, preservados únicamente en la fuente raw. |
 | location | Desconocida en la evidencia disponible |
 | employment_type | Consultoría externa mediante CGI para Deutsche Bank |
 | seniority | Senior |
@@ -22,7 +22,7 @@
 | technologies | [`technology:java`, `technology:spring`, `technology:spring-boot`] |
 | skills | [`skill:backend-development`, `skill:critical-systems-operation`, `skill:microservices`] |
 | achievements | [`achievement:deutsche-bank-direct-hire-after-consulting`, `achievement:deutsche-bank-transfer-to-critical-payments-team`] |
-| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md` |
+| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-11-08-identity-and-employment-chronology-verification.md` |
 | uncertainty | La fuente ofrece dos variantes del título. No separa con fechas exactas todas las responsabilidades del periodo CGI frente al empleo directo posterior y señala que fueron ampliamente similares. |
 | related_entities | [`company:cgi`, `company:deutsche-bank`] |
 
@@ -59,3 +59,5 @@ No se confirma cuál de las dos variantes del título era la denominación contr
 ## Evidencia
 
 - `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`, secciones “Current Experience: Deutsche Bank” y “Previous Experience: CGI”.
+
+- `knowledge/raw/interviews/2026-11-08-identity-and-employment-chronology-verification.md`, cronología mensual confirmada; días recordados sin verificación documental.

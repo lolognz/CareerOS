@@ -14,6 +14,14 @@
 - **positioning_title:** `Senior Backend Software Engineer | Java & Spring | APIs, sistemas críticos y liderazgo técnico`
 - **title_boundary:** Es un título de posicionamiento. No sustituye los títulos históricos ni afirma que Manuel haya ocupado formalmente un puesto de Tech Lead.
 
+## Identidad y presentación pública autorizadas
+
+- Leer `knowledge/profile.md` como fuente canónica autorizada de nombre completo, email y LinkedIn antes de generar. Usar esos datos confirmados en el encabezado y registrar esa ruta en `source_files_used`; no reconstruir otros datos personales.
+- Presentar el rol de `role:cgi-deutsche-bank-consultant` como **Software Engineer — CGI · Deutsche Bank**. Es una denominación pública autorizada, no un título contractual literal verificado. Conservar las variantes históricas y su incertidumbre en la entidad y en la auditoría, sin mostrar la alternativa con barra en el CV.
+- Tomar las fechas mensuales de los tres roles canónicos: Mercury, **enero de 2020–enero de 2023**; CGI para Deutsche Bank, **enero de 2023–septiembre de 2024**; Deutsche Bank directo, **septiembre de 2024–actualidad**.
+- Mostrar Mercury sin «(aprox.)» a esta precisión. La secuencia mensual comunica transiciones continuas sin un gap profesional significativo; no inferir continuidad contractual diaria ni solapamientos.
+- No mostrar días recordados en el CV ni tratarlos como fechas contractuales verificadas. Preservar la incertidumbre de días y título histórico en la auditoría; los recuerdos se conservan en la fuente raw enlazada por los roles.
+
 ## Prioridades de posicionamiento
 
 - Java y Spring como ancla profesional backend principal.
@@ -172,7 +180,7 @@ Cada ID debe resolverse y leerse antes de utilizar cualquiera de sus hechos. La 
 - No afirmar ownership exclusivo o irrestricto del ciclo completo, sistemas de pagos, infraestructura o arquitectura organizativa.
 - No afirmar experiencia startup inexistente.
 - No inventar métricas de tráfico, latencia, disponibilidad, impacto, velocidad o negocio.
-- Mantener títulos, empleadores, fechas, atribución compartida, alcance y cronología de las entidades.
+- Mantener títulos, empleadores, fechas, atribución compartida, alcance y cronología de las entidades; aplicar a CGI únicamente la presentación pública autorizada arriba, sin convertirla en título contractual verificado.
 
 ## Evidencia verificada para la generación futura
 

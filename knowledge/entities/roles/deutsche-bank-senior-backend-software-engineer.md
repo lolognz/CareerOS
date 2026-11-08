@@ -10,7 +10,7 @@
 | organization_id | `company:deutsche-bank` |
 | start_date | 2024-09 |
 | end_date | presente |
-| date_precision | Mes de inicio confirmado; el rol seguía vigente en la actualización de la fuente de noviembre de 2026. |
+| date_precision | Mes de inicio confirmado; rol vigente en noviembre de 2026. Día de inicio recordado sin verificación documental, preservado únicamente en la fuente raw. |
 | location | Desconocida en la evidencia disponible |
 | employment_type | Empleo directo |
 | seniority | Senior; el usuario se considera la persona con menos experiencia dentro de un equipo pequeño y experimentado. |
@@ -22,7 +22,7 @@
 | technologies | [`technology:ibm-mq`, `technology:java`, `technology:kubernetes`, `technology:node-js`, `technology:openshift`, `technology:spring`, `technology:spring-boot`] |
 | skills | [`skill:api-design-and-integration`, `skill:backend-development`, `skill:code-review-and-mentoring`, `skill:stakeholder-communication`, `skill:technical-leadership-without-title`, `skill:critical-systems-operation`, `skill:microservices`, `skill:production-support-and-debugging`] |
 | achievements | [`achievement:deutsche-bank-direct-hire-after-consulting`] |
-| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`; `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md` |
+| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`; `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md`; `knowledge/raw/interviews/2026-11-08-identity-and-employment-chronology-verification.md` |
 | uncertainty | No constan día exacto de contratación, ubicación, título contractual literal, nombres de sistemas, métricas de tráfico ni delimitación temporal de cada responsabilidad. No se afirma que el usuario sea CTO ni Tech Lead. |
 | related_entities | [`company:deutsche-bank`] |
 
@@ -108,3 +108,5 @@ El usuario se considera más próximo a un posible recorrido de Tech Lead que a 
 - `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`.
 
 - `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md`.
+
+- `knowledge/raw/interviews/2026-11-08-identity-and-employment-chronology-verification.md`, cronología mensual confirmada; días recordados sin verificación documental.

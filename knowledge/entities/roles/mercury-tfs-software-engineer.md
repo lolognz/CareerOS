@@ -8,9 +8,9 @@
 | title | Software Engineer |
 | organization | Mercury TFS |
 | organization_id | `company:mercury-tfs` |
-| start_date | 2020-01 aprox. |
-| end_date | 2023 |
-| date_precision | Inicio aproximado en enero de 2020; no consta el mes exacto de finalización. |
+| start_date | 2020-01 |
+| end_date | 2023-01 |
+| date_precision | Inicio y fin confirmados a precisión mensual el 2026-11-08; días recordados sin verificación documental, preservados únicamente en la fuente raw. |
 | location | Desconocida en la evidencia disponible |
 | employment_type | Empleo; modalidad contractual exacta desconocida |
 | seniority | Comenzó con experiencia práctica limitada; evolucionó hacia autonomía y referencia funcional en generación documental y contabilidad. No consta un cambio formal de título. |
@@ -22,8 +22,8 @@
 | technologies | [`technology:bash`, `technology:ci-cd`, `technology:docker`, `technology:elasticsearch`, `technology:hibernate`, `technology:java`, `technology:kubernetes`, `technology:linux`, `technology:python`, `technology:spring`, `technology:spring-boot`, `technology:sql`] |
 | skills | [`skill:api-design-and-integration`, `skill:automation-and-process-improvement`, `skill:backend-development`, `skill:code-review-and-mentoring`, `skill:estimation-and-prioritization`, `skill:legacy-system-diagnosis`, `skill:microservices`, `skill:rapid-learning`, `skill:requirements-analysis`, `skill:stakeholder-communication`, `skill:technical-leadership-without-title`] |
 | achievements | [`achievement:mercury-functional-reference-areas`, `achievement:mercury-integration-base-deployment-simplification`] |
-| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`; `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md` |
-| uncertainty | No constan día o mes de salida, título contractual exacto, ubicación ni fechas exactas de cada etapa interna. La condición de referente se limita a determinadas áreas funcionales y periodos. |
+| evidence | `knowledge/raw/interviews/2026-07-cto-adjunto-fast-track.md`; `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`; `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md`; `knowledge/raw/interviews/2026-11-08-identity-and-employment-chronology-verification.md` |
+| uncertainty | No constan días contractuales verificados, título contractual exacto, ubicación ni fechas exactas de cada etapa interna. La condición de referente se limita a determinadas áreas funcionales y periodos. |
 | related_entities | [`company:mercury-tfs`] |
 
 ## Contexto
@@ -73,3 +73,5 @@ La adquisición parcial por Banco Santander y la reorganización están document
 - `knowledge/raw/interviews/2026-08-29-post-smadex-knowledge-verification.md`.
 
 - `knowledge/raw/interviews/2026-11-08-professional-knowledge-verification.md`.
+
+- `knowledge/raw/interviews/2026-11-08-identity-and-employment-chronology-verification.md`, cronología mensual confirmada; días recordados sin verificación documental.
